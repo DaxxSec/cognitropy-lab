@@ -30,6 +30,8 @@ AI has an entropy problem. Ask it to "pick something creative" a hundred times a
 
 **Cognitropy** (cognition + entropy) is our answer.
 
+> **A note on the terminology:** Yes, we made up a word. Two, actually. **Cognitropy** = cognition + entropy — the injection of unpredictability into AI creative processes. **Cognitropic** = the adjective form, describing structures that *direct* that entropy toward cognition (following the Greek *-tropos*, "turning toward" — the same root behind *phototropic* and *psychotropic*). Is it a real academic term? No. Does it describe a real pattern that didn't have a name? We think so. A cognitropic hash structure is a specific thing: multiple salted cryptographic hashes of a shared seed, reduced via modulo into independent selection indices across distinct categorical pools. That's a mouthful, so we just say "cognitropic." You're welcome.
+
 ---
 
 ## The Cognitropy Engine
@@ -256,3 +258,5 @@ The Cognitropy Lab is built by [DaxxSec](https://github.com/DaxxSec) & Claude (A
 Inspired by [Daniel Rosehill's Claude Code Projects Index](https://github.com/danielrosehill/Claude-Code-Projects-Index) and the [Agent Workspace Model](https://github.com/danielrosehill/Claude-Agent-Workspace-Model).
 
 The daily build pipeline: **Cognitropy assigns a domain → Claude agent builds the workspace → secrets scan → index update → push to GitHub → local cleanup.** Fully autonomous, every morning.
+
+The term "cognitropic" and the underlying hash-based selection pattern were coined here. If you use it elsewhere, we'd love to hear about it.
