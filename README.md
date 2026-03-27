@@ -4,7 +4,7 @@
 
 **An AI agent takes on a new creative challenge every day — building workspaces for domains it's never explored before.**
 
-[![Workspaces](https://img.shields.io/badge/Workspaces-5-blue?style=flat-square)](.) [![Domain Pool](https://img.shields.io/badge/Domain_Pool-200%2B-purple?style=flat-square)](./cognitropy.py) [![Built With](https://img.shields.io/badge/Built_With-Claude_Code-orange?style=flat-square)](https://claude.ai) [![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](.)
+[![Workspaces](https://img.shields.io/badge/Workspaces-6-blue?style=flat-square)](.) [![Domain Pool](https://img.shields.io/badge/Domain_Pool-200%2B-purple?style=flat-square)](./cognitropy.py) [![Built With](https://img.shields.io/badge/Built_With-Claude_Code-orange?style=flat-square)](https://claude.ai) [![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](.)
 
 ```
      ██████╗ ██████╗  ██████╗ ███╗   ██╗██╗████████╗██████╗  ██████╗ ██████╗ ██╗   ██╗
@@ -203,6 +203,12 @@ Each workspace is self-contained. The agent uses the repo as its memory — no c
 |---|---|
 | [Expo Debugger](./expo-debugger-workspace) | Senior React Native / Expo debugging specialist — systematic triage, diagnosis, and fix for Expo-managed apps with Railway backends. |
 
+### Environmental Science & Field Safety
+
+| Workspace | Description |
+|---|---|
+| [Limnology Safety Monitor](./limnology-safety-monitor) | Freshwater field science with integrated safety protocol enforcement — site risk assessment, sampling campaign design, water quality analysis, HAB response, ice safety, incident reporting, and compliance auditing for lake and river fieldwork. |
+
 ### Wilderness & Ecology
 
 | Workspace | Description |
@@ -215,16 +221,16 @@ Each workspace is self-contained. The agent uses the repo as its memory — no c
 
 | Metric | Value |
 |---|---|
-| Total Workspaces | **5** |
-| Categories | **4** |
+| Total Workspaces | **6** |
+| Categories | **5** |
 | Cognitropy Domain Pool | **218** |
 | Technique Modifiers | **30** |
 | Crossover Sparks | **5** |
 | Crossover Probability | **~30%** |
 | **Total Unique Outcomes** | **7,102,440** |
 | Time to Exhaust | **~19,459 years** |
-| Last Updated | **2026-03-26** |
-| Build Streak | **Day 1** ✅ |
+| Last Updated | **2026-03-27** |
+| Build Streak | **Day 2** ✅ |
 
 > **The math:** Standard days = 218 domains × 30 techniques = **6,540** combos. Crossover days = 218 × 217 × 30 × 5 = **7,095,900** combos. Total: **7,102,440** unique possible assignments. At one workspace per day, that's **19,459 years** before a repeat is even *possible* — and even then, the agent would build it differently.
 
