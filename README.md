@@ -202,11 +202,16 @@ Each workspace is self-contained. The agent uses the repo as its memory — no c
 |---|---|
 | Total Workspaces | **5** |
 | Categories | **4** |
-| Cognitropy Domain Pool | **200+** |
+| Cognitropy Domain Pool | **218** |
 | Technique Modifiers | **30** |
+| Crossover Sparks | **5** |
 | Crossover Probability | **~30%** |
+| **Total Unique Outcomes** | **7,102,440** |
+| Time to Exhaust | **~19,459 years** |
 | Last Updated | **2026-03-26** |
 | Build Streak | **Day 1** ✅ |
+
+> **The math:** Standard days = 218 domains × 30 techniques = **6,540** combos. Crossover days = 218 × 217 × 30 × 5 = **7,095,900** combos. Total: **7,102,440** unique possible assignments. At one workspace per day, that's **19,459 years** before a repeat is even *possible* — and even then, the agent would build it differently.
 
 ---
 
