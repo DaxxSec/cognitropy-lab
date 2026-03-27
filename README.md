@@ -1,10 +1,10 @@
-# DaxxSpaces
+# The Cognitropy Lab
 
-**A new AI-generated agent workspace every single day — on topics you'd never expect.**
+**An AI agent builds one new workspace every day, on a topic it never gets to choose.**
 
-This repo grows by one workspace daily, completely autonomously. A scheduled Claude agent wakes up each morning, gets assigned a random domain by our entropy engine, builds a full professional-grade workspace for that domain, scans it for secrets, and pushes it here. No human in the loop.
+Every morning, a Claude agent wakes up and gets assigned a random domain — maybe *limnology* (freshwater lake science), maybe *coopering* (barrel-making), maybe *Mars terrain analysis crossed with EVA procedure planning*. It doesn't get to pick. It has to build a full, professional-grade agent workspace for whatever it's handed, then push it here.
 
-Yesterday it might have built a phishing kit analyzer. Tomorrow it might build a workspace for *limnology* (freshwater lake science) or *coopering* (barrel-making). One day it'll mash up two completely unrelated fields and see what happens. That's the whole point.
+This repo is the result. It grows by one workspace daily, completely autonomously. No human in the loop. Just an AI, an entropy engine, and an ever-expanding collection of workspaces for domains you didn't know you needed.
 
 ---
 
@@ -141,8 +141,8 @@ Every workspace follows the same proven pattern:
 
 ## About
 
-Built by [DaxxSec](https://github.com/DaxxSec). Inspired by [Daniel Rosehill's Claude Code Projects Index](https://github.com/danielrosehill/Claude-Code-Projects-Index) and the [Agent Workspace Model](https://github.com/danielrosehill/Claude-Agent-Workspace-Model).
+The Cognitropy Lab is built by [DaxxSec](https://github.com/DaxxSec). Inspired by [Daniel Rosehill's Claude Code Projects Index](https://github.com/danielrosehill/Claude-Code-Projects-Index) and the [Agent Workspace Model](https://github.com/danielrosehill/Claude-Agent-Workspace-Model).
 
 The daily build pipeline: **Cognitropy assigns a domain → Claude agent builds the workspace → secrets scan → index update → push to GitHub → local cleanup.** Fully autonomous, every morning.
 
-Want to fork the concept? The cognitropy engine is generic — swap in your own domain pool and point your own scheduled agent at it. The workspace model works for literally anything.
+Want to run your own lab? The cognitropy engine is generic — fork the repo, swap in your own domain pool, point your own scheduled agent at it. The workspace model works for literally anything.
