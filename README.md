@@ -34,29 +34,42 @@ AI has an entropy problem. Ask it to "pick something creative" a hundred times a
 
 ## The Cognitropy Engine
 
+How do you make an AI genuinely unpredictable without calling any external APIs? You hash the date.
+
+The engine ([`cognitropy.py`](./cognitropy.py)) takes today's date (e.g. `2026-03-27`) and runs it through **five separate SHA-256 hashes**, each with a different salt. Each hash produces a massive 256-bit integer — essentially a huge, chaotic number derived from a simple date string. That number gets reduced via modulo (`%`) to an index into the relevant pool:
+
 ```
-    ┌─────────────────────────────────────────────────────────────┐
-    │                    COGNITROPY ENGINE                        │
-    │                                                             │
-    │   Input:   sha256( today's date )                          │
-    │              │                                              │
-    │              ├──→ Primary Domain     (200+ pool)            │
-    │              ├──→ Technique Modifier (30 approaches)        │
-    │              └──→ Crossover Check    (~30% chance)          │
-    │                     │                                       │
-    │                     ├── Standard Day: single domain         │
-    │                     └── Crossover Day: domain × domain      │
-    │                                                             │
-    │   Output:  "Build a workspace for LIMNOLOGY                │
-    │             with safety protocol enforcement"               │
-    │                                                             │
-    │   A new creative challenge, every single day.              │
-    └─────────────────────────────────────────────────────────────┘
+    ┌────────────────────────────────────────────────────────────────────┐
+    │                       COGNITROPY ENGINE                           │
+    │                                                                   │
+    │   Step 1: Hash the date with different salts                      │
+    │                                                                   │
+    │     sha256("2026-03-27")              → huge int → % 218 domains  │
+    │     sha256("2026-03-27" + "secondary")→ huge int → % 218 domains  │
+    │     sha256("2026-03-27" + "technique")→ huge int → % 30 methods   │
+    │     sha256("2026-03-27" + "spark")    → huge int → % 5 templates  │
+    │     sha256("2026-03-27" + "crossover")→ huge int → % 10 → <3?    │
+    │                                                                   │
+    │   Step 2: Assemble the assignment                                 │
+    │                                                                   │
+    │     Primary Domain ──────── "limnology"                           │
+    │     Technique Modifier ──── "with safety protocol enforcement"    │
+    │     Crossover Check ─────── 7 (≥3, so no crossover today)         │
+    │                                                                   │
+    │   Step 3: Output                                                  │
+    │                                                                   │
+    │     "Build a workspace for LIMNOLOGY                              │
+    │      with safety protocol enforcement"                            │
+    │                                                                   │
+    │   On a crossover day (hash % 10 < 3, ~30% chance):                │
+    │     "Fuse LIMNOLOGY × CAVE DIVING using techniques                │
+    │      from both domains"                                           │
+    └────────────────────────────────────────────────────────────────────┘
 ```
 
-It's a self-contained Python engine ([`cognitropy.py`](./cognitropy.py)) that uses the current date as a cryptographic seed to deterministically select from a pool of **200+ wildly diverse domains** — everything from volcanology to watchmaking to competitive barbecue judging.
+**Why this works:** SHA-256 is a cryptographic hash — even a one-day difference in the input date produces a completely unrelated output number. The selections *look* random but are fully deterministic: run it twice on the same date, get the same result every time. No external APIs, no randomness source needed — just math.
 
-The creative constraint is the point. Each day brings an unexpected domain, and the agent rises to meet it.
+The domain pool spans **218 wildly diverse fields** — volcanology, watchmaking, competitive barbecue judging, Mars terrain analysis, coopering, and 213 more. Combined with 30 technique modifiers and 5 crossover spark templates, that's **7,102,440 unique possible outcomes**. The creative constraint is the point. Each day brings an unexpected domain, and the agent rises to meet it.
 
 **Try it yourself:**
 
@@ -92,10 +105,10 @@ The diversity is the point. A workspace for mushroom foraging uses the same stru
     │  domain   │     │  workspace   │     │  no leaks    │     │  update  │
     └──────────┘     └──────────────┘     └──────────────┘     └──────────┘
          │                  │                     │                   │
-    sha256(date)      CLAUDE.md             grep for keys       README.md
-    200+ domains      /commands/            .pem, .env, .key    git commit
-    30 techniques     /workflows/           API tokens          git push
-    crossover?        /resources/           passwords           cleanup
+    5 salted hashes   CLAUDE.md             grep for keys       README.md
+    of today's date   /commands/            .pem, .env, .key    git commit
+    → domain+method   /workflows/           API tokens          git push
+    → crossover?      /resources/           passwords           cleanup
 ```
 
 ```
