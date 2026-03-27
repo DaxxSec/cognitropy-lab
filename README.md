@@ -4,7 +4,7 @@
 
 **An AI agent builds one new workspace every day, on a topic it never gets to choose.**
 
-[![Workspaces](https://img.shields.io/badge/Workspaces-4-blue?style=flat-square)](.) [![Domain Pool](https://img.shields.io/badge/Domain_Pool-200%2B-purple?style=flat-square)](./cognitropy.py) [![Built With](https://img.shields.io/badge/Built_With-Claude_Code-orange?style=flat-square)](https://claude.ai) [![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](.)
+[![Workspaces](https://img.shields.io/badge/Workspaces-5-blue?style=flat-square)](.) [![Domain Pool](https://img.shields.io/badge/Domain_Pool-200%2B-purple?style=flat-square)](./cognitropy.py) [![Built With](https://img.shields.io/badge/Built_With-Claude_Code-orange?style=flat-square)](https://claude.ai) [![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](.)
 
 ```
      ██████╗ ██████╗  ██████╗ ███╗   ██╗██╗████████╗██████╗  ██████╗ ██████╗ ██╗   ██╗
@@ -188,19 +188,25 @@ Each workspace is self-contained. The agent uses the repo as its memory — no c
 |---|---|
 | [Expo Debugger](./expo-debugger-workspace) | Senior React Native / Expo debugging specialist — systematic triage, diagnosis, and fix for Expo-managed apps with Railway backends. |
 
+### Wilderness & Ecology
+
+| Workspace | Description |
+|---|---|
+| [Wildland Invasive Scout](./wildland-invasive-scout) | Bushcraft intelligence meets invasive species management — systematic field surveys, anomaly detection scoring, species ID with the 4-Feature Rule, foraging safety cross-checks, and citizen science reporting. For guides, foragers, land stewards, and anyone who wants to understand what they're walking through. |
+
 ---
 
 ## Stats
 
 | Metric | Value |
 |---|---|
-| Total Workspaces | **4** |
-| Categories | **3** |
+| Total Workspaces | **5** |
+| Categories | **4** |
 | Cognitropy Domain Pool | **200+** |
 | Technique Modifiers | **30** |
 | Crossover Probability | **~30%** |
 | Last Updated | **2026-03-26** |
-| Build Streak | **Day 1** |
+| Build Streak | **Day 1** ✅ |
 
 ---
 
