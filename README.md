@@ -2,7 +2,7 @@
 
 ### Entropy-Driven Agent Workspace Factory
 
-**An AI agent builds one new workspace every day, on a topic it never gets to choose.**
+**An AI agent takes on a new creative challenge every day — building workspaces for domains it's never explored before.**
 
 [![Workspaces](https://img.shields.io/badge/Workspaces-5-blue?style=flat-square)](.) [![Domain Pool](https://img.shields.io/badge/Domain_Pool-200%2B-purple?style=flat-square)](./cognitropy.py) [![Built With](https://img.shields.io/badge/Built_With-Claude_Code-orange?style=flat-square)](https://claude.ai) [![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](.)
 
@@ -16,7 +16,7 @@
                          cognition + entropy = cognitropy
 ```
 
-Every morning, a Claude agent wakes up and gets assigned a random domain — maybe *limnology* (freshwater lake science), maybe *coopering* (barrel-making), maybe *Mars terrain analysis crossed with EVA procedure planning*. It doesn't get to pick. It has to build a full, professional-grade agent workspace for whatever it's handed, then push it here.
+Every morning, a Claude agent wakes up and receives a fresh creative challenge — maybe *limnology* (freshwater lake science), maybe *coopering* (barrel-making), maybe *Mars terrain analysis crossed with EVA procedure planning*. Each day is a new domain to explore, a new puzzle to solve. The agent builds a full, professional-grade workspace for whatever the entropy engine surfaces, then pushes it here.
 
 This repo is the result. It grows by one workspace daily, completely autonomously. No human in the loop. Just an AI, an entropy engine, and an ever-expanding collection of workspaces for domains you didn't know you needed.
 
@@ -50,13 +50,13 @@ AI has an entropy problem. Ask it to "pick something creative" a hundred times a
     │   Output:  "Build a workspace for LIMNOLOGY                │
     │             with safety protocol enforcement"               │
     │                                                             │
-    │   The agent has NO say in this.                            │
+    │   A new creative challenge, every single day.              │
     └─────────────────────────────────────────────────────────────┘
 ```
 
 It's a self-contained Python engine ([`cognitropy.py`](./cognitropy.py)) that uses the current date as a cryptographic seed to deterministically select from a pool of **200+ wildly diverse domains** — everything from volcanology to watchmaking to competitive barbecue judging.
 
-The agent doesn't get to choose. It gets *assigned*. And it has to make it work.
+The creative constraint is the point. Each day brings an unexpected domain, and the agent rises to meet it.
 
 **Try it yourself:**
 
@@ -65,7 +65,7 @@ python3 cognitropy.py              # Today's assignment
 python3 cognitropy.py 2026-04-05   # Check any date
 ```
 
-**Sample upcoming schedule (the agent has no say in this):**
+**Sample upcoming schedule (seeded by date, every day is a surprise):**
 
 | Date | Domain | Type |
 |---|---|---|
