@@ -1,10 +1,115 @@
 # The Cognitropy Lab
 
+### Entropy-Driven Agent Workspace Factory
+
 **An AI agent builds one new workspace every day, on a topic it never gets to choose.**
+
+[![Workspaces](https://img.shields.io/badge/Workspaces-4-blue?style=flat-square)](.) [![Domain Pool](https://img.shields.io/badge/Domain_Pool-200%2B-purple?style=flat-square)](./cognitropy.py) [![Built With](https://img.shields.io/badge/Built_With-Claude_Code-orange?style=flat-square)](https://claude.ai) [![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](.)
+
+```
+     ██████╗ ██████╗  ██████╗ ███╗   ██╗██╗████████╗██████╗  ██████╗ ██████╗ ██╗   ██╗
+    ██╔════╝██╔═══██╗██╔════╝ ████╗  ██║██║╚══██╔══╝██╔══██╗██╔═══██╗██╔══██╗╚██╗ ██╔╝
+    ██║     ██║   ██║██║  ███╗██╔██╗ ██║██║   ██║   ██████╔╝██║   ██║██████╔╝ ╚████╔╝
+    ██║     ██║   ██║██║   ██║██║╚██╗██║██║   ██║   ██╔══██╗██║   ██║██╔═══╝   ╚██╔╝
+    ╚██████╗╚██████╔╝╚██████╔╝██║ ╚████║██║   ██║   ██║  ██║╚██████╔╝██║        ██║
+     ╚═════╝ ╚═════╝  ╚═════╝ ╚═╝  ╚═══╝╚═╝   ╚═╝   ╚═╝  ╚═╝ ╚═════╝ ╚═╝        ╚═╝
+                         cognition + entropy = cognitropy
+```
 
 Every morning, a Claude agent wakes up and gets assigned a random domain — maybe *limnology* (freshwater lake science), maybe *coopering* (barrel-making), maybe *Mars terrain analysis crossed with EVA procedure planning*. It doesn't get to pick. It has to build a full, professional-grade agent workspace for whatever it's handed, then push it here.
 
 This repo is the result. It grows by one workspace daily, completely autonomously. No human in the loop. Just an AI, an entropy engine, and an ever-expanding collection of workspaces for domains you didn't know you needed.
+
+> Built by [DaxxSec](https://github.com/DaxxSec) & Claude (Anthropic)
+
+---
+
+## The Problem
+
+AI has an entropy problem. Ask it to "pick something creative" a hundred times and you'll get the same handful of safe, predictable ideas. It's the creative equivalent of a random number generator with a bad seed — low entropy, repetitive output.
+
+**Cognitropy** (cognition + entropy) is our answer.
+
+---
+
+## The Cognitropy Engine
+
+```
+    ┌─────────────────────────────────────────────────────────────┐
+    │                    COGNITROPY ENGINE                        │
+    │                                                             │
+    │   Input:   sha256( today's date )                          │
+    │              │                                              │
+    │              ├──→ Primary Domain     (200+ pool)            │
+    │              ├──→ Technique Modifier (30 approaches)        │
+    │              └──→ Crossover Check    (~30% chance)          │
+    │                     │                                       │
+    │                     ├── Standard Day: single domain         │
+    │                     └── Crossover Day: domain × domain      │
+    │                                                             │
+    │   Output:  "Build a workspace for LIMNOLOGY                │
+    │             with safety protocol enforcement"               │
+    │                                                             │
+    │   The agent has NO say in this.                            │
+    └─────────────────────────────────────────────────────────────┘
+```
+
+It's a self-contained Python engine ([`cognitropy.py`](./cognitropy.py)) that uses the current date as a cryptographic seed to deterministically select from a pool of **200+ wildly diverse domains** — everything from volcanology to watchmaking to competitive barbecue judging.
+
+The agent doesn't get to choose. It gets *assigned*. And it has to make it work.
+
+**Try it yourself:**
+
+```bash
+python3 cognitropy.py              # Today's assignment
+python3 cognitropy.py 2026-04-05   # Check any date
+```
+
+**Sample upcoming schedule (the agent has no say in this):**
+
+| Date | Domain | Type |
+|---|---|---|
+| Mar 27 | Limnology | Standard |
+| Mar 28 | Aquaponics | Standard |
+| Mar 30 | Engraving | Standard |
+| Mar 31 | Heraldry | Standard |
+| Apr 05 | Hazmat Transportation × Cave Diving | **Crossover** |
+| Apr 09 | Coopering × Storm Chasing | **Crossover** |
+| Apr 11 | Mars Terrain Analysis × EVA Procedure Planning | **Crossover** |
+| Apr 22 | Roller Coaster Design | Standard |
+| Apr 24 | Mushroom Foraging | Standard |
+
+The diversity is the point. A workspace for mushroom foraging uses the same structured methodology as one for malware analysis — triage, evidence collection, documentation, reporting. The patterns transfer. The domains are just the fun part.
+
+---
+
+## How the Daily Build Works
+
+```
+    ┌──────────┐     ┌──────────────┐     ┌──────────────┐     ┌──────────┐
+    │ COGNITROPY│────→│ CLAUDE AGENT │────→│ SECRETS SCAN │────→│ GIT PUSH │
+    │  assigns  │     │   builds     │     │  validates   │     │  + index │
+    │  domain   │     │  workspace   │     │  no leaks    │     │  update  │
+    └──────────┘     └──────────────┘     └──────────────┘     └──────────┘
+         │                  │                     │                   │
+    sha256(date)      CLAUDE.md             grep for keys       README.md
+    200+ domains      /commands/            .pem, .env, .key    git commit
+    30 techniques     /workflows/           API tokens          git push
+    crossover?        /resources/           passwords           cleanup
+```
+
+```
+  9:04 AM    Scheduled Claude agent wakes up
+     ↓       Clones this repo
+     ↓       Runs cognitropy.py → gets today's assignment
+     ↓       Checks existing workspaces to avoid duplicates
+     ↓       Builds the full workspace (CLAUDE.md, commands, workflows, resources...)
+     ↓       Scans for secrets leakage
+     ↓       Updates this README index
+     ↓       Commits and pushes
+     ↓       Cleans up local files
+  Done.      One new workspace in the repo. Every day.
+```
 
 ---
 
@@ -16,65 +121,49 @@ Every workspace includes agent instructions, slash commands you can run (like `/
 
 They all follow the [Agent Workspace Model](https://github.com/danielrosehill/Claude-Agent-Workspace-Model) by Daniel Rosehill.
 
+```
+workspace-name/
+├── CLAUDE.md                      # Agent brain — role, commands (lightweight)
+├── README.md                      # Human docs — what, why, how
+├── context/
+│   ├── project.md                 # Your project (populated by /onboard)
+│   ├── role.md                    # Your role and expertise level
+│   ├── constraints.md             # Boundaries and preferences
+│   └── for-agent/
+│       ├── environment.md         # Tools, OS, setup details
+│       └── workflows.md           # Deep domain workflows (200+ lines)
+├── .claude/commands/
+│   ├── onboard.md                 # REQUIRED — workspace initialization
+│   └── [domain-specific].md       # 4-8 slash commands per workspace
+├── prompts/                       # 3+ reusable prompt templates
+├── resources/                     # Reference materials, checklists
+├── work-log/                      # Session history and findings
+├── outputs/                       # Generated reports and exports
+└── planning/                      # Active goals and investigation plans
+```
+
 ---
 
-## How the Daily Build Works
-
-```
-  6:00 AM    Cognitropy engine seeds today's domain from the date
-     ↓
-  9:04 AM    Scheduled Claude agent wakes up
-     ↓       Clones this repo
-     ↓       Runs cognitropy.py → gets today's assignment
-     ↓       Builds the full workspace (CLAUDE.md, commands, workflows, resources...)
-     ↓       Scans for secrets leakage
-     ↓       Updates this README index
-     ↓       Commits and pushes
-     ↓       Cleans up local files
-  Done.      One new workspace in the repo. Every day.
-```
-
----
-
-## The Cognitropy Engine
-
-Here's where it gets fun.
-
-AI has an entropy problem. Ask it to "pick something creative" a hundred times and you'll get the same handful of safe, predictable ideas. It's the creative equivalent of a random number generator with a bad seed — low entropy, repetitive output.
-
-**Cognitropy** (a portmanteau of "cognition" and "entropy") is our solution. It's a self-contained Python engine ([`cognitropy.py`](./cognitropy.py)) that uses the current date as a cryptographic seed to deterministically select from a pool of **200+ wildly diverse domains** — everything from volcanology to watchmaking to competitive barbecue judging.
-
-The agent doesn't get to choose. It gets *assigned*. And it has to make it work.
-
-**How it works:**
-
-- `sha256(today's date)` → index into a pool of 200+ domains
-- A technique modifier is selected (e.g., "with decision tree triage workflows" or "using Bayesian probability assessment")
-- ~30% of days are **Crossover Days** where two unrelated domains get fused together (e.g., "cave diving × hazmat transportation" or "Mars terrain analysis × EVA procedure planning")
-- The output is a plain-text assignment — the agent builds the workspace around it
-
-**Try it yourself:**
+## Quickstart
 
 ```bash
-python3 cognitropy.py              # Today's assignment
-python3 cognitropy.py 2026-04-05   # Check any date
+# Clone the lab
+git clone https://github.com/DaxxSec/cognitropy-lab.git
+cd cognitropy-lab
+
+# Pick a workspace — any workspace
+cd firmware-re-workspace   # or phishing-kit-analyzer, ecu-tune-engine-build, etc.
+
+# Launch Claude Code and onboard
+claude
+/onboard
+
+# Start working — use slash commands, ask questions, let the agent guide you
+/triage
+/analyze
 ```
 
-**Sample 30-day schedule (the agent has no say in this):**
-
-| Date | Domain | Type |
-|---|---|---|
-| Mar 27 | Limnology | Standard |
-| Mar 28 | Aquaponics | Standard |
-| Mar 30 | Engraving | Standard |
-| Mar 31 | Heraldry | Standard |
-| Apr 05 | Hazmat Transportation × Cave Diving | Crossover |
-| Apr 09 | Coopering × Storm Chasing | Crossover |
-| Apr 11 | Mars Terrain Analysis × EVA Procedure Planning | Crossover |
-| Apr 22 | Roller Coaster Design | Standard |
-| Apr 24 | Mushroom Foraging | Standard |
-
-The diversity is the point. A workspace for mushroom foraging uses the same structured methodology as one for malware analysis — triage, evidence collection, documentation, reporting. The patterns transfer. The domains are just the fun part.
+Each workspace is self-contained. The agent uses the repo as its memory — no cloud dependencies, no accounts to create, no API keys needed.
 
 ---
 
@@ -101,48 +190,45 @@ The diversity is the point. A workspace for mushroom foraging uses the same stru
 
 ---
 
-## Using a Workspace
-
-1. **Clone this repo** (or just the workspace folder you want)
-2. **Point Claude Code at it:** `cd workspace-name && claude`
-3. **Run `/onboard`** — the agent interviews you to customize the workspace for your specific situation
-4. **Start working** — use the slash commands, ask questions, let the agent guide you
-
-Each workspace is self-contained. The agent uses the repo as its memory — no cloud dependencies, no accounts to create, no API keys needed.
-
----
-
-## Workspace Structure
-
-Every workspace follows the same proven pattern:
-
-| Component | What It Does |
-|---|---|
-| `CLAUDE.md` | Agent's brain — role, instructions, command list (kept lightweight) |
-| `context/` | Your project details, role, constraints (populated by `/onboard`) |
-| `context/for-agent/` | Deep workflows and environment config the agent reads on demand |
-| `.claude/commands/` | Slash commands — repeatable, domain-specific workflows |
-| `resources/` | Reference materials, cheat sheets, checklists |
-| `prompts/` | Reusable prompt templates for common tasks |
-| `work-log/` | Session history — the agent logs what it did and found |
-| `outputs/` | Generated reports, analysis results, exports |
-
----
-
 ## Stats
 
-- **Total Workspaces:** 4
-- **Categories:** 3
-- **Cognitropy Domain Pool:** 200+
-- **Last Updated:** 2026-03-26
-- **Build Streak:** Day 1
+| Metric | Value |
+|---|---|
+| Total Workspaces | **4** |
+| Categories | **3** |
+| Cognitropy Domain Pool | **200+** |
+| Technique Modifiers | **30** |
+| Crossover Probability | **~30%** |
+| Last Updated | **2026-03-26** |
+| Build Streak | **Day 1** |
+
+---
+
+## Run Your Own Lab
+
+The cognitropy engine is generic. Fork the repo, swap in your own domain pool, point your own scheduled agent at it.
+
+```bash
+# Fork this repo, then edit the domain pool
+vim cognitropy.py   # Replace DOMAINS list with your own interests
+
+# Check what your custom pool generates
+python3 cognitropy.py 2026-04-01
+python3 cognitropy.py 2026-04-02
+python3 cognitropy.py 2026-04-03
+
+# Set up a scheduled Claude agent to build workspaces daily
+# (see the Agent Workspace Model for structure conventions)
+```
+
+The workspace model works for literally anything. The domains are just the fun part.
 
 ---
 
 ## About
 
-The Cognitropy Lab is built by [DaxxSec](https://github.com/DaxxSec). Inspired by [Daniel Rosehill's Claude Code Projects Index](https://github.com/danielrosehill/Claude-Code-Projects-Index) and the [Agent Workspace Model](https://github.com/danielrosehill/Claude-Agent-Workspace-Model).
+The Cognitropy Lab is built by [DaxxSec](https://github.com/DaxxSec) & Claude (Anthropic).
+
+Inspired by [Daniel Rosehill's Claude Code Projects Index](https://github.com/danielrosehill/Claude-Code-Projects-Index) and the [Agent Workspace Model](https://github.com/danielrosehill/Claude-Agent-Workspace-Model).
 
 The daily build pipeline: **Cognitropy assigns a domain → Claude agent builds the workspace → secrets scan → index update → push to GitHub → local cleanup.** Fully autonomous, every morning.
-
-Want to run your own lab? The cognitropy engine is generic — fork the repo, swap in your own domain pool, point your own scheduled agent at it. The workspace model works for literally anything.
