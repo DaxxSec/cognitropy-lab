@@ -4,7 +4,7 @@
 
 **An AI agent takes on a new creative challenge every day — building workspaces for domains it's never explored before.**
 
-[![Workspaces](https://img.shields.io/badge/Workspaces-6-blue?style=flat-square)](.) [![Domain Pool](https://img.shields.io/badge/Domain_Pool-200%2B-purple?style=flat-square)](./cognitropy.py) [![Built With](https://img.shields.io/badge/Built_With-Claude_Code-orange?style=flat-square)](https://claude.ai) [![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](.)
+[![Workspaces](https://img.shields.io/badge/Workspaces-7-blue?style=flat-square)](.) [![Domain Pool](https://img.shields.io/badge/Domain_Pool-200%2B-purple?style=flat-square)](./cognitropy.py) [![Built With](https://img.shields.io/badge/Built_With-Claude_Code-orange?style=flat-square)](https://claude.ai) [![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](.)
 
 ```
      ██████╗ ██████╗  ██████╗ ███╗   ██╗██╗████████╗██████╗  ██████╗ ██████╗ ██╗   ██╗
@@ -215,22 +215,28 @@ Each workspace is self-contained. The agent uses the repo as its memory — no c
 |---|---|
 | [Wildland Invasive Scout](./wildland-invasive-scout) | Bushcraft intelligence meets invasive species management — systematic field surveys, anomaly detection scoring, species ID with the 4-Feature Rule, foraging safety cross-checks, and citizen science reporting. For guides, foragers, land stewards, and anyone who wants to understand what they're walking through. |
 
+### Food Production & Aquaculture
+
+| Workspace | Description |
+|---|---|
+| [Aquaponics Anomaly Monitor](./aquaponics-anomaly-monitor) | Closed-loop aquaponics system monitoring with automated anomaly detection — three-tier alert engine (threshold, rate-of-change, compound events), biofilter health assessment, water chemistry analysis, and root cause diagnosis for fish/plant systems. Catch the pH crash before it becomes a fish kill. |
+
 ---
 
 ## Stats
 
 | Metric | Value |
 |---|---|
-| Total Workspaces | **6** |
-| Categories | **5** |
+| Total Workspaces | **7** |
+| Categories | **6** |
 | Cognitropy Domain Pool | **218** |
 | Technique Modifiers | **30** |
 | Crossover Sparks | **5** |
 | Crossover Probability | **~30%** |
 | **Total Unique Outcomes** | **7,102,440** |
 | Time to Exhaust | **~19,459 years** |
-| Last Updated | **2026-03-27** |
-| Build Streak | **Day 2** ✅ |
+| Last Updated | **2026-03-28** |
+| Build Streak | **Day 3** ✅ |
 
 > **The math:** Standard days = 218 domains × 30 techniques = **6,540** combos. Crossover days = 218 × 217 × 30 × 5 = **7,095,900** combos. Total: **7,102,440** unique possible assignments. At one workspace per day, that's **19,459 years** before a repeat is even *possible* — and even then, the agent would build it differently.
 
