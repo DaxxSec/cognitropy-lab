@@ -220,6 +220,7 @@ Each workspace is self-contained. The agent uses the repo as its memory — no c
 | Workspace | Description |
 |---|---|
 | [Aquaponics Anomaly Monitor](./aquaponics-anomaly-monitor) | Closed-loop aquaponics system monitoring with automated anomaly detection — three-tier alert engine (threshold, rate-of-change, compound events), biofilter health assessment, water chemistry analysis, and root cause diagnosis for fish/plant systems. Catch the pH crash before it becomes a fish kill. |
+| [Aquaponics ICS/OT Security](./aquaponics-ics-security) | Cybersecurity for smart agriculture control systems — OT asset inventory (Purdue Model), STRIDE + ATT&CK for ICS threat modeling, network segmentation audit, firmware CVE correlation, ICS incident response with biological safety checkpoints, and hardening checklists for PLCs, Raspberry Pi controllers, MQTT brokers, and SCADA. The fish can die from a Modbus write as easily as a pH spike. |
 
 ---
 
@@ -227,7 +228,7 @@ Each workspace is self-contained. The agent uses the repo as its memory — no c
 
 | Metric | Value |
 |---|---|
-| Total Workspaces | **7** |
+| Total Workspaces | **8** |
 | Categories | **6** |
 | Cognitropy Domain Pool | **218** |
 | Technique Modifiers | **30** |
