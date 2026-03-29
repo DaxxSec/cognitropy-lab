@@ -1,0 +1,3 @@
+# {{PROMPT_NAME}}
+
+{{PROMPT_CONTENT}}

@@ -1,0 +1,3 @@
+# Work Log
+
+{{SESSION_LOG_CONTENT}}
