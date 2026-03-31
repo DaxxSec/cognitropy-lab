@@ -80,7 +80,7 @@ The engine ([`cognitropy.py`](./cognitropy.py)) takes today's date (e.g. `2026-0
 
 **Why this works:** SHA-256 is a cryptographic hash — even a one-day difference in the input date produces a completely unrelated output number. The selections *look* random but are fully deterministic: run it twice on the same date, get the same result every time. No external APIs, no randomness source needed — just math.
 
-The domain pool spans **363 wildly diverse fields** across **22 categories** — volcanology, watchmaking, competitive barbecue judging, Mars terrain analysis, coopering, and 358 more. Combined with 30 technique modifiers and 5 crossover spark templates, that's **19,721,790 unique possible outcomes**. The creative constraint is the point. Each day brings an unexpected domain, and the agent rises to meet it.
+The domain pool spans **363 wildly diverse fields** across **22 categories** — volcanology, watchmaking, competitive barbecue judging, Mars terrain analysis, coopering, and 358 more. Combined with 30 technique modifiers, 5 crossover spark templates, and the constraint that crossover domains must come from *different* categories, that's **18,863,790 unique possible outcomes**. The creative constraint is the point. Each day brings an unexpected domain, and the agent rises to meet it.
 
 **Try it yourself:**
 
@@ -89,19 +89,19 @@ python3 cognitropy.py              # Today's assignment
 python3 cognitropy.py 2026-04-05   # Check any date
 ```
 
-**Sample upcoming schedule (seeded by date, every day is a surprise):**
+**Sample schedule (seeded by date, every day is a surprise):**
 
-| Date | Domain | Type |
-|---|---|---|
-| Mar 27 | Limnology | Standard |
-| Mar 28 | Aquaponics | Standard |
-| Mar 30 | Engraving | Standard |
-| Mar 31 | Heraldry | Standard |
-| Apr 05 | Hazmat Transportation × Cave Diving | **Crossover** |
-| Apr 09 | Coopering × Storm Chasing | **Crossover** |
-| Apr 11 | Mars Terrain Analysis × EVA Procedure Planning | **Crossover** |
-| Apr 22 | Roller Coaster Design | Standard |
-| Apr 24 | Mushroom Foraging | Standard |
+| Date | Domain | Category | Type |
+|---|---|---|---|
+| Mar 26 | Theme Park Queue Optimization × Vertical Farming | Unusual & Niche | **Crossover** |
+| Mar 27 | EVA Procedure Planning | Space & Aviation | Standard |
+| Mar 28 | Permaculture Design | Food & Agriculture | Standard |
+| Mar 29 | Driveline Vibration Analysis | Automotive & Engine | Standard |
+| Mar 30 | Satellite Communication Protocols | RF/SDR/Signals | Standard |
+| Mar 31 | Hydraulic Engineering Fluid Dynamics | Engineering & Technical | Standard |
+| Apr 05 | Falconry Bird Training × Security Log Analysis | Outdoor & Adventure | **Crossover** |
+| Apr 09 | Film Restoration × Heraldry | Arts & Creative | **Crossover** |
+| Apr 11 | Brake System Failure Analysis × Dendrochronology | Automotive & Engine | **Crossover** |
 
 The diversity is the point. A workspace for mushroom foraging uses the same structured methodology as one for malware analysis — triage, evidence collection, documentation, reporting. The patterns transfer. The domains are just the fun part.
 
@@ -134,10 +134,6 @@ The diversity is the point. A workspace for mushroom foraging uses the same stru
      ↓       Regenerates local dashboard HTML with fresh data
      ↓       Cleans up local files
   Done.      One new workspace in the repo. Every day.
-
-  10:00 PM   Evening preview task runs cognitropy.py for tomorrow
-     ↓       Scopes out the next day's domain assignment
-     ↓       Gives the team a head start on ideas
 ```
 
 ---
@@ -253,9 +249,9 @@ Each workspace is self-contained. The agent uses the repo as its memory — no c
 | Technique Modifiers | **30** |
 | Crossover Sparks | **5** |
 | Crossover Probability | **~30%** |
-| **Total Unique Outcomes** | **19,721,790** |
+| **Total Unique Outcomes** | **18,863,790** |
 
-> **The math:** Standard days = 363 domains × 30 techniques = **10,890** combos. Crossover days = 363 × 362 × 30 × 5 = **19,710,900** combos. Total: **19,721,790** unique possible assignments. At one workspace per day, that's **54,032 years** before a repeat is even *possible* — and even then, the agent would build it differently.
+> **The math:** Standard days = 363 domains × 30 techniques = **10,890** combos. Crossover days = 125,686 cross-category domain pairs × 30 techniques × 5 sparks = **18,852,900** combos. Total: **18,863,790** unique possible assignments. At one workspace per day, that's **51,646 years** before a repeat is even *possible* — and even then, the agent would build it differently. (Cross-category pairs = 363² − Σd² = 131,769 − 6,083 = 125,686 — because the engine enforces that crossover domains come from different categories.)
 
 ---
 
@@ -286,6 +282,6 @@ The Cognitropy Lab is built by [DaxxSec](https://github.com/DaxxSec) & Claude (A
 
 Inspired by [Daniel Rosehill's Claude Code Projects Index](https://github.com/danielrosehill/Claude-Code-Projects-Index) and the [Agent Workspace Model](https://github.com/danielrosehill/Claude-Agent-Workspace-Model).
 
-The daily build pipeline: **Cognitropy assigns a domain → Claude agent builds the workspace → secrets scan → README stats update → push to GitHub → dashboard regeneration → local cleanup.** Fully autonomous, every morning. An evening preview task at 10 PM scopes out the next day's assignment.
+The daily build pipeline: **Cognitropy assigns a domain → Claude agent builds the workspace → secrets scan → README stats update → push to GitHub → dashboard regeneration → local cleanup.** Fully autonomous, every morning.
 
 The term "cognitropic" and the underlying hash-based selection pattern were coined here. If you use it elsewhere, we'd love to hear about it.
