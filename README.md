@@ -1,20 +1,29 @@
-# The Cognitropy Lab
+<div align="center">
 
-### Entropy-Driven Agent Workspace Factory
+<img src=".github/banner.svg" alt="Cognitropy Lab Banner" width="900"/>
 
-**An AI agent takes on a new creative challenge every day — building workspaces for domains it's never explored before.**
+<br/>
 
-[![Workspaces](https://img.shields.io/badge/Workspaces-9-blue?style=flat-square)](.) [![Domain Pool](https://img.shields.io/badge/Domain_Pool-363-purple?style=flat-square)](./cognitropy.py) [![Built With](https://img.shields.io/badge/Built_With-Claude_Code-orange?style=flat-square)](https://claude.ai) [![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](.)
+[![Built With](https://img.shields.io/badge/Built_With-Claude_Code-D4A0FF?style=for-the-badge&logo=anthropic&logoColor=white)](https://claude.ai) [![Domain Pool](https://img.shields.io/badge/Domain_Pool-363-8b5cf6?style=for-the-badge)](./cognitropy.py) [![License](https://img.shields.io/badge/License-MIT-10b981?style=for-the-badge)](.)
 
-```
-     ██████╗ ██████╗  ██████╗ ███╗   ██╗██╗████████╗██████╗  ██████╗ ██████╗ ██╗   ██╗
-    ██╔════╝██╔═══██╗██╔════╝ ████╗  ██║██║╚══██╔══╝██╔══██╗██╔═══██╗██╔══██╗╚██╗ ██╔╝
-    ██║     ██║   ██║██║  ███╗██╔██╗ ██║██║   ██║   ██████╔╝██║   ██║██████╔╝ ╚████╔╝
-    ██║     ██║   ██║██║   ██║██║╚██╗██║██║   ██║   ██╔══██╗██║   ██║██╔═══╝   ╚██╔╝
-    ╚██████╗╚██████╔╝╚██████╔╝██║ ╚████║██║   ██║   ██║  ██║╚██████╔╝██║        ██║
-     ╚═════╝ ╚═════╝  ╚═════╝ ╚═╝  ╚═══╝╚═╝   ╚═╝   ╚═╝  ╚═╝ ╚═════╝ ╚═╝        ╚═╝
-                         cognition + entropy = cognitropy
-```
+<!-- COGNITROPY-STATS-START -->
+
+![Workspaces](https://img.shields.io/badge/workspaces-9-8b5cf6?style=flat-square&logo=github) ![Categories](https://img.shields.io/badge/categories-7-06b6d4?style=flat-square) ![Streak](https://img.shields.io/badge/streak-6%20days-10b981?style=flat-square) ![Last Build](https://img.shields.io/badge/last%20build-2026--03--31-3b82f6?style=flat-square) ![Project Day](https://img.shields.io/badge/project%20day-6-f59e0b?style=flat-square)
+
+### Project Statistics
+
+| Metric | Value |
+|--------|-------|
+| Total Workspaces | **9** |
+| Categories Covered | **7** |
+| Build Streak | **6 days** |
+| Project Day | **6** |
+| Last Build | **2026-03-31** |
+| Categories | Automotive & Engine, Cyber & DFIR, Environmental & Earth, Food & Agriculture, Hardware & Embedded, Life Sciences, RF/SDR/Signals |
+
+<!-- COGNITROPY-STATS-END -->
+
+</div>
 
 Every morning, a Claude agent wakes up and receives a fresh creative challenge — maybe *limnology* (freshwater lake science), maybe *coopering* (barrel-making), maybe *Mars terrain analysis crossed with EVA procedure planning*. Each day is a new domain to explore, a new puzzle to solve. The agent builds a full, professional-grade workspace for whatever the entropy engine surfaces, then pushes it here.
 
@@ -46,8 +55,8 @@ The engine ([`cognitropy.py`](./cognitropy.py)) takes today's date (e.g. `2026-0
     │                                                                   │
     │   Step 1: Hash the date with different salts                      │
     │                                                                   │
-    │     sha256("2026-03-27")              → huge int → % 218 domains  │
-    │     sha256("2026-03-27" + "secondary")→ huge int → % 218 domains  │
+    │     sha256("2026-03-27")              → huge int → % 363 domains  │
+    │     sha256("2026-03-27" + "secondary")→ huge int → % 363 domains  │
     │     sha256("2026-03-27" + "technique")→ huge int → % 30 methods   │
     │     sha256("2026-03-27" + "spark")    → huge int → % 5 templates  │
     │     sha256("2026-03-27" + "crossover")→ huge int → % 10 → <3?    │
@@ -71,7 +80,7 @@ The engine ([`cognitropy.py`](./cognitropy.py)) takes today's date (e.g. `2026-0
 
 **Why this works:** SHA-256 is a cryptographic hash — even a one-day difference in the input date produces a completely unrelated output number. The selections *look* random but are fully deterministic: run it twice on the same date, get the same result every time. No external APIs, no randomness source needed — just math.
 
-The domain pool spans **218 wildly diverse fields** — volcanology, watchmaking, competitive barbecue judging, Mars terrain analysis, coopering, and 213 more. Combined with 30 technique modifiers and 5 crossover spark templates, that's **7,102,440 unique possible outcomes**. The creative constraint is the point. Each day brings an unexpected domain, and the agent rises to meet it.
+The domain pool spans **363 wildly diverse fields** across **22 categories** — volcanology, watchmaking, competitive barbecue judging, Mars terrain analysis, coopering, and 358 more. Combined with 30 technique modifiers and 5 crossover spark templates, that's **19,721,790 unique possible outcomes**. The creative constraint is the point. Each day brings an unexpected domain, and the agent rises to meet it.
 
 **Try it yourself:**
 
@@ -101,29 +110,34 @@ The diversity is the point. A workspace for mushroom foraging uses the same stru
 ## How the Daily Build Works
 
 ```
-    ┌──────────┐     ┌──────────────┐     ┌──────────────┐     ┌──────────┐
-    │ COGNITROPY│────→│ CLAUDE AGENT │────→│ SECRETS SCAN │────→│ GIT PUSH │
-    │  assigns  │     │   builds     │     │  validates   │     │  + index │
-    │  domain   │     │  workspace   │     │  no leaks    │     │  update  │
-    └──────────┘     └──────────────┘     └──────────────┘     └──────────┘
-         │                  │                     │                   │
-    5 salted hashes   CLAUDE.md             grep for keys       README.md
-    of today's date   /commands/            .pem, .env, .key    git commit
-    → domain+method   /workflows/           API tokens          git push
-    → crossover?      /resources/           passwords           cleanup
+  ┌──────────┐   ┌──────────────┐   ┌──────────────┐   ┌──────────┐   ┌───────────┐
+  │ COGNITROPY│──→│ CLAUDE AGENT │──→│ SECRETS SCAN │──→│ GIT PUSH │──→│ DASHBOARD │
+  │  assigns  │   │   builds     │   │  validates   │   │  + stats │   │  + README  │
+  │  domain   │   │  workspace   │   │  no leaks    │   │  update  │   │  refresh   │
+  └──────────┘   └──────────────┘   └──────────────┘   └──────────┘   └───────────┘
+       │                │                   │                 │               │
+  5 salted hashes  CLAUDE.md          grep for keys     README.md      Static HTML
+  of today's date  /commands/         .pem, .env, .key  badges +       regenerated
+  → domain+method  /workflows/        API tokens        stats table    from engine
+  → crossover?     /resources/        passwords         git push       + GitHub API
 ```
 
 ```
-  9:04 AM    Scheduled Claude agent wakes up
+  ~9:00 AM   Scheduled Claude agent wakes up
      ↓       Clones this repo
      ↓       Runs cognitropy.py → gets today's assignment
      ↓       Checks existing workspaces to avoid duplicates
      ↓       Builds the full workspace (CLAUDE.md, commands, workflows, resources...)
      ↓       Scans for secrets leakage
-     ↓       Updates this README index
+     ↓       Updates README index, badges, and stats table
      ↓       Commits and pushes
+     ↓       Regenerates local dashboard HTML with fresh data
      ↓       Cleans up local files
   Done.      One new workspace in the repo. Every day.
+
+  10:00 PM   Evening preview task runs cognitropy.py for tomorrow
+     ↓       Scopes out the next day's domain assignment
+     ↓       Gives the team a head start on ideas
 ```
 
 ---
@@ -230,21 +244,18 @@ Each workspace is self-contained. The agent uses the repo as its memory — no c
 
 ---
 
-## Stats
+## Engine Stats
 
 | Metric | Value |
 |---|---|
-| Total Workspaces | **9** |
-| Categories | **7** |
 | Cognitropy Domain Pool | **363** |
-| Technique Modifiers | **22** |
+| Domain Categories | **22** |
+| Technique Modifiers | **30** |
 | Crossover Sparks | **5** |
 | Crossover Probability | **~30%** |
-| **Total Unique Outcomes** | **7,986** |
-| Last Updated | **2026-03-30** |
-| Build Streak | **Day 5** ✅ |
+| **Total Unique Outcomes** | **19,721,790** |
 
-> **The math:** Standard days = 218 domains × 30 techniques = **6,540** combos. Crossover days = 218 × 217 × 30 × 5 = **7,095,900** combos. Total: **7,102,440** unique possible assignments. At one workspace per day, that's **19,459 years** before a repeat is even *possible* — and even then, the agent would build it differently.
+> **The math:** Standard days = 363 domains × 30 techniques = **10,890** combos. Crossover days = 363 × 362 × 30 × 5 = **19,710,900** combos. Total: **19,721,790** unique possible assignments. At one workspace per day, that's **54,032 years** before a repeat is even *possible* — and even then, the agent would build it differently.
 
 ---
 
@@ -275,6 +286,6 @@ The Cognitropy Lab is built by [DaxxSec](https://github.com/DaxxSec) & Claude (A
 
 Inspired by [Daniel Rosehill's Claude Code Projects Index](https://github.com/danielrosehill/Claude-Code-Projects-Index) and the [Agent Workspace Model](https://github.com/danielrosehill/Claude-Agent-Workspace-Model).
 
-The daily build pipeline: **Cognitropy assigns a domain → Claude agent builds the workspace → secrets scan → index update → push to GitHub → local cleanup.** Fully autonomous, every morning.
+The daily build pipeline: **Cognitropy assigns a domain → Claude agent builds the workspace → secrets scan → README stats update → push to GitHub → dashboard regeneration → local cleanup.** Fully autonomous, every morning. An evening preview task at 10 PM scopes out the next day's assignment.
 
 The term "cognitropic" and the underlying hash-based selection pattern were coined here. If you use it elsewhere, we'd love to hear about it.

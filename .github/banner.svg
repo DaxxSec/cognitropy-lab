@@ -1,0 +1,123 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="320" viewBox="0 0 900 320">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0e17"/>
+      <stop offset="50%" style="stop-color:#111827"/>
+      <stop offset="100%" style="stop-color:#0a0e17"/>
+    </linearGradient>
+    <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#8b5cf6">
+        <animate attributeName="stop-color" values="#8b5cf6;#3b82f6;#06b6d4;#8b5cf6" dur="6s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="50%" style="stop-color:#3b82f6">
+        <animate attributeName="stop-color" values="#3b82f6;#06b6d4;#8b5cf6;#3b82f6" dur="6s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" style="stop-color:#06b6d4">
+        <animate attributeName="stop-color" values="#06b6d4;#8b5cf6;#3b82f6;#06b6d4" dur="6s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+    <linearGradient id="accentLine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#8b5cf6;stop-opacity:0"/>
+      <stop offset="20%" style="stop-color:#8b5cf6;stop-opacity:1"/>
+      <stop offset="50%" style="stop-color:#3b82f6;stop-opacity:1"/>
+      <stop offset="80%" style="stop-color:#06b6d4;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#06b6d4;stop-opacity:0"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="softGlow">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <radialGradient id="orb1" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#8b5cf6;stop-opacity:0.15"/>
+      <stop offset="100%" style="stop-color:#8b5cf6;stop-opacity:0"/>
+    </radialGradient>
+    <radialGradient id="orb2" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#06b6d4;stop-opacity:0.12"/>
+      <stop offset="100%" style="stop-color:#06b6d4;stop-opacity:0"/>
+    </radialGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1e293b" stroke-width="0.5" opacity="0.4"/>
+    </pattern>
+  </defs>
+
+  <!-- Background -->
+  <rect width="900" height="320" fill="url(#bg)"/>
+  <rect width="900" height="320" fill="url(#grid)" opacity="0.5"/>
+
+  <!-- Ambient glow orbs -->
+  <ellipse cx="150" cy="80" rx="200" ry="150" fill="url(#orb1)">
+    <animate attributeName="cx" values="150;200;150" dur="8s" repeatCount="indefinite"/>
+  </ellipse>
+  <ellipse cx="750" cy="250" rx="180" ry="130" fill="url(#orb2)">
+    <animate attributeName="cx" values="750;700;750" dur="10s" repeatCount="indefinite"/>
+  </ellipse>
+
+  <!-- Top accent line -->
+  <rect x="0" y="0" width="900" height="3" fill="url(#accentLine)"/>
+
+  <!-- Floating hash particles -->
+  <g opacity="0.12" font-family="monospace" font-size="9" fill="#8b5cf6">
+    <text x="60" y="45">sha256</text>
+    <text x="780" y="55">0x7f3a</text>
+    <text x="140" y="280">%mod</text>
+    <text x="700" y="290">entropy</text>
+    <text x="400" y="35">f(date) → domain</text>
+    <text x="50" y="180">0xc4e9</text>
+    <text x="820" y="160">salt[]</text>
+    <text x="350" y="300">deterministic chaos</text>
+  </g>
+
+  <!-- Org label -->
+  <text x="450" y="72" text-anchor="middle" font-family="'Courier New', monospace" font-size="12" fill="#06b6d4" letter-spacing="6" opacity="0.8">DAXXSEC / COGNITROPY-LAB</text>
+
+  <!-- Main title -->
+  <text x="450" y="140" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="58" font-weight="900" fill="url(#titleGrad)" filter="url(#glow)" letter-spacing="-1">Cognitropy Lab</text>
+
+  <!-- Subtitle -->
+  <text x="450" y="175" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="16" fill="#94a3b8" font-weight="400">Entropy-Driven Agent Workspace Factory</text>
+
+  <!-- Divider line -->
+  <rect x="200" y="195" width="500" height="1" fill="url(#accentLine)" opacity="0.6"/>
+
+  <!-- Tagline -->
+  <text x="450" y="225" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="13" fill="#64748b">An AI agent takes on a new creative challenge every day — building workspaces</text>
+  <text x="450" y="245" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="13" fill="#64748b">for domains it's never explored before. Watch the collection grow.</text>
+
+  <!-- Stats chips -->
+  <g transform="translate(450, 280)" text-anchor="middle">
+    <!-- 22 Categories chip -->
+    <rect x="-220" y="-14" width="95" height="24" rx="12" fill="#1a1f2e" stroke="#2a3150" stroke-width="1"/>
+    <text x="-172" y="3" font-family="'Courier New', monospace" font-size="10" fill="#8b5cf6" font-weight="600">22 Categories</text>
+
+    <!-- 363 Domains chip -->
+    <rect x="-110" y="-14" width="90" height="24" rx="12" fill="#1a1f2e" stroke="#2a3150" stroke-width="1"/>
+    <text x="-65" y="3" font-family="'Courier New', monospace" font-size="10" fill="#3b82f6" font-weight="600">363 Domains</text>
+
+    <!-- 30 Techniques chip -->
+    <rect x="-5" y="-14" width="105" height="24" rx="12" fill="#1a1f2e" stroke="#2a3150" stroke-width="1"/>
+    <text x="47" y="3" font-family="'Courier New', monospace" font-size="10" fill="#06b6d4" font-weight="600">30 Techniques</text>
+
+    <!-- ~30% Crossover chip -->
+    <rect x="115" y="-14" width="110" height="24" rx="12" fill="#1a1f2e" stroke="#2a3150" stroke-width="1"/>
+    <text x="170" y="3" font-family="'Courier New', monospace" font-size="10" fill="#10b981" font-weight="600">~30% Crossover</text>
+  </g>
+
+  <!-- Bottom accent line -->
+  <rect x="0" y="317" width="900" height="3" fill="url(#accentLine)"/>
+
+  <!-- Corner decorations -->
+  <path d="M 0 0 L 30 0 L 0 30 Z" fill="#8b5cf6" opacity="0.15"/>
+  <path d="M 900 0 L 870 0 L 900 30 Z" fill="#06b6d4" opacity="0.15"/>
+  <path d="M 0 320 L 30 320 L 0 290 Z" fill="#06b6d4" opacity="0.15"/>
+  <path d="M 900 320 L 870 320 L 900 290 Z" fill="#8b5cf6" opacity="0.15"/>
+</svg>
