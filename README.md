@@ -8,18 +8,18 @@
 
 <!-- COGNITROPY-STATS-START -->
 
-![Workspaces](https://img.shields.io/badge/workspaces-9-8b5cf6?style=flat-square&logo=github) ![Categories](https://img.shields.io/badge/categories-7-06b6d4?style=flat-square) ![Streak](https://img.shields.io/badge/streak-6%20days-10b981?style=flat-square) ![Last Build](https://img.shields.io/badge/last%20build-2026--03--31-3b82f6?style=flat-square) ![Project Day](https://img.shields.io/badge/project%20day-6-f59e0b?style=flat-square)
+![Workspaces](https://img.shields.io/badge/workspaces-12-8b5cf6?style=flat-square&logo=github) ![Categories](https://img.shields.io/badge/categories-8-06b6d4?style=flat-square) ![Streak](https://img.shields.io/badge/streak-7%20days-10b981?style=flat-square) ![Last Build](https://img.shields.io/badge/last%20build-2026-04-01-3b82f6?style=flat-square) ![Project Day](https://img.shields.io/badge/project%20day-7-f59e0b?style=flat-square)
 
 ### Project Statistics
 
 | Metric | Value |
 |--------|-------|
-| Total Workspaces | **9** |
-| Categories Covered | **7** |
-| Build Streak | **6 days** |
-| Project Day | **6** |
-| Last Build | **2026-03-31** |
-| Categories | Automotive & Engine, Cyber & DFIR, Environmental & Earth, Food & Agriculture, Hardware & Embedded, Life Sciences, RF/SDR/Signals |
+| Total Workspaces | **12** |
+| Categories Covered | **8** |
+| Build Streak | **7 days** |
+| Project Day | **7** |
+| Last Build | **2026-04-01** |
+| Categories | Automotive & Engine, Cyber & DFIR, Earth Sciences, Environmental & Earth, Food & Agriculture, Hardware & Embedded, RF/SDR/Signals, Space & Aviation |
 
 <!-- COGNITROPY-STATS-END -->
 
