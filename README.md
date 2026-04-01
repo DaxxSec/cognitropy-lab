@@ -8,18 +8,18 @@
 
 <!-- COGNITROPY-STATS-START -->
 
-![Workspaces](https://img.shields.io/badge/workspaces-11-8b5cf6?style=flat-square&logo=github) ![Categories](https://img.shields.io/badge/categories-8-06b6d4?style=flat-square) ![Streak](https://img.shields.io/badge/streak-6%20days-10b981?style=flat-square) ![Last Build](https://img.shields.io/badge/last%20build-2026-03-31-3b82f6?style=flat-square) ![Project Day](https://img.shields.io/badge/project%20day-6-f59e0b?style=flat-square)
+![Workspaces](https://img.shields.io/badge/workspaces-9-8b5cf6?style=flat-square&logo=github) ![Categories](https://img.shields.io/badge/categories-7-06b6d4?style=flat-square) ![Streak](https://img.shields.io/badge/streak-6%20days-10b981?style=flat-square) ![Last Build](https://img.shields.io/badge/last%20build-2026--03--31-3b82f6?style=flat-square) ![Project Day](https://img.shields.io/badge/project%20day-6-f59e0b?style=flat-square)
 
 ### Project Statistics
 
 | Metric | Value |
 |--------|-------|
-| Total Workspaces | **11** |
-| Categories Covered | **8** |
+| Total Workspaces | **9** |
+| Categories Covered | **7** |
 | Build Streak | **6 days** |
 | Project Day | **6** |
 | Last Build | **2026-03-31** |
-| Categories | Automotive & Engine, Cyber & DFIR, Earth Sciences, Environmental & Earth, Food & Agriculture, Hardware & Embedded, RF/SDR/Signals, Space & Aviation |
+| Categories | Automotive & Engine, Cyber & DFIR, Environmental & Earth, Food & Agriculture, Hardware & Embedded, Life Sciences, RF/SDR/Signals |
 
 <!-- COGNITROPY-STATS-END -->
 
@@ -231,12 +231,6 @@ Each workspace is self-contained. The agent uses the repo as its memory — no c
 |---|---|
 | [Aquaponics Anomaly Monitor](./aquaponics-anomaly-monitor) | Closed-loop aquaponics system monitoring with automated anomaly detection — three-tier alert engine (threshold, rate-of-change, compound events), biofilter health assessment, water chemistry analysis, and root cause diagnosis for fish/plant systems. Catch the pH crash before it becomes a fish kill. |
 | [Aquaponics ICS/OT Security](./aquaponics-ics-security) | Cybersecurity for smart agriculture control systems — OT asset inventory (Purdue Model), STRIDE + ATT&CK for ICS threat modeling, network segmentation audit, firmware CVE correlation, ICS incident response with biological safety checkpoints, and hardening checklists for PLCs, Raspberry Pi controllers, MQTT brokers, and SCADA. The fish can die from a Modbus write as easily as a pH spike. |
-
-### Engineering & Technical
-
-| Workspace | Description |
-|---|---|
-| [Hydraulic Engineering Fluid Dynamics](./hydraulic-engineering-fluid-dynamics) | Bayesian hydraulic engineering — probabilistic flow analysis, flood frequency modeling, pipe network reliability, infrastructure risk assessment, and parameter calibration using MCMC inference. Quantify what you know, what you're uncertain about, and how that uncertainty propagates through design decisions. |
 
 ### RF / SDR / Signals
 
