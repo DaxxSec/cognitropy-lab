@@ -48,6 +48,14 @@ def get_unique_categories(repo_dir):
         'space': 'Space & Aviation', 'rocket': 'Space & Aviation', 'eva': 'Space & Aviation',
         'weather': 'Environmental & Earth', 'invasive': 'Environmental & Earth',
         'wildland': 'Environmental & Earth',
+        'curriculum': 'Education & Training', 'education': 'Education & Training',
+        'training': 'Education & Training', 'learning': 'Education & Training',
+        'emergency': 'Medical & Health', 'triage': 'Medical & Health',
+        'medical': 'Medical & Health', 'health': 'Medical & Health',
+        'hydraulic': 'Engineering & Technical', 'engineering': 'Engineering & Technical',
+        'mechanic': 'Engineering & Technical', 'fluid': 'Engineering & Technical',
+        'expo': 'Computing & Software', 'debugger': 'Computing & Software',
+        'software': 'Computing & Software',
     }
     skip = {'.git', '.github', '__pycache__', 'cognitropy-server', '.workspace-template'}
     for entry in os.listdir(repo_dir):

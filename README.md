@@ -8,18 +8,18 @@
 
 <!-- COGNITROPY-STATS-START -->
 
-![Workspaces](https://img.shields.io/badge/workspaces-12-8b5cf6?style=flat-square&logo=github) ![Categories](https://img.shields.io/badge/categories-8-06b6d4?style=flat-square) ![Streak](https://img.shields.io/badge/streak-7%20days-10b981?style=flat-square) ![Last Build](https://img.shields.io/badge/last%20build-2026-04-01-3b82f6?style=flat-square) ![Project Day](https://img.shields.io/badge/project%20day-7-f59e0b?style=flat-square)
+![Workspaces](https://img.shields.io/badge/workspaces-13-8b5cf6?style=flat-square&logo=github) ![Categories](https://img.shields.io/badge/categories-10-06b6d4?style=flat-square) ![Streak](https://img.shields.io/badge/streak-1%20days-10b981?style=flat-square) ![Last Build](https://img.shields.io/badge/last%20build-2026-04-12-3b82f6?style=flat-square) ![Project Day](https://img.shields.io/badge/project%20day-18-f59e0b?style=flat-square)
 
 ### Project Statistics
 
 | Metric | Value |
 |--------|-------|
-| Total Workspaces | **12** |
-| Categories Covered | **8** |
-| Build Streak | **7 days** |
-| Project Day | **7** |
-| Last Build | **2026-04-01** |
-| Categories | Automotive & Engine, Cyber & DFIR, Earth Sciences, Environmental & Earth, Food & Agriculture, Hardware & Embedded, RF/SDR/Signals, Space & Aviation |
+| Total Workspaces | **13** |
+| Categories Covered | **10** |
+| Build Streak | **1 days** |
+| Project Day | **18** |
+| Last Build | **2026-04-12** |
+| Categories | Automotive & Engine, Cyber & DFIR, Earth Sciences, Education & Training, Environmental & Earth, Food & Agriculture, Hardware & Embedded, Medical & Health, RF/SDR/Signals, Space & Aviation |
 
 <!-- COGNITROPY-STATS-END -->
 
@@ -238,6 +238,29 @@ Each workspace is self-contained. The agent uses the repo as its memory — no c
 |---|---|
 | [Satellite Comms Protocol Sim](./satellite-comms-protocol-sim) | Satellite communication protocol simulation and scenario testing — AX.25/CCSDS/DVB-S2 frame decoding, end-to-end link budget analysis, Doppler pass simulation, protocol test vector generation, telemetry parsing, and security vulnerability auditing for cubesat, amateur satellite, and SDR enthusiasts. Works from RTL-SDR captures up to full CCSDS spacecraft commanding chains. |
 
+### Automotive Sensing & SDR
+
+| Workspace | Description |
+|---|---|
+| [Wireless TPMS Analyzer](./wireless-tpms-analyzer) | Tire Pressure Monitoring System signal analysis — TPMS packet decoding, sensor ID tracking, RF capture workflows, and vehicle-specific protocol documentation using RTL-SDR and HackRF. |
+
+### Engineering & Technical
+
+| Workspace | Description |
+|---|---|
+| [Hydraulic Engineering Fluid Dynamics](./hydraulic-engineering-fluid-dynamics) | Hydraulic systems engineering assistant — fluid dynamics calculations, pipe network design, pump selection, system troubleshooting, and compliance documentation for civil and mechanical hydraulic projects. |
+
+### Medical & Health
+
+| Workspace | Description |
+|---|---|
+| [Emergency Triage Protocols](./emergency-triage-protocols) | Emergency medical triage specialist — START/JumpSTART triage algorithms, mass casualty incident management, patient assessment workflows, resource allocation, and after-action reporting for first responders and emergency planners. |
+
+### Education & Training
+
+| Workspace | Description |
+|---|---|
+| [Curriculum Design Peer Review](./curriculum-design-peer-review) | Instructional design and curriculum peer review specialist — backward design unit planning, Bloom's Taxonomy objective writing, structured peer review workflows, standards alignment mapping, and rubric generation for educators at all levels. |
 ---
 
 ## Engine Stats
