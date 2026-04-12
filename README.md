@@ -8,18 +8,18 @@
 
 <!-- COGNITROPY-STATS-START -->
 
-![Workspaces](https://img.shields.io/badge/workspaces-13-8b5cf6?style=flat-square&logo=github) ![Categories](https://img.shields.io/badge/categories-10-06b6d4?style=flat-square) ![Streak](https://img.shields.io/badge/streak-1%20days-10b981?style=flat-square) ![Last Build](https://img.shields.io/badge/last%20build-2026-04-12-3b82f6?style=flat-square) ![Project Day](https://img.shields.io/badge/project%20day-18-f59e0b?style=flat-square)
+![Workspaces](https://img.shields.io/badge/workspaces-14-8b5cf6?style=flat-square&logo=github) ![Categories](https://img.shields.io/badge/categories-8-06b6d4?style=flat-square) ![Streak](https://img.shields.io/badge/streak-1%20days-10b981?style=flat-square) ![Last Build](https://img.shields.io/badge/last%20build-2026-04-12-3b82f6?style=flat-square) ![Project Day](https://img.shields.io/badge/project%20day-18-f59e0b?style=flat-square)
 
 ### Project Statistics
 
 | Metric | Value |
 |--------|-------|
-| Total Workspaces | **13** |
-| Categories Covered | **10** |
+| Total Workspaces | **14** |
+| Categories Covered | **8** |
 | Build Streak | **1 days** |
 | Project Day | **18** |
 | Last Build | **2026-04-12** |
-| Categories | Automotive & Engine, Cyber & DFIR, Earth Sciences, Education & Training, Environmental & Earth, Food & Agriculture, Hardware & Embedded, Medical & Health, RF/SDR/Signals, Space & Aviation |
+| Categories | Automotive & Engine, Cyber & DFIR, Earth Sciences, Environmental & Earth, Food & Agriculture, Hardware & Embedded, RF/SDR/Signals, Space & Aviation |
 
 <!-- COGNITROPY-STATS-END -->
 
@@ -261,6 +261,11 @@ Each workspace is self-contained. The agent uses the repo as its memory — no c
 | Workspace | Description |
 |---|---|
 | [Curriculum Design Peer Review](./curriculum-design-peer-review) | Instructional design and curriculum peer review specialist — backward design unit planning, Bloom's Taxonomy objective writing, structured peer review workflows, standards alignment mapping, and rubric generation for educators at all levels. |
+### Finance & Economics
+
+| Workspace | Description |
+|---|---|
+| [Forensic Accounting & Fraud Detection](./forensic-accounting-fraud-detection) | Financial fraud investigation specialist — Benford's Law analysis, Beneish M-Score earnings manipulation screening, AP/GL transaction anomaly detection, entity structure mapping, and investigation workpaper generation following ACFE standards. For auditors, investigators, and DFIR practitioners expanding into financial crime. |
 ---
 
 ## Engine Stats
