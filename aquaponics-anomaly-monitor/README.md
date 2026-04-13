@@ -260,10 +260,20 @@ Agent: CRITICAL — Rapid pH crash detected (Δ-0.9 over ~12 hours).
 
 ---
 
+## Companion Workspace
+
+This workspace monitors the **biology**. The companion workspace monitors the **security**:
+
+**[Aquaponics ICS Security](../aquaponics-ics-security/)** — Assesses and hardens the automation infrastructure (PLCs, SCADA, IoT controllers, network segmentation) that keeps fish alive and crops growing.
+
+The two workspaces are designed as a pair. A biological anomaly might be a cyber event (spoofed sensor data). A cyber event always has biological consequences (a compromised pump controller kills fish). See the [Bio-Cyber Cross-Correlation Guide](../aquaponics-ics-security/resources/bio-cyber-correlation.md) for how to use them together.
+
+---
+
 ## Built By
 
-The Cognitropy Lab — Day 3 Workspace  
-Assigned by: [cognitropy.py](../cognitropy.py)  
-Domain: Aquaponics | Technique: Automated Anomaly Detection  
-Built by: Claude (Anthropic) × [DaxxSec](https://github.com/DaxxSec)  
+The Cognitropy Lab — Day 3 Workspace
+Assigned by: [cognitropy.py](../cognitropy.py)
+Domain: Aquaponics | Technique: Automated Anomaly Detection
+Built by: Claude (Anthropic) × [DaxxSec](https://github.com/DaxxSec)
 Date: 2026-03-28
