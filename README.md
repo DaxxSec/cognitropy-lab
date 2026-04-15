@@ -8,17 +8,17 @@
 
 <!-- COGNITROPY-STATS-START -->
 
-![Workspaces](https://img.shields.io/badge/workspaces-16-8b5cf6?style=flat-square&logo=github) ![Categories](https://img.shields.io/badge/categories-10-06b6d4?style=flat-square) ![Streak](https://img.shields.io/badge/streak-1%20days-10b981?style=flat-square) ![Last Build](https://img.shields.io/badge/last%20build-2026-04-13-3b82f6?style=flat-square) ![Project Day](https://img.shields.io/badge/project%20day-19-f59e0b?style=flat-square)
+![Workspaces](https://img.shields.io/badge/workspaces-17-8b5cf6?style=flat-square&logo=github) ![Categories](https://img.shields.io/badge/categories-10-06b6d4?style=flat-square) ![Streak](https://img.shields.io/badge/streak-1%20days-10b981?style=flat-square) ![Last Build](https://img.shields.io/badge/last%20build-2026-04-15-3b82f6?style=flat-square) ![Project Day](https://img.shields.io/badge/project%20day-21-f59e0b?style=flat-square)
 
 ### Project Statistics
 
 | Metric | Value |
 |--------|-------|
-| Total Workspaces | **16** |
+| Total Workspaces | **17** |
 | Categories Covered | **10** |
 | Build Streak | **1 days** |
-| Project Day | **19** |
-| Last Build | **2026-04-13** |
+| Project Day | **21** |
+| Last Build | **2026-04-15** |
 | Categories | Automotive & Engine, Cyber & DFIR, Earth Sciences, Education & Training, Environmental & Earth, Food & Agriculture, Hardware & Embedded, Medical & Health, RF/SDR/Signals, Space & Aviation |
 
 <!-- COGNITROPY-STATS-END -->
@@ -251,6 +251,7 @@ Each workspace is self-contained. The agent uses the repo as its memory — no c
 |---|---|
 | [Hydraulic Engineering Fluid Dynamics](./hydraulic-engineering-fluid-dynamics) | Hydraulic systems engineering assistant — fluid dynamics calculations, pipe network design, pump selection, system troubleshooting, and compliance documentation for civil and mechanical hydraulic projects. |
 | [Railway Signaling Systems](./railway-signaling-systems) | Railway signaling engineering apprenticeship workspace — track circuits, interlocking logic, ETCS/ERTMS, axle counters, ATP/TPWS, SIL requirements, and historical incident analysis. Five-level apprenticeship progression tracking from Foundation trainee to Expert/CEng. For signal technicians, apprentices, and engineers across the full IRSE competency ladder. |
+| [Dam Safety Inspection](./dam-safety-inspection) | Dam safety inspection and anomaly detection specialist — piezometer/inclinometer/seepage data analysis, automated anomaly detection using statistical methods, FEMA/FERC/USACE regulatory compliance, failure mode screening, Emergency Action Plan review, and condition assessment reporting for embankment, concrete, and arch dams. |
 
 ### Medical & Health
 
