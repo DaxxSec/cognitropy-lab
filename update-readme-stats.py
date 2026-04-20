@@ -58,6 +58,10 @@ def get_unique_categories(repo_dir):
         'mechanic': 'Engineering & Technical', 'fluid': 'Engineering & Technical',
         'expo': 'Computing & Software', 'debugger': 'Computing & Software',
         'software': 'Computing & Software',
+        'avalanche': 'Outdoor & Adventure', 'bushcraft': 'Outdoor & Adventure',
+        'mountaineering': 'Outdoor & Adventure', 'foraging': 'Outdoor & Adventure',
+        'accounting': 'Finance & Economics', 'fraud': 'Finance & Economics',
+        'railway': 'Transportation & Logistics', 'dam-safety': 'Engineering & Technical',
     }
     skip = {'.git', '.github', '__pycache__', 'cognitropy-server', '.workspace-template'}
     for entry in os.listdir(repo_dir):

@@ -8,18 +8,18 @@
 
 <!-- COGNITROPY-STATS-START -->
 
-![Workspaces](https://img.shields.io/badge/workspaces-19-8b5cf6?style=flat-square&logo=github) ![Categories](https://img.shields.io/badge/categories-11-06b6d4?style=flat-square) ![Streak](https://img.shields.io/badge/streak-1%20days-10b981?style=flat-square) ![Last Build](https://img.shields.io/badge/last%20build-2026-04-20-3b82f6?style=flat-square) ![Project Day](https://img.shields.io/badge/project%20day-26-f59e0b?style=flat-square)
+![Workspaces](https://img.shields.io/badge/workspaces-20-8b5cf6?style=flat-square&logo=github) ![Categories](https://img.shields.io/badge/categories-13-06b6d4?style=flat-square) ![Streak](https://img.shields.io/badge/streak-1%20days-10b981?style=flat-square) ![Last Build](https://img.shields.io/badge/last%20build-2026-04-20-3b82f6?style=flat-square) ![Project Day](https://img.shields.io/badge/project%20day-26-f59e0b?style=flat-square)
 
 ### Project Statistics
 
 | Metric | Value |
 |--------|-------|
-| Total Workspaces | **19** |
-| Categories Covered | **11** |
+| Total Workspaces | **20** |
+| Categories Covered | **13** |
 | Build Streak | **1 days** |
 | Project Day | **26** |
 | Last Build | **2026-04-20** |
-| Categories | Automotive & Engine, Cyber & DFIR, Earth Sciences, Education & Training, Environmental & Earth, Food & Agriculture, Hardware & Embedded, Medical & Health, RF/SDR/Signals, Security & Intelligence, Space & Aviation |
+| Categories | Automotive & Engine, Cyber & DFIR, Earth Sciences, Education & Training, Engineering & Technical, Environmental & Earth, Food & Agriculture, Hardware & Embedded, Medical & Health, Outdoor & Adventure, RF/SDR/Signals, Security & Intelligence, Space & Aviation |
 
 <!-- COGNITROPY-STATS-END -->
 
@@ -276,6 +276,13 @@ Each workspace is self-contained. The agent uses the repo as its memory — no c
 | Workspace | Description |
 |---|---|
 | [Security Clearance Vetting & Predictive Reinvestigation](./security-clearance-vetting-investigation) | Personnel security reasoning aid that applies predictive-maintenance scheduling to clearance holder oversight — SEAD 4 13-guideline adjudication, continuous vetting alert triage, condition-based reinvestigation planning, and risk-weighted caseload prioritization. For background investigators, adjudicators, FSOs, and insider-threat analysts moving from calendar-based PR to Trusted Workforce 2.0 / CV. |
+
+### Outdoor & Adventure
+
+| Workspace | Description |
+|---|---|
+| [Avalanche Forecasting & Slope Analysis](./avalanche-forecasting-slope-analysis) | Snow-science forecasting co-pilot for ski patrols, avalanche centers, and DOT highway programs — daily hazard bulletin drafting, stability test interpretation (ECT/PST/CT), persistent weak layer tracking, and a predictive-maintenance cadence for instruments, mitigation assets, and bulletin language discipline. Built on the standardized 9-type avalanche problem framework used by CAIC/AAC/Avalanche Canada. |
+
 
 ---
 
