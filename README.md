@@ -8,18 +8,18 @@
 
 <!-- COGNITROPY-STATS-START -->
 
-![Workspaces](https://img.shields.io/badge/workspaces-18-8b5cf6?style=flat-square&logo=github) ![Categories](https://img.shields.io/badge/categories-10-06b6d4?style=flat-square) ![Streak](https://img.shields.io/badge/streak-1%20days-10b981?style=flat-square) ![Last Build](https://img.shields.io/badge/last%20build-2026-04-16-3b82f6?style=flat-square) ![Project Day](https://img.shields.io/badge/project%20day-22-f59e0b?style=flat-square)
+![Workspaces](https://img.shields.io/badge/workspaces-19-8b5cf6?style=flat-square&logo=github) ![Categories](https://img.shields.io/badge/categories-11-06b6d4?style=flat-square) ![Streak](https://img.shields.io/badge/streak-1%20days-10b981?style=flat-square) ![Last Build](https://img.shields.io/badge/last%20build-2026-04-20-3b82f6?style=flat-square) ![Project Day](https://img.shields.io/badge/project%20day-26-f59e0b?style=flat-square)
 
 ### Project Statistics
 
 | Metric | Value |
 |--------|-------|
-| Total Workspaces | **18** |
-| Categories Covered | **10** |
+| Total Workspaces | **19** |
+| Categories Covered | **11** |
 | Build Streak | **1 days** |
-| Project Day | **22** |
-| Last Build | **2026-04-16** |
-| Categories | Automotive & Engine, Cyber & DFIR, Earth Sciences, Education & Training, Environmental & Earth, Food & Agriculture, Hardware & Embedded, Medical & Health, RF/SDR/Signals, Space & Aviation |
+| Project Day | **26** |
+| Last Build | **2026-04-20** |
+| Categories | Automotive & Engine, Cyber & DFIR, Earth Sciences, Education & Training, Environmental & Earth, Food & Agriculture, Hardware & Embedded, Medical & Health, RF/SDR/Signals, Security & Intelligence, Space & Aviation |
 
 <!-- COGNITROPY-STATS-END -->
 
@@ -270,6 +270,13 @@ Each workspace is self-contained. The agent uses the repo as its memory — no c
 | Workspace | Description |
 |---|---|
 | [Forensic Accounting & Fraud Detection](./forensic-accounting-fraud-detection) | Financial fraud investigation specialist — Benford's Law analysis, Beneish M-Score earnings manipulation screening, AP/GL transaction anomaly detection, entity structure mapping, and investigation workpaper generation following ACFE standards. For auditors, investigators, and DFIR practitioners expanding into financial crime. |
+
+### Security & Intelligence
+
+| Workspace | Description |
+|---|---|
+| [Security Clearance Vetting & Predictive Reinvestigation](./security-clearance-vetting-investigation) | Personnel security reasoning aid that applies predictive-maintenance scheduling to clearance holder oversight — SEAD 4 13-guideline adjudication, continuous vetting alert triage, condition-based reinvestigation planning, and risk-weighted caseload prioritization. For background investigators, adjudicators, FSOs, and insider-threat analysts moving from calendar-based PR to Trusted Workforce 2.0 / CV. |
+
 ---
 
 ## Engine Stats

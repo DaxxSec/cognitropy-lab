@@ -32,6 +32,8 @@ def get_unique_categories(repo_dir):
     """Scan workspace CLAUDE.md files for category hints."""
     categories = set()
     cat_keywords = {
+        'clearance': 'Security & Intelligence', 'vetting': 'Security & Intelligence',
+        'intelligence-': 'Security & Intelligence', 'insider-threat': 'Security & Intelligence',
         'cyber': 'Cyber & DFIR', 'dfir': 'Cyber & DFIR', 'forensic': 'Cyber & DFIR',
         'malware': 'Cyber & DFIR', 'security': 'Cyber & DFIR', 'phishing': 'Cyber & DFIR',
         'rf': 'RF/SDR/Signals', 'sdr': 'RF/SDR/Signals', 'signal': 'RF/SDR/Signals',
