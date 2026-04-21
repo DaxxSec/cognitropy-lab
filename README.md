@@ -8,17 +8,17 @@
 
 <!-- COGNITROPY-STATS-START -->
 
-![Workspaces](https://img.shields.io/badge/workspaces-20-8b5cf6?style=flat-square&logo=github) ![Categories](https://img.shields.io/badge/categories-13-06b6d4?style=flat-square) ![Streak](https://img.shields.io/badge/streak-1%20days-10b981?style=flat-square) ![Last Build](https://img.shields.io/badge/last%20build-2026-04-20-3b82f6?style=flat-square) ![Project Day](https://img.shields.io/badge/project%20day-26-f59e0b?style=flat-square)
+![Workspaces](https://img.shields.io/badge/workspaces-21-8b5cf6?style=flat-square&logo=github) ![Categories](https://img.shields.io/badge/categories-13-06b6d4?style=flat-square) ![Streak](https://img.shields.io/badge/streak-1%20days-10b981?style=flat-square) ![Last Build](https://img.shields.io/badge/last%20build-2026-04-21-3b82f6?style=flat-square) ![Project Day](https://img.shields.io/badge/project%20day-27-f59e0b?style=flat-square)
 
 ### Project Statistics
 
 | Metric | Value |
 |--------|-------|
-| Total Workspaces | **20** |
+| Total Workspaces | **21** |
 | Categories Covered | **13** |
 | Build Streak | **1 days** |
-| Project Day | **26** |
-| Last Build | **2026-04-20** |
+| Project Day | **27** |
+| Last Build | **2026-04-21** |
 | Categories | Automotive & Engine, Cyber & DFIR, Earth Sciences, Education & Training, Engineering & Technical, Environmental & Earth, Food & Agriculture, Hardware & Embedded, Medical & Health, Outdoor & Adventure, RF/SDR/Signals, Security & Intelligence, Space & Aviation |
 
 <!-- COGNITROPY-STATS-END -->
@@ -283,6 +283,13 @@ Each workspace is self-contained. The agent uses the repo as its memory — no c
 |---|---|
 | [Avalanche Forecasting & Slope Analysis](./avalanche-forecasting-slope-analysis) | Snow-science forecasting co-pilot for ski patrols, avalanche centers, and DOT highway programs — daily hazard bulletin drafting, stability test interpretation (ECT/PST/CT), persistent weak layer tracking, and a predictive-maintenance cadence for instruments, mitigation assets, and bulletin language discipline. Built on the standardized 9-type avalanche problem framework used by CAIC/AAC/Avalanche Canada. |
 
+
+
+### Physical Sciences
+
+| Workspace | Description |
+|---|---|
+| [Optics System Design & FMEA](./optics-system-fmea) | Optical system design co-pilot with integrated Failure Mode and Effects Analysis — paraxial + real-ray layout, RPN-scored design FMEA, Monte Carlo tolerancing, stray-light audits, thermal/vibration review, and IEC 60825 laser-safety classification. For optical engineers, imaging-system builders, and physicists who want FMEA in the loop from day one, not bolted on at CDR. |
 
 ---
 
