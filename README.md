@@ -8,17 +8,17 @@
 
 <!-- COGNITROPY-STATS-START -->
 
-![Workspaces](https://img.shields.io/badge/workspaces-21-8b5cf6?style=flat-square&logo=github) ![Categories](https://img.shields.io/badge/categories-13-06b6d4?style=flat-square) ![Streak](https://img.shields.io/badge/streak-1%20days-10b981?style=flat-square) ![Last Build](https://img.shields.io/badge/last%20build-2026-04-21-3b82f6?style=flat-square) ![Project Day](https://img.shields.io/badge/project%20day-27-f59e0b?style=flat-square)
+![Workspaces](https://img.shields.io/badge/workspaces-22-8b5cf6?style=flat-square&logo=github) ![Categories](https://img.shields.io/badge/categories-13-06b6d4?style=flat-square) ![Streak](https://img.shields.io/badge/streak-1%20days-10b981?style=flat-square) ![Last Build](https://img.shields.io/badge/last%20build-2026-04-22-3b82f6?style=flat-square) ![Project Day](https://img.shields.io/badge/project%20day-28-f59e0b?style=flat-square)
 
 ### Project Statistics
 
 | Metric | Value |
 |--------|-------|
-| Total Workspaces | **21** |
+| Total Workspaces | **22** |
 | Categories Covered | **13** |
 | Build Streak | **1 days** |
-| Project Day | **27** |
-| Last Build | **2026-04-21** |
+| Project Day | **28** |
+| Last Build | **2026-04-22** |
 | Categories | Automotive & Engine, Cyber & DFIR, Earth Sciences, Education & Training, Engineering & Technical, Environmental & Earth, Food & Agriculture, Hardware & Embedded, Medical & Health, Outdoor & Adventure, RF/SDR/Signals, Security & Intelligence, Space & Aviation |
 
 <!-- COGNITROPY-STATS-END -->
@@ -259,6 +259,7 @@ Each workspace is self-contained. The agent uses the repo as its memory — no c
 | Workspace | Description |
 |---|---|
 | [Emergency Triage Protocols](./emergency-triage-protocols) | Emergency medical triage specialist — START/JumpSTART triage algorithms, mass casualty incident management, patient assessment workflows, resource allocation, and after-action reporting for first responders and emergency planners. |
+| [Palliative Care Symptom Checklists](./palliative-care-symptom-checklists) | Palliative / hospice symptom-assessment assistant — administers validated instruments (ESAS-r, IPOS, PAINAD, Abbey, RASS, CAM, PPS, FICA), computes composites with published scoring rules, trends across encounters, and drafts SBAR / progress / family-meeting notes. Decision-support only: never prescribes, diagnoses, or enters anything into the EHR unsigned. PHI-aware: session-scoped placeholders, no identifiers on disk. |
 
 ### Education & Training
 
