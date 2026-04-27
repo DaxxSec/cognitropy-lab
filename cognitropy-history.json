@@ -1,7 +1,7 @@
 {
   "version": 1,
   "project_start": "2026-03-26",
-  "updated_at": "2026-04-25",
+  "updated_at": "2026-04-27",
   "entries": [
     {
       "slug": "wildland-invasive-scout",
@@ -194,6 +194,14 @@
       "domain": "zoology comparative anatomy",
       "day_number": 31,
       "technique": "using standardized inspection checklists"
+    },
+    {
+      "date": "2026-04-27",
+      "slug": "microeconomics-supply-demand",
+      "category": "Finance & Economics",
+      "domain": "microeconomics supply demand",
+      "day_number": 33,
+      "technique": "using risk scoring matrices"
     }
   ]
 }
