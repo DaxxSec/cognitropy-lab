@@ -1,7 +1,7 @@
 {
   "version": 1,
   "project_start": "2026-03-26",
-  "updated_at": "2026-04-27",
+  "updated_at": "2026-04-28",
   "entries": [
     {
       "slug": "wildland-invasive-scout",
@@ -201,6 +201,14 @@
       "category": "Finance & Economics",
       "domain": "microeconomics supply demand",
       "day_number": 33,
+      "technique": "using risk scoring matrices"
+    },
+    {
+      "date": "2026-04-28",
+      "slug": "vip-motorcade-planning-route",
+      "category": "Security & Intelligence",
+      "domain": "vip motorcade planning route",
+      "day_number": 34,
       "technique": "using risk scoring matrices"
     }
   ]
