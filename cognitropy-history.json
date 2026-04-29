@@ -1,7 +1,7 @@
 {
   "version": 1,
   "project_start": "2026-03-26",
-  "updated_at": "2026-04-28",
+  "updated_at": "2026-04-29",
   "entries": [
     {
       "slug": "wildland-invasive-scout",
@@ -210,6 +210,14 @@
       "domain": "vip motorcade planning route",
       "day_number": 34,
       "technique": "using risk scoring matrices"
+    },
+    {
+      "date": "2026-04-29",
+      "slug": "traffic-engineering-signal-timing",
+      "category": "Transportation & Logistics",
+      "domain": "traffic engineering signal timing",
+      "day_number": 35,
+      "technique": "with environmental impact assessment"
     }
   ]
 }
