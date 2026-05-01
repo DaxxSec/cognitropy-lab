@@ -1,7 +1,7 @@
 {
   "version": 1,
   "project_start": "2026-03-26",
-  "updated_at": "2026-04-30",
+  "updated_at": "2026-05-01",
   "entries": [
     {
       "slug": "wildland-invasive-scout",
@@ -226,6 +226,14 @@
       "domain": "macroeconomics GDP modeling",
       "day_number": 36,
       "technique": "using evidence chain-of-custody tracking"
+    },
+    {
+      "date": "2026-05-01",
+      "slug": "puppetry-movement-mechanics",
+      "category": "Arts & Creative",
+      "domain": "puppetry movement mechanics",
+      "day_number": 37,
+      "technique": "using peer review workflows"
     }
   ]
 }
