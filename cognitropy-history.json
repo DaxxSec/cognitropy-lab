@@ -1,7 +1,7 @@
 {
   "version": 1,
   "project_start": "2026-03-26",
-  "updated_at": "2026-05-01",
+  "updated_at": "2026-05-02",
   "entries": [
     {
       "slug": "wildland-invasive-scout",
@@ -234,6 +234,14 @@
       "domain": "puppetry movement mechanics",
       "day_number": 37,
       "technique": "using peer review workflows"
+    },
+    {
+      "date": "2026-05-02",
+      "slug": "executive-protection-threat-assessment",
+      "category": "Security & Intelligence",
+      "domain": "executive protection threat assessment",
+      "day_number": 38,
+      "technique": "using risk scoring matrices"
     }
   ]
 }
