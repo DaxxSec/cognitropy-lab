@@ -1,7 +1,7 @@
 {
   "version": 1,
   "project_start": "2026-03-26",
-  "updated_at": "2026-05-02",
+  "updated_at": "2026-05-03",
   "entries": [
     {
       "slug": "wildland-invasive-scout",
@@ -242,6 +242,14 @@
       "domain": "executive protection threat assessment",
       "day_number": 38,
       "technique": "using risk scoring matrices"
+    },
+    {
+      "date": "2026-05-03",
+      "slug": "glassblowing-form-shaping",
+      "category": "Trades & Crafts",
+      "domain": "glassblowing form shaping",
+      "day_number": 39,
+      "technique": "using simulation and scenario testing"
     }
   ]
 }
