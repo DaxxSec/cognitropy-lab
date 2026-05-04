@@ -1,7 +1,7 @@
 {
   "version": 1,
   "project_start": "2026-03-26",
-  "updated_at": "2026-05-03",
+  "updated_at": "2026-05-04",
   "entries": [
     {
       "slug": "wildland-invasive-scout",
@@ -250,6 +250,14 @@
       "domain": "glassblowing form shaping",
       "day_number": 39,
       "technique": "using simulation and scenario testing"
+    },
+    {
+      "slug": "course-facilitation-engagement",
+      "category": "Education & Training",
+      "domain": "course facilitation engagement",
+      "date": "2026-05-04",
+      "day_number": 40,
+      "technique": "using stakeholder communication templates"
     }
   ]
 }
