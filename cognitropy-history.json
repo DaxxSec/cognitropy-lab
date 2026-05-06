@@ -1,7 +1,7 @@
 {
   "version": 1,
   "project_start": "2026-03-26",
-  "updated_at": "2026-05-05",
+  "updated_at": "2026-05-06",
   "entries": [
     {
       "slug": "wildland-invasive-scout",
@@ -266,6 +266,14 @@
       "date": "2026-05-05",
       "day_number": 41,
       "technique": "using peer review workflows"
+    },
+    {
+      "slug": "frequency-hopping-analysis",
+      "category": "RF/SDR/Signals",
+      "domain": "frequency hopping analysis",
+      "date": "2026-05-06",
+      "day_number": 42,
+      "technique": "using Bayesian probability assessment"
     }
   ]
 }
