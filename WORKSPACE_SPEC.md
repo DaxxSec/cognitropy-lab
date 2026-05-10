@@ -1,102 +1,98 @@
-# Claude Agent Workspace — Canonical Structure Reference
+# Cognitropy Workspace Spec — Hybrid Model
 
-> Source: github.com/danielrosehill/Claude-Agent-Workspace-Model
-> Example implementation: github.com/DaxxSec/COSINT
+Cognitropy workspaces use a **hybrid** of two upstream Daniel Rosehill specs, optimised for the cognitropy use case (daily public-showcase artifacts seeded by an entropy engine):
 
-## Core Development Stages
+- **Foundational shape** — flat directory tree, no legacy ceremony — from `danielrosehill/Claude-Workspace-Foundational-Plugin`.
+- **Bespoke depth** — per-workspace `.claude/commands/` and rich `context/` substance — from the retired `danielrosehill/Claude-Agent-Workspace-Model` spec, which originally seeded cognitropy.
 
-1. **SCAFFOLD** — User clones a designated workspace template
-2. **PERSONALIZE** — Context is ingested via agent-led interview or manual input (`/onboard`)
-3. **SUCCESS** — Repository is fully configured and ready for use
+Neither pure form fits cognitropy alone. The foundational plugin is too thin (5-line README, no per-workspace commands) for a public-showcase artifact; the legacy model is too heavy (`/onboard`, `planning/`, `work-log/`, `user-docs/`, `CREATION_REPORT.md`) for one-shot showcase pieces. The hybrid keeps what each does well.
 
 ## Required Directory Structure
 
 ```
 workspace-name/
-├── CLAUDE.md                    # Lightweight: role, stubs, commands only
-├── README.md                    # Human documentation
-├── context/
-│   ├── project.md               # Project definition (populated by /onboard)
-│   ├── role.md                  # User's role (populated by /onboard)
-│   ├── constraints.md           # Boundaries and preferences (populated by /onboard)
-│   └── for-agent/               # Detailed agent instructions (read on demand)
-│       ├── environment.md       # User environment details
-│       └── workflows.md         # Domain-specific workflows
-├── work-log/                    # Agent's daily operation tracking
-│   └── .gitkeep
-├── planning/                    # Active plan and pivot history
-│   └── .gitkeep
-├── user-docs/                   # Agent-written reference docs for the user
-│   └── .gitkeep
+├── CLAUDE.md                # Lightweight: identity + role + commands table + plugin-primitives note
+├── README.md                # Comprehensive showcase intro: what / why / quick start / commands / refs
 ├── .claude/
-│   └── commands/                # Slash commands
-│       ├── onboard.md           # REQUIRED: workspace initialization
-│       └── [domain-commands].md # Domain-specific commands
-├── prompts/                     # Reusable prompt templates
-├── resources/                   # Reference materials, checklists, schemas
-├── outputs/                     # Generated artifacts
-│   └── .gitkeep
-└── .mcp.json                    # Optional: MCP server configs
+│   └── commands/            # 4-8 bespoke domain commands (NO required /onboard)
+│       └── <name>.md        # Each: brief purpose + Inputs / Steps / Output
+├── context/
+│   ├── concepts.md          # Domain knowledge — taxonomies, frameworks, failure modes (80-200 lines)
+│   ├── workflows.md         # Methodology — step-by-step procedures, decision trees (50-150 lines)
+│   └── references.md        # Lookup tables, cheat-sheets, links to upstream catalogues (30-100 lines)
+├── prompts/                 # 2-4 bespoke reusable prompt templates
+│   └── <name>.md            # Each: Purpose / Prompt Template (parameterised) / Expected Output
+└── outputs/                 # Generated artifacts; .gitkeep at scaffold time
+    └── .gitkeep
 ```
 
 ## File Guidelines
 
-### CLAUDE.md (lightweight, ~30-50 lines)
-Because CLAUDE.md is loaded with every prompt, it must stay lightweight:
-- Workspace identity and template name
-- Agent role (one sentence)
-- Context references (stubs pointing to context/for-agent/)
-- List of available slash commands with one-line descriptions
-- Foundational instruction: "Use this repository as your primary memory"
+### CLAUDE.md (~25-40 lines)
 
-### README.md (comprehensive, 100+ lines)
-- What the workspace is and why it exists
-- Getting started instructions
-- Full command reference table
-- Directory structure explanation
-- Example use cases
-- Recommended MCP servers or tools
-- Ethical/legal considerations if applicable
+Loaded with every prompt, so stays compact. Sections:
 
-### .claude/commands/onboard.md (REQUIRED)
-- Gathers user context through interview-style flow
-- Populates context/project.md, context/role.md, context/constraints.md
-- Saves environment details to context/for-agent/environment.md
+- `# <Domain> Workspace` header
+- One-paragraph agent role tied to today's domain
+- `## Context References` — stubs pointing to `context/concepts.md`, `context/workflows.md`, `context/references.md`, `prompts/`
+- `## Available Commands` — markdown table listing the 4-8 commands in `.claude/commands/`
+- `## Foundational Instructions` — 3-5 numbered items (repo-as-memory, legal/ethical reminders, reproducibility, etc.)
+- `## Optional plugin primitives` — one-line note that `/workspace-foundational:context-sweep` and `/workspace-foundational:find-template` are available **if** the user has the foundational plugin installed; the workspace works without them.
 
-### Domain-specific commands (4-8 per workspace)
-- Each command is a markdown file in .claude/commands/
-- Define a clear, repeatable workflow
-- Include expected inputs, steps, and output format
+### README.md (50-100 lines)
 
-### context/for-agent/workflows.md
-- Detailed step-by-step workflows for the agent's domain
-- Decision trees, analysis frameworks, methodology
+This is the public-facing showcase. Sections:
 
-### resources/
-- Checklists, schemas, reference data, templates
-- At least 2-3 useful reference files
+- Short tagline (one sentence under `>`)
+- What this workspace is and why it exists
+- Getting started — prerequisites + numbered quick-start steps
+- Full command reference table (when to use each)
+- Directory structure tree
+- 3-5 example use cases
+- Recommended MCP servers / tools
+- Legal & ethical considerations if applicable
+- Technical references with real links
 
-### prompts/
-- Reusable prompt templates for common tasks
-- At least 3 templates
+### .claude/commands/<name>.md × 4-8
+
+Bespoke per today's domain. Each command file: brief purpose sentence, then `## Inputs`, `## Steps` (numbered procedure), `## Output`.
+
+**Anti-patterns:**
+- Generic command names (`/analyze`, `/triage`, `/report`) reused across domains.
+- The legacy `/onboard` interview command (retired — workspaces are showcase artifacts, not personal projects to interview the user about).
+
+### context/concepts.md (80-200 lines)
+
+Real domain knowledge: key concepts, taxonomies, common failure modes, formulas/methods. Cite real standards, papers, specs where they apply.
+
+### context/workflows.md (50-150 lines)
+
+Step-by-step workflows tied to today's `technique` field from the engine. Decision trees, methodology phases, expert know-how.
+
+### context/references.md (30-100 lines)
+
+Lookup tables, cheat-sheets, links to upstream catalogues. Compact lookup data, not prose.
+
+### prompts/<name>.md × 2-4
+
+Reusable prompt templates for recurring tasks in today's domain. Each: `## Purpose`, `## Prompt Template` (parameterised slots in `[brackets]`), `## Expected Output`.
 
 ## Key Principles
 
-1. **CLAUDE.md = lightweight stubs** → context/for-agent/ = substance
-2. **The repo IS the memory** — no reliance on built-in memory features
-3. **/onboard is always required** — drives the Personalize stage
-4. **Slash commands define workflows** — repeatable, domain-specific
-5. **work-log/ tracks operations** — dated markdown files per session
-6. **planning/ has exactly one plan.md** — pivots recorded in pivots/ subdirectory
-7. **user-docs/ are deliverables** — polished, user-facing reference documents
+1. **Foundational shape, legacy depth.** Three flat dirs (`context/`, `prompts/`, `outputs/`) like the foundational plugin; per-workspace `.claude/commands/` like the legacy model.
+2. **Self-contained.** Workspace works without any plugin install — clone-and-go.
+3. **Foundational plugin is an *optional* enhancer**, not a dependency. CLAUDE.md mentions it; nothing breaks without it.
+4. **No `/onboard` requirement.** Workspaces are showcase artifacts; there's no user to interview.
+5. **No `planning/`, `work-log/`, `user-docs/`, `CREATION_REPORT.md`, `context/{project,role,constraints}.md`, `resources/`, `context/for-agent/` subdir.** All retired with the legacy spec.
+6. **Bespoke per topic.** Two consecutive daily workspaces should never share command names. Generic command sets across domains is the failure mode this exists to prevent.
 
-## COSINT Example Features (for inspiration)
+## Migration history
 
-The COSINT workspace demonstrates excellence with:
-- Specialized agents (evidence-processor, entity-profiler, correlation-analyst, etc.)
-- Graph data system (Maltego-style entities/relationships in JSON)
-- SpiderFoot integration for automated OSINT
-- Evidence management with chain of custody and SHA-256 verification
-- Import/migration commands for existing case files
-- Recommended MCP servers for the domain
-- Ethical use guidelines
+- **2026-04-01 → 2026-05-09** — workspaces followed the legacy `danielrosehill/Claude-Agent-Workspace-Model` spec verbatim (`.claude/commands/onboard.md`, `context/for-agent/`, `planning/`, `user-docs/`, `work-log/`, `CREATION_REPORT.md`, `resources/`). The upstream Claude-Agent-Workspace-Model repo was retired by the author and superseded by `Claude-Workspace-Foundational-Plugin`. The 32 workspaces from this period remain in `files/workspaces/` with the legacy shape — they are showcase artifacts of that era and are not retroactively migrated.
+- **2026-05-10 (briefly)** — two workspaces were built in pure-foundational shape (`hybrid-system-energy-management`, `soil-microbiome-management`) during a misfired migration. Same-day regeneration in the hybrid shape (this commit and the next).
+- **2026-05-10 → present** — hybrid model. New daily builds use the canonical hybrid skeleton at `skills/cognitropy-daily-build/templates/workspace-base/`.
+
+## Upstream references
+
+- `danielrosehill/Claude-Workspace-Foundational-Plugin` — https://github.com/danielrosehill/Claude-Workspace-Foundational-Plugin (vendored at `skills/cognitropy-daily-build/templates/foundational/` for reference; not used by the build).
+- `danielrosehill/Claude-Agent-Workspace-Model` — retired; the spec it described is preserved partially in this hybrid (`.claude/commands/`, deep `context/` substance) and partially abandoned (`/onboard`, `planning/`, `work-log/`, `user-docs/`, `CREATION_REPORT.md`).
