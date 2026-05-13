@@ -8,18 +8,18 @@
 
 <!-- COGNITROPY-STATS-START -->
 
-![Workspaces](https://img.shields.io/badge/workspaces-38-8b5cf6?style=flat-square&logo=github) ![Categories](https://img.shields.io/badge/categories-9-06b6d4?style=flat-square) ![Streak](https://img.shields.io/badge/streak-1%20days-10b981?style=flat-square) ![Last Build](https://img.shields.io/badge/last%20build-2026-05-12-3b82f6?style=flat-square) ![Project Day](https://img.shields.io/badge/project%20day-48-f59e0b?style=flat-square)
+![Workspaces](https://img.shields.io/badge/workspaces-38-8b5cf6?style=flat-square&logo=github) ![Categories](https://img.shields.io/badge/categories-20-06b6d4?style=flat-square) ![Streak](https://img.shields.io/badge/streak-1%20days-10b981?style=flat-square) ![Last Build](https://img.shields.io/badge/last%20build-2026-05-12-3b82f6?style=flat-square) ![Project Day](https://img.shields.io/badge/project%20day-48-f59e0b?style=flat-square)
 
 ### Project Statistics
 
 | Metric | Value |
 |--------|-------|
 | Total Workspaces | **38** |
-| Categories Covered | **9** |
+| Categories Covered | **20** |
 | Build Streak | **1 days** |
 | Project Day | **48** |
 | Last Build | **2026-05-12** |
-| Categories | Automotive & Engine, Cyber & DFIR, Earth Sciences, Environmental & Earth, Food & Agriculture, Hardware & Embedded, Life Sciences, RF/SDR/Signals, Space & Aviation |
+| Categories | Arts & Creative, Automotive & Engine, Computing & Software, Cyber & DFIR, Earth Sciences, Education & Training, Engineering & Technical, Environmental & Earth, Finance & Economics, Food & Agriculture, Hardware & Embedded, Life Sciences, Medical & Health, Outdoor & Adventure, Physical Sciences, RF/SDR/Signals, Security & Intelligence, Space & Aviation, Trades & Crafts, Transportation & Logistics |
 
 <!-- COGNITROPY-STATS-END -->
 
@@ -116,23 +116,24 @@ The diversity is the point. A workspace for mushroom foraging uses the same stru
   │  domain   │   │  workspace   │   │  no leaks    │   │  update  │   │  refresh   │
   └──────────┘   └──────────────┘   └──────────────┘   └──────────┘   └───────────┘
        │                │                   │                 │               │
-  5 salted hashes  CLAUDE.md          grep for keys     README.md      Static HTML
-  of today's date  /commands/         .pem, .env, .key  badges +       regenerated
-  → domain+method  /workflows/        API tokens        stats table    from engine
-  → crossover?     /resources/        passwords         git push       + GitHub API
+  5 salted hashes  CLAUDE.md          grep for keys     README badges  Static HTML
+  of today's date  .claude/commands/  .pem, .env, .key  + WORKSPACES   regenerated
+  → domain+method  context/concepts   API tokens        .md refresh    from engine
+  → crossover?     workflows + refs   passwords         + git push     + GitHub API
 ```
 
 ```
-  ~9:00 AM   Scheduled Claude agent wakes up
-     ↓       Clones this repo
-     ↓       Runs cognitropy.py → gets today's assignment
-     ↓       Checks existing workspaces to avoid duplicates
-     ↓       Builds the full workspace (CLAUDE.md, commands, workflows, resources...)
+  ~6:05 AM   Scheduled Claude agent wakes up
+     ↓       Pulls the cognitropy-library (private factory) and lab (public mirror)
+     ↓       Runs cognitropy.py → gets today's (category, domain, technique, spark)
+     ↓       Anti-clustering check against the last 5 days
+     ↓       Copies the hybrid skeleton, then AUTHORS bespoke content
+     ↓        (.claude/commands/, context/concepts/workflows/references, prompts)
      ↓       Scans for secrets leakage
-     ↓       Updates README index, badges, and stats table
-     ↓       Commits and pushes
-     ↓       Regenerates local dashboard HTML with fresh data
-     ↓       Cleans up local files
+     ↓       Commits to library; mirrors to lab
+     ↓       Refreshes WORKSPACES.md + README badges + cognitropy-history.json
+     ↓       Pushes lab; regenerates local dashboard HTML
+     ↓       Cleans up the ephemeral deploy-path workspace
   Done.      One new workspace in the repo. Every day.
 ```
 
@@ -142,30 +143,28 @@ The diversity is the point. A workspace for mushroom foraging uses the same stru
 
 Think of it as a ready-to-go AI assistant kit for a specific job. Each workspace is a folder you can point [Claude Code](https://claude.ai/claude-code) (or any compatible AI CLI) at, and it instantly becomes an expert in that domain. It knows what questions to ask, what workflows to follow, and what commands are available.
 
-Every workspace includes agent instructions, slash commands you can run (like `/triage` or `/analyze`), reference materials, prompt templates, and structured workflows. Clone one, run `/onboard`, and you're working.
+Every workspace bundles bespoke domain commands (like `/spectrum-sweep` for an SDR workspace or `/torque-split-design` for a hybrid-powertrain workspace — never generic `/analyze` or `/triage`), substantive domain knowledge, methodology, reference tables, and reusable prompt templates. Clone one, launch your AI CLI inside it, and you're working.
 
-They all follow the [Agent Workspace Model](https://github.com/danielrosehill/Claude-Agent-Workspace-Model) by Daniel Rosehill.
+Cognitropy workspaces follow a **hybrid** of two upstream Claude Code patterns: the directory shape from [`Claude-Workspace-Foundational-Plugin`](https://github.com/danielrosehill/Claude-Workspace-Foundational-Plugin) (flat `context/`, `prompts/`, `outputs/` — no legacy ceremony), plus per-workspace `.claude/commands/` for bespoke depth. The full spec is in [WORKSPACE_SPEC.md](./WORKSPACE_SPEC.md).
 
 ```
 workspace-name/
-├── CLAUDE.md                      # Agent brain — role, commands (lightweight)
-├── README.md                      # Human docs — what, why, how
+├── CLAUDE.md                      # Agent role, available commands, foundational instructions (~25-40 lines)
+├── README.md                      # Human-facing showcase: what, why, quick start, refs (~50-100 lines)
+├── .claude/
+│   └── commands/                  # 4-8 bespoke domain commands (NO required /onboard)
+│       └── <name>.md              # Each: brief purpose + Inputs / Steps / Output
 ├── context/
-│   ├── project.md                 # Your project (populated by /onboard)
-│   ├── role.md                    # Your role and expertise level
-│   ├── constraints.md             # Boundaries and preferences
-│   └── for-agent/
-│       ├── environment.md         # Tools, OS, setup details
-│       └── workflows.md           # Deep domain workflows (200+ lines)
-├── .claude/commands/
-│   ├── onboard.md                 # REQUIRED — workspace initialization
-│   └── [domain-specific].md       # 4-8 slash commands per workspace
-├── prompts/                       # 3+ reusable prompt templates
-├── resources/                     # Reference materials, checklists
-├── work-log/                      # Session history and findings
-├── outputs/                       # Generated reports and exports
-└── planning/                      # Active goals and investigation plans
+│   ├── concepts.md                # Domain knowledge — taxonomies, frameworks, failure modes (80-200 lines)
+│   ├── workflows.md               # Methodology — step-by-step procedures, decision trees (50-150 lines)
+│   └── references.md              # Lookup tables, cheat-sheets, links to upstream catalogues (30-100 lines)
+├── prompts/                       # 2-4 bespoke reusable prompt templates
+└── outputs/                       # Generated artifacts; .gitkeep at scaffold time
 ```
+
+Workspaces are self-contained — no plugin install required. If you have the [`workspace-foundational`](https://github.com/danielrosehill/Claude-Workspace-Foundational-Plugin) plugin installed globally, additional cross-workspace commands (`/workspace-foundational:context-sweep`, `/workspace-foundational:find-template`) work alongside the workspace's own. Without it, the bespoke `.claude/commands/` still work.
+
+> **Older workspaces** (project days 1–34, before 2026-05-10) follow a heavier legacy structure (`/onboard` interview command, `context/{project,role,constraints}.md`, `context/for-agent/`, `planning/`, `work-log/`, `user-docs/`, `CREATION_REPORT.md`) inherited from the retired [`Claude-Agent-Workspace-Model`](https://github.com/danielrosehill/Claude-Agent-Workspace-Model) spec. They are kept as historical showcase artifacts — not retroactively migrated.
 
 ---
 
@@ -177,122 +176,27 @@ git clone https://github.com/DaxxSec/cognitropy-lab.git
 cd cognitropy-lab
 
 # Pick a workspace — any workspace
-cd firmware-re-workspace   # or phishing-kit-analyzer, ecu-tune-engine-build, etc.
+cd wireless-protocol-re   # or phishing-kit-analyzer, hybrid-system-energy-management, ...
 
-# Launch Claude Code and onboard
+# Open it as a Claude Code workspace
 claude
-/onboard
-
-# Start working — use slash commands, ask questions, let the agent guide you
-/triage
-/analyze
 ```
 
+Inside the workspace, the agent will read `CLAUDE.md` automatically and surface the bespoke commands defined in `.claude/commands/`. For `wireless-protocol-re` that means `/spectrum-sweep`, `/decode-signal`, `/protocol-map`, `/compare-known`, `/report-findings`, `/capture-plan`. For `hybrid-system-energy-management` that means `/torque-split-design`, `/posterior-update`, `/ecms-tune`, `/wear-vs-fuel-pareto`, etc. Every workspace publishes its own command set in its `CLAUDE.md` under `## Available Commands` — no two workspaces share a command list, by design.
+
 Each workspace is self-contained. The agent uses the repo as its memory — no cloud dependencies, no accounts to create, no API keys needed.
+
+> **Browse all workspaces by category** → see [`WORKSPACES.md`](./WORKSPACES.md).
 
 ---
 
 ## Workspace Index
 
-### Cybersecurity & DFIR
+All current workspaces, grouped by category and updated daily by the build pipeline:
 
-| Workspace | Description |
-|---|---|
-| [Firmware RE Workspace](./firmware-re-workspace) | Firmware reverse engineering assistant — extract, disassemble, analyze, and document embedded firmware images to uncover architecture, attack surface, vulnerabilities, and hardcoded secrets. |
-| [Phishing Kit Analyzer](./phishing-kit-analyzer) | Phishing kit analysis specialist — dissect, reverse-engineer, and extract intelligence from phishing kits deployed on compromised infrastructure. |
-| [Supply Chain Security Audit](./supply-chain-security-audit) | Software supply chain security auditor using a triage methodology adapted from palliative care symptom management — dependency inventory, SBOM generation (CycloneDX/SPDX), vendor risk assessment, CI/CD pipeline integrity checks, and prioritized remediation with "comfort measures" for quick wins. Crossover: Cyber & DFIR × Medical & Health. |
+**→ See [`WORKSPACES.md`](./WORKSPACES.md) for the full catalog.**
 
-### Automotive & Engine Tuning
-
-| Workspace | Description |
-|---|---|
-| [ECU Tune & Engine Build](./ecu-tune-engine-build-workspace) | Performance tuning and engine build assistant — ECU calibration, datalog analysis, engine modification planning, and build documentation. |
-
-### Development & Debugging
-
-| Workspace | Description |
-|---|---|
-| [Expo Debugger](./expo-debugger-workspace) | Senior React Native / Expo debugging specialist — systematic triage, diagnosis, and fix for Expo-managed apps with Railway backends. |
-
-### Environmental Science & Field Safety
-
-| Workspace | Description |
-|---|---|
-| [Limnology Safety Monitor](./limnology-safety-monitor) | Freshwater field science with integrated safety protocol enforcement — site risk assessment, sampling campaign design, water quality analysis, HAB response, ice safety, incident reporting, and compliance auditing for lake and river fieldwork. |
-
-### Wilderness & Ecology
-
-| Workspace | Description |
-|---|---|
-| [Wildland Invasive Scout](./wildland-invasive-scout) | Bushcraft intelligence meets invasive species management — systematic field surveys, anomaly detection scoring, species ID with the 4-Feature Rule, foraging safety cross-checks, and citizen science reporting. For guides, foragers, land stewards, and anyone who wants to understand what they're walking through. |
-
-### Food Production & Aquaculture
-
-| Workspace | Description |
-|---|---|
-| [Aquaponics Anomaly Monitor](./aquaponics-anomaly-monitor) | Closed-loop aquaponics system monitoring with automated anomaly detection — three-tier alert engine (threshold, rate-of-change, compound events), biofilter health assessment, water chemistry analysis, and root cause diagnosis for fish/plant systems. Catch the pH crash before it becomes a fish kill. |
-| [Aquaponics ICS/OT Security](./aquaponics-ics-security) | Cybersecurity for smart agriculture control systems — OT asset inventory (Purdue Model), STRIDE + ATT&CK for ICS threat modeling, network segmentation audit, firmware CVE correlation, ICS incident response with biological safety checkpoints, and hardening checklists for PLCs, Raspberry Pi controllers, MQTT brokers, and SCADA. The fish can die from a Modbus write as easily as a pH spike. |
-
-### RF / SDR / Signals
-
-| Workspace | Description |
-|---|---|
-| [Satellite Comms Protocol Sim](./satellite-comms-protocol-sim) | Satellite communication protocol simulation and scenario testing — AX.25/CCSDS/DVB-S2 frame decoding, end-to-end link budget analysis, Doppler pass simulation, protocol test vector generation, telemetry parsing, and security vulnerability auditing for cubesat, amateur satellite, and SDR enthusiasts. Works from RTL-SDR captures up to full CCSDS spacecraft commanding chains. |
-
-### Automotive Sensing & SDR
-
-| Workspace | Description |
-|---|---|
-| [Wireless TPMS Analyzer](./wireless-tpms-analyzer) | Tire Pressure Monitoring System signal analysis — TPMS packet decoding, sensor ID tracking, RF capture workflows, and vehicle-specific protocol documentation using RTL-SDR and HackRF. |
-| [Wireless Protocol RE](./wireless-protocol-re) | Wireless protocol reverse engineering agent — systematic capture, decode, and reverse-engineer unknown or proprietary wireless protocols using SDR hardware with resource optimization algorithms for efficient spectrum analysis, signal priority queuing, and parallel decode pipelines. |
-
-### Engineering & Technical
-
-| Workspace | Description |
-|---|---|
-| [Hydraulic Engineering Fluid Dynamics](./hydraulic-engineering-fluid-dynamics) | Hydraulic systems engineering assistant — fluid dynamics calculations, pipe network design, pump selection, system troubleshooting, and compliance documentation for civil and mechanical hydraulic projects. |
-| [Railway Signaling Systems](./railway-signaling-systems) | Railway signaling engineering apprenticeship workspace — track circuits, interlocking logic, ETCS/ERTMS, axle counters, ATP/TPWS, SIL requirements, and historical incident analysis. Five-level apprenticeship progression tracking from Foundation trainee to Expert/CEng. For signal technicians, apprentices, and engineers across the full IRSE competency ladder. |
-| [Dam Safety Inspection](./dam-safety-inspection) | Dam safety inspection and anomaly detection specialist — piezometer/inclinometer/seepage data analysis, automated anomaly detection using statistical methods, FEMA/FERC/USACE regulatory compliance, failure mode screening, Emergency Action Plan review, and condition assessment reporting for embankment, concrete, and arch dams. |
-
-### Medical & Health
-
-| Workspace | Description |
-|---|---|
-| [Emergency Triage Protocols](./emergency-triage-protocols) | Emergency medical triage specialist — START/JumpSTART triage algorithms, mass casualty incident management, patient assessment workflows, resource allocation, and after-action reporting for first responders and emergency planners. |
-| [Palliative Care Symptom Checklists](./palliative-care-symptom-checklists) | Palliative / hospice symptom-assessment assistant — administers validated instruments (ESAS-r, IPOS, PAINAD, Abbey, RASS, CAM, PPS, FICA), computes composites with published scoring rules, trends across encounters, and drafts SBAR / progress / family-meeting notes. Decision-support only: never prescribes, diagnoses, or enters anything into the EHR unsigned. PHI-aware: session-scoped placeholders, no identifiers on disk. |
-
-### Education & Training
-
-| Workspace | Description |
-|---|---|
-| [Curriculum Design Peer Review](./curriculum-design-peer-review) | Instructional design and curriculum peer review specialist — backward design unit planning, Bloom's Taxonomy objective writing, structured peer review workflows, standards alignment mapping, and rubric generation for educators at all levels. |
-### Finance & Economics
-
-| Workspace | Description |
-|---|---|
-| [Forensic Accounting & Fraud Detection](./forensic-accounting-fraud-detection) | Financial fraud investigation specialist — Benford's Law analysis, Beneish M-Score earnings manipulation screening, AP/GL transaction anomaly detection, entity structure mapping, and investigation workpaper generation following ACFE standards. For auditors, investigators, and DFIR practitioners expanding into financial crime. |
-
-### Security & Intelligence
-
-| Workspace | Description |
-|---|---|
-| [Security Clearance Vetting & Predictive Reinvestigation](./security-clearance-vetting-investigation) | Personnel security reasoning aid that applies predictive-maintenance scheduling to clearance holder oversight — SEAD 4 13-guideline adjudication, continuous vetting alert triage, condition-based reinvestigation planning, and risk-weighted caseload prioritization. For background investigators, adjudicators, FSOs, and insider-threat analysts moving from calendar-based PR to Trusted Workforce 2.0 / CV. |
-
-### Outdoor & Adventure
-
-| Workspace | Description |
-|---|---|
-| [Avalanche Forecasting & Slope Analysis](./avalanche-forecasting-slope-analysis) | Snow-science forecasting co-pilot for ski patrols, avalanche centers, and DOT highway programs — daily hazard bulletin drafting, stability test interpretation (ECT/PST/CT), persistent weak layer tracking, and a predictive-maintenance cadence for instruments, mitigation assets, and bulletin language discipline. Built on the standardized 9-type avalanche problem framework used by CAIC/AAC/Avalanche Canada. |
-
-
-
-### Physical Sciences
-
-| Workspace | Description |
-|---|---|
-| [Optics System Design & FMEA](./optics-system-fmea) | Optical system design co-pilot with integrated Failure Mode and Effects Analysis — paraxial + real-ray layout, RPN-scored design FMEA, Monte Carlo tolerancing, stray-light audits, thermal/vibration review, and IEC 60825 laser-safety classification. For optical engineers, imaging-system builders, and physicists who want FMEA in the loop from day one, not bolted on at CDR. |
-
----
+Each entry links to the workspace folder and includes its tagline. The index regenerates as part of every daily build, so it stays in sync with what's actually in the repo.
 
 ## Engine Stats
 
@@ -323,7 +227,7 @@ python3 cognitropy.py 2026-04-02
 python3 cognitropy.py 2026-04-03
 
 # Set up a scheduled Claude agent to build workspaces daily
-# (see the Agent Workspace Model for structure conventions)
+# (see WORKSPACE_SPEC.md for structure conventions)
 ```
 
 The workspace model works for literally anything. The domains are just the fun part.
@@ -334,7 +238,7 @@ The workspace model works for literally anything. The domains are just the fun p
 
 The Cognitropy Lab is built by [DaxxSec](https://github.com/DaxxSec) & Claude (Anthropic).
 
-Inspired by [Daniel Rosehill's Claude Code Projects Index](https://github.com/danielrosehill/Claude-Code-Projects-Index) and the [Agent Workspace Model](https://github.com/danielrosehill/Claude-Agent-Workspace-Model).
+Inspired by [Daniel Rosehill's Claude Code Projects Index](https://github.com/danielrosehill/Claude-Code-Projects-Index) and built on a hybrid of the (now-retired) Claude-Agent-Workspace-Model and the [`Claude-Workspace-Foundational-Plugin`](https://github.com/danielrosehill/Claude-Workspace-Foundational-Plugin) — see [WORKSPACE_SPEC.md](./WORKSPACE_SPEC.md) for the spec.
 
 The daily build pipeline: **Cognitropy assigns a domain → Claude agent builds the workspace → secrets scan → README stats update → push to GitHub → dashboard regeneration → local cleanup.** Fully autonomous, every morning.
 
