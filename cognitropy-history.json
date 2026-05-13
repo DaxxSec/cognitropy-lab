@@ -1,7 +1,7 @@
 {
   "version": 1,
   "project_start": "2026-03-26",
-  "updated_at": "2026-05-12",
+  "updated_at": "2026-05-13",
   "entries": [
     {
       "slug": "wildland-invasive-scout",
@@ -306,6 +306,14 @@
       "date": "2026-05-12",
       "day_number": 48,
       "technique": "using quality control statistical methods"
+    },
+    {
+      "slug": "superconductor-characterization",
+      "category": "Physical Sciences",
+      "domain": "superconductor characterization",
+      "date": "2026-05-13",
+      "day_number": 49,
+      "technique": "with capacity planning models"
     }
   ]
 }
