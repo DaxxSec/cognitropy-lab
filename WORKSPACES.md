@@ -1,9 +1,9 @@
 # Cognitropy Workspaces
 
 > Auto-generated from each workspace's README tagline and `cognitropy-history.json`.
-> Regenerates daily as part of the `cognitropy-daily-build` pipeline. Last refresh: **2026-05-13**.
+> Regenerates daily as part of the `cognitropy-daily-build` pipeline. Last refresh: **2026-05-14**.
 
-**39 workspaces across 20 categories.** Browse by category below, or explore the full project context in the [README](./README.md).
+**40 workspaces across 21 categories.** Browse by category below, or explore the full project context in the [README](./README.md).
 
 ## Categories
 
@@ -27,6 +27,7 @@
 - [Space & Aviation](#space--aviation) (2)
 - [Trades & Crafts](#trades--crafts) (1)
 - [Transportation & Logistics](#transportation--logistics) (1)
+- [Unusual & Niche](#unusual--niche) (1)
 
 ---
 
@@ -168,6 +169,12 @@
 | Workspace | Tagline |
 |---|---|
 | [Traffic Engineering Signal Timing — with Environmental Impact Assessment](./traffic-engineering-signal-timing) | An agent workspace for designing, retiming, and evaluating signalized-intersection control plans on the **delay × emissions × fuel × noise** Pareto frontier rather than as a single-objective level-of-service exercise. |
+
+## Unusual & Niche
+
+| Workspace | Tagline |
+|---|---|
+| [Roller Coaster Design Forces Physics Workspace](./roller-coaster-design-forces-physics) | A ride-dynamics workspace for triaging roller coaster forces — g-loads, jerks, restraint demands — against ASTM F2291 / EN 13814 envelopes using explicit decision trees. |
 
 ---
 

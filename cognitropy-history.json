@@ -1,7 +1,7 @@
 {
   "version": 1,
   "project_start": "2026-03-26",
-  "updated_at": "2026-05-13",
+  "updated_at": "2026-05-14",
   "entries": [
     {
       "slug": "wildland-invasive-scout",
@@ -314,6 +314,14 @@
       "date": "2026-05-13",
       "day_number": 49,
       "technique": "with capacity planning models"
+    },
+    {
+      "slug": "roller-coaster-design-forces-physics",
+      "category": "Unusual & Niche",
+      "domain": "roller coaster design forces physics",
+      "date": "2026-05-14",
+      "day_number": 50,
+      "technique": "with decision tree triage workflows"
     }
   ]
 }
