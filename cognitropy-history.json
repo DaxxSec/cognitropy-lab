@@ -1,7 +1,7 @@
 {
   "version": 1,
   "project_start": "2026-03-26",
-  "updated_at": "2026-05-14",
+  "updated_at": "2026-05-15",
   "entries": [
     {
       "slug": "wildland-invasive-scout",
@@ -322,6 +322,14 @@
       "date": "2026-05-14",
       "day_number": 50,
       "technique": "with decision tree triage workflows"
+    },
+    {
+      "slug": "renewable-energy-siting-analysis",
+      "category": "Environmental & Earth",
+      "domain": "renewable energy siting analysis",
+      "date": "2026-05-15",
+      "day_number": 51,
+      "technique": "with capacity planning models"
     }
   ]
 }

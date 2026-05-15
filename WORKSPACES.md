@@ -1,9 +1,9 @@
 # Cognitropy Workspaces
 
 > Auto-generated from each workspace's README tagline and `cognitropy-history.json`.
-> Regenerates daily as part of the `cognitropy-daily-build` pipeline. Last refresh: **2026-05-14**.
+> Regenerates daily as part of the `cognitropy-daily-build` pipeline. Last refresh: **2026-05-15**.
 
-**40 workspaces across 21 categories.** Browse by category below, or explore the full project context in the [README](./README.md).
+**41 workspaces across 21 categories.** Browse by category below, or explore the full project context in the [README](./README.md).
 
 ## Categories
 
@@ -14,7 +14,7 @@
 - [Earth Sciences](#earth-sciences) (1)
 - [Education & Training](#education--training) (2)
 - [Engineering & Technical](#engineering--technical) (4)
-- [Environmental & Earth](#environmental--earth) (1)
+- [Environmental & Earth](#environmental--earth) (2)
 - [Finance & Economics](#finance--economics) (3)
 - [Food & Agriculture](#food--agriculture) (2)
 - [Hardware & Embedded](#hardware--embedded) (1)
@@ -84,6 +84,7 @@
 
 | Workspace | Tagline |
 |---|---|
+| [Renewable Energy Siting Analysis Workspace](./renewable-energy-siting-analysis) | A siting workspace that reads capacity planning models through a puppetry movement-mechanics lens — every portfolio is an articulated body of joints, linkages, and drives. |
 | [Wildland Invasive Scout](./wildland-invasive-scout) | Bushcraft Intelligence + Invasive Species Management Methodology |
 
 ## Finance & Economics
