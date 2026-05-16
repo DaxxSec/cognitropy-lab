@@ -1,14 +1,14 @@
 # Cognitropy Workspaces
 
 > Auto-generated from each workspace's README tagline and `cognitropy-history.json`.
-> Regenerates daily as part of the `cognitropy-daily-build` pipeline. Last refresh: **2026-05-15**.
+> Regenerates daily as part of the `cognitropy-daily-build` pipeline. Last refresh: **2026-05-16**.
 
-**41 workspaces across 21 categories.** Browse by category below, or explore the full project context in the [README](./README.md).
+**42 workspaces across 21 categories.** Browse by category below, or explore the full project context in the [README](./README.md).
 
 ## Categories
 
 - [Arts & Creative](#arts--creative) (1)
-- [Automotive & Engine](#automotive--engine) (2)
+- [Automotive & Engine](#automotive--engine) (3)
 - [Computing & Software](#computing--software) (1)
 - [Cyber & DFIR](#cyber--dfir) (3)
 - [Earth Sciences](#earth-sciences) (1)
@@ -41,6 +41,7 @@
 
 | Workspace | Tagline |
 |---|---|
+| [Vehicle Crash Test Interpretation Workspace](./vehicle-crash-test-interpretation) | Turn raw crash-test instrumentation into Bayesian probability statements about injury, restraint performance, and regulatory compliance. |
 | [Hybrid System Energy Management Workspace](./hybrid-system-energy-management) | A Claude Code workspace for designing and tuning energy-management strategies (EMS) for hybrid electric powertrains — HEV, PHEV, and MHEV — across parallel, series, and power-split architectures, framed throughout as **Bayesian probability assessment**. |
 | [ECU Tune & Engine Build Workspace](./ecu-tune-engine-build-workspace) | A Claude Agent Workspace for performance tuners, engine builders, and automotive enthusiasts who want an intelligent co-pilot for ECU calibration, build documentation, datalog analysis, and modification planning. |
 
