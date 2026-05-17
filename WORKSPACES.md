@@ -1,9 +1,9 @@
 # Cognitropy Workspaces
 
 > Auto-generated from each workspace's README tagline and `cognitropy-history.json`.
-> Regenerates daily as part of the `cognitropy-daily-build` pipeline. Last refresh: **2026-05-16**.
+> Regenerates daily as part of the `cognitropy-daily-build` pipeline. Last refresh: **2026-05-17**.
 
-**42 workspaces across 21 categories.** Browse by category below, or explore the full project context in the [README](./README.md).
+**43 workspaces across 21 categories.** Browse by category below, or explore the full project context in the [README](./README.md).
 
 ## Categories
 
@@ -21,7 +21,7 @@
 - [Life Sciences](#life-sciences) (1)
 - [Medical & Health](#medical--health) (2)
 - [Outdoor & Adventure](#outdoor--adventure) (1)
-- [Physical Sciences](#physical-sciences) (2)
+- [Physical Sciences](#physical-sciences) (3)
 - [RF/SDR/Signals](#rfsdrsignals) (4)
 - [Security & Intelligence](#security--intelligence) (4)
 - [Space & Aviation](#space--aviation) (2)
@@ -132,6 +132,7 @@
 
 | Workspace | Tagline |
 |---|---|
+| [Electromagnetic Field Mapping Workspace](./electromagnetic-field-mapping) | A decision-tree-driven Claude agent workspace for planning, executing, and interpreting EM field surveys — from substations to server rooms to TSCM sweeps. |
 | [Superconductor Characterization Workspace](./superconductor-characterization) | Run the cryogenic measurement lab like a constrained service system — qualify Tc, Jc, Hc2, and Rs on LTS and HTS samples while keeping liquid-helium burn, magnet hours, and queue length inside planned headroom. |
 | [Optics System Fmea](./optics-system-fmea) | A Claude Agent Workspace for **designing and de-risking optical systems using Failure Mode and Effects Analysis (FMEA).** |
 

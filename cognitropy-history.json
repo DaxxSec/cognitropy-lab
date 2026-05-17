@@ -1,7 +1,7 @@
 {
   "version": 1,
   "project_start": "2026-03-26",
-  "updated_at": "2026-05-16",
+  "updated_at": "2026-05-17",
   "entries": [
     {
       "slug": "wildland-invasive-scout",
@@ -338,6 +338,14 @@
       "date": "2026-05-16",
       "day_number": 52,
       "technique": "using Bayesian probability assessment"
+    },
+    {
+      "slug": "electromagnetic-field-mapping",
+      "category": "Physical Sciences",
+      "domain": "electromagnetic field mapping",
+      "date": "2026-05-17",
+      "day_number": 53,
+      "technique": "with decision tree triage workflows"
     }
   ]
 }
