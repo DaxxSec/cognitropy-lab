@@ -1,9 +1,9 @@
 # Cognitropy Workspaces
 
 > Auto-generated from each workspace's README tagline and `cognitropy-history.json`.
-> Regenerates daily as part of the `cognitropy-daily-build` pipeline. Last refresh: **2026-05-17**.
+> Regenerates daily as part of the `cognitropy-daily-build` pipeline. Last refresh: **2026-05-18**.
 
-**43 workspaces across 21 categories.** Browse by category below, or explore the full project context in the [README](./README.md).
+**44 workspaces across 21 categories.** Browse by category below, or explore the full project context in the [README](./README.md).
 
 ## Categories
 
@@ -24,7 +24,7 @@
 - [Physical Sciences](#physical-sciences) (3)
 - [RF/SDR/Signals](#rfsdrsignals) (4)
 - [Security & Intelligence](#security--intelligence) (4)
-- [Space & Aviation](#space--aviation) (2)
+- [Space & Aviation](#space--aviation) (3)
 - [Trades & Crafts](#trades--crafts) (1)
 - [Transportation & Logistics](#transportation--logistics) (1)
 - [Unusual & Niche](#unusual--niche) (1)
@@ -158,6 +158,7 @@
 
 | Workspace | Tagline |
 |---|---|
+| [Rocket Engine Testing Thrust Measurement Workspace](./rocket-engine-testing-thrust-measurement) | A ground-test propulsion workspace for hot-fire risk planning and thrust-stand uncertainty work — every failure mode lands on a MIL-STD-882E likelihood × severity matrix before the propellant valves crack open. |
 | [Mars Terrain Analysis & Rover Traverse Planning Workspace](./mars-terrain-analysis-rover-planning) | An agent workspace for turning orbital terrain data into safe, science-rich rover sol plans — using a borrowed analytical framework from jazz harmony (chord progressions, voice leading, cadence, substitution) to evaluate traverse candidates, and a structured peer review workflow (driver / science / mech / autonomy / safety) to gate every uplink. |
 | [Satellite Comms Protocol Sim](./satellite-comms-protocol-sim) | Part of the [Cognitropy Lab](https://github.com/DaxxSec/cognitropy-lab) — daily AI agent workspace builds exploring the full spectrum of human knowledge. |
 

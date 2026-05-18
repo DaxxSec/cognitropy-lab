@@ -1,7 +1,7 @@
 {
   "version": 1,
   "project_start": "2026-03-26",
-  "updated_at": "2026-05-17",
+  "updated_at": "2026-05-18",
   "entries": [
     {
       "slug": "wildland-invasive-scout",
@@ -346,6 +346,14 @@
       "date": "2026-05-17",
       "day_number": 53,
       "technique": "with decision tree triage workflows"
+    },
+    {
+      "slug": "rocket-engine-testing-thrust-measurement",
+      "category": "Space & Aviation",
+      "domain": "rocket engine testing thrust measurement",
+      "date": "2026-05-18",
+      "day_number": 54,
+      "technique": "using risk scoring matrices"
     }
   ]
 }
