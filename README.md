@@ -86,24 +86,25 @@ The domain pool spans **363 wildly diverse fields** across **22 categories** —
 
 ```bash
 python3 cognitropy.py              # Today's assignment
-python3 cognitropy.py 2026-04-05   # Check any date
+python3 cognitropy.py 2026-05-12   # Check any date
 ```
 
-**Sample schedule (seeded by date, every day is a surprise):**
+**Recent builds (the last 10 days the engine has surfaced; click any to open the workspace):**
 
-| Date | Domain | Category | Type |
+| Date | Domain | Category | Engine technique |
 |---|---|---|---|
-| Mar 26 | Theme Park Queue Optimization × Vertical Farming | Unusual & Niche | **Crossover** |
-| Mar 27 | EVA Procedure Planning | Space & Aviation | Standard |
-| Mar 28 | Permaculture Design | Food & Agriculture | Standard |
-| Mar 29 | Driveline Vibration Analysis | Automotive & Engine | Standard |
-| Mar 30 | Satellite Communication Protocols | RF/SDR/Signals | Standard |
-| Mar 31 | Hydraulic Engineering Fluid Dynamics | Engineering & Technical | Standard |
-| Apr 05 | Falconry Bird Training × Security Log Analysis | Outdoor & Adventure | **Crossover** |
-| Apr 09 | Film Restoration × Heraldry | Arts & Creative | **Crossover** |
-| Apr 11 | Brake System Failure Analysis × Dendrochronology | Automotive & Engine | **Crossover** |
+| May 18 | [Rocket Engine Testing Thrust Measurement](./rocket-engine-testing-thrust-measurement) | Space & Aviation | Risk scoring matrices |
+| May 17 | [Electromagnetic Field Mapping](./electromagnetic-field-mapping) | Physical Sciences | Decision tree triage workflows |
+| May 16 | [Vehicle Crash Test Interpretation](./vehicle-crash-test-interpretation) | Automotive & Engine | Bayesian probability assessment |
+| May 15 | [Renewable Energy Siting Analysis](./renewable-energy-siting-analysis) | Environmental & Earth | Capacity planning models |
+| May 14 | [Roller Coaster Design Forces Physics](./roller-coaster-design-forces-physics) | Unusual & Niche | Decision tree triage workflows |
+| May 13 | [Superconductor Characterization](./superconductor-characterization) | Physical Sciences | Capacity planning models |
+| May 12 | [RF Spectrum Analysis](./rf-spectrum-analysis) | RF/SDR/Signals | Quality control statistical methods |
+| May 10 | [Soil Microbiome Management](./soil-microbiome-management) | Food & Agriculture | Time-series trend analysis |
+| May 09 | [Hybrid System Energy Management](./hybrid-system-energy-management) | Automotive & Engine | Bayesian probability assessment |
+| May 08 | [Counterintelligence Analysis Motive Identification](./counterintelligence-analysis-motive-identification) | Security & Intelligence | Standardized inspection checklists |
 
-The diversity is the point. A workspace for mushroom foraging uses the same structured methodology as one for malware analysis — triage, evidence collection, documentation, reporting. The patterns transfer. The domains are just the fun part.
+Same engine, same technique pool — wildly different domains, and the *technique modifier* (the rightmost column) gets re-rolled per day, so even when two days land in the same category the workflow framing is different. The full catalog is in [`WORKSPACES.md`](./WORKSPACES.md); the cumulative history of every day's assignment is in [`cognitropy-history.json`](./cognitropy-history.json).
 
 ---
 
