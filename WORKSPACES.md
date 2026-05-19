@@ -1,15 +1,15 @@
 # Cognitropy Workspaces
 
 > Auto-generated from each workspace's README tagline and `cognitropy-history.json`.
-> Regenerates daily as part of the `cognitropy-daily-build` pipeline. Last refresh: **2026-05-18**.
+> Regenerates daily as part of the `cognitropy-daily-build` pipeline. Last refresh: **2026-05-19**.
 
-**44 workspaces across 21 categories.** Browse by category below, or explore the full project context in the [README](./README.md).
+**45 workspaces across 21 categories.** Browse by category below, or explore the full project context in the [README](./README.md).
 
 ## Categories
 
 - [Arts & Creative](#arts--creative) (1)
 - [Automotive & Engine](#automotive--engine) (3)
-- [Computing & Software](#computing--software) (1)
+- [Computing & Software](#computing--software) (2)
 - [Cyber & DFIR](#cyber--dfir) (3)
 - [Earth Sciences](#earth-sciences) (1)
 - [Education & Training](#education--training) (2)
@@ -49,6 +49,7 @@
 
 | Workspace | Tagline |
 |---|---|
+| [API Design Specification Workspace](./api-design-specification) | Treat API spec authoring as multi-source intelligence fusion: collect signals from telemetry, tickets, standards, peers, and stakeholders; weight them; produce a single OpenAPI specification with traceable provenance for every operation. |
 | [Expo App Debugger Workspace](./expo-debugger-workspace) | A Claude agent workspace purpose-built for debugging React Native apps built with the Expo framework and Railway backends. Designed to take you from cryptic error message to working fix with minimal frustration. |
 
 ## Cyber & DFIR
