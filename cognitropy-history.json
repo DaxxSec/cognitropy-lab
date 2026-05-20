@@ -9,7 +9,13 @@
       "domain": "wildland invasive scout",
       "date": "2026-04-01",
       "day_number": 1,
-      "technique": "with predictive maintenance scheduling"
+      "technique": "with predictive maintenance scheduling",
+      "primary_category": "Medical & Health",
+      "primary_domain": "emergency triage protocols",
+      "secondary_category": null,
+      "secondary_domain": null,
+      "is_crossover": false,
+      "spark": null
     },
     {
       "slug": "limnology-safety-monitor",
@@ -17,7 +23,13 @@
       "domain": "limnology safety monitor",
       "date": "2026-04-02",
       "day_number": 2,
-      "technique": "with automated anomaly detection"
+      "technique": "with automated anomaly detection",
+      "primary_category": "Education & Training",
+      "primary_domain": "curriculum design learning objectives",
+      "secondary_category": null,
+      "secondary_domain": null,
+      "is_crossover": false,
+      "spark": null
     },
     {
       "slug": "aquaponics-anomaly-monitor",
@@ -25,7 +37,13 @@
       "domain": "aquaponics anomaly monitor",
       "date": "2026-04-03",
       "day_number": 3,
-      "technique": "using resource optimization algorithms"
+      "technique": "using resource optimization algorithms",
+      "primary_category": "RF/SDR/Signals",
+      "primary_domain": "wireless protocol reverse engineering",
+      "secondary_category": null,
+      "secondary_domain": null,
+      "is_crossover": false,
+      "spark": null
     },
     {
       "slug": "aquaponics-ics-security",
@@ -33,7 +51,13 @@
       "domain": "aquaponics ics security",
       "date": "2026-04-04",
       "day_number": 4,
-      "technique": "using simulation and scenario testing"
+      "technique": "using simulation and scenario testing",
+      "primary_category": "Food & Agriculture",
+      "primary_domain": "heritage grain preservation",
+      "secondary_category": null,
+      "secondary_domain": null,
+      "is_crossover": false,
+      "spark": null
     },
     {
       "slug": "forensic-accounting-fraud-detection",
@@ -41,7 +65,13 @@
       "domain": "forensic accounting fraud detection",
       "date": "2026-04-05",
       "day_number": 5,
-      "technique": "using stakeholder communication templates"
+      "technique": "using stakeholder communication templates",
+      "primary_category": "Outdoor & Adventure",
+      "primary_domain": "falconry bird training",
+      "secondary_category": "Cyber & DFIR",
+      "secondary_domain": "security log analysis",
+      "is_crossover": true,
+      "spark": "Build a workspace that applies security log analysis methodology to falconry bird training problems."
     },
     {
       "slug": "railway-signaling-systems",
@@ -49,7 +79,13 @@
       "domain": "railway signaling systems",
       "date": "2026-04-06",
       "day_number": 6,
-      "technique": "with inventory and supply chain tracking"
+      "technique": "with inventory and supply chain tracking",
+      "primary_category": "Life Sciences",
+      "primary_domain": "arachnology venom characterization",
+      "secondary_category": null,
+      "secondary_domain": null,
+      "is_crossover": false,
+      "spark": null
     },
     {
       "slug": "security-clearance-vetting-investigation",
@@ -57,7 +93,13 @@
       "domain": "security clearance vetting investigation",
       "date": "2026-04-07",
       "day_number": 7,
-      "technique": "with timeline reconstruction"
+      "technique": "with timeline reconstruction",
+      "primary_category": "Security & Intelligence",
+      "primary_domain": "hostage rescue planning terrain",
+      "secondary_category": null,
+      "secondary_domain": null,
+      "is_crossover": false,
+      "spark": null
     },
     {
       "slug": "optics-system-fmea",
@@ -65,7 +107,13 @@
       "domain": "optics system fmea",
       "date": "2026-04-08",
       "day_number": 8,
-      "technique": "using taxonomy and classification systems"
+      "technique": "using taxonomy and classification systems",
+      "primary_category": "Space & Aviation",
+      "primary_domain": "satellite deorbiting controlled descent",
+      "secondary_category": null,
+      "secondary_domain": null,
+      "is_crossover": false,
+      "spark": null
     },
     {
       "slug": "satellite-comms-protocol-sim",
@@ -73,7 +121,13 @@
       "domain": "satellite comms protocol sim",
       "date": "2026-04-09",
       "day_number": 9,
-      "technique": "using peer review workflows"
+      "technique": "using peer review workflows",
+      "primary_category": "Arts & Creative",
+      "primary_domain": "film restoration degradation analysis",
+      "secondary_category": "History & Culture",
+      "secondary_domain": "heraldry symbol interpretation",
+      "is_crossover": true,
+      "spark": "Someone working in film restoration degradation analysis wants to borrow the analytical framework of heraldry symbol interpretation."
     },
     {
       "slug": "avalanche-forecasting-slope-analysis",
@@ -81,7 +135,13 @@
       "domain": "avalanche forecasting slope analysis",
       "date": "2026-04-10",
       "day_number": 10,
-      "technique": "with timeline reconstruction"
+      "technique": "with timeline reconstruction",
+      "primary_category": "Arts & Creative",
+      "primary_domain": "voice acting character development",
+      "secondary_category": null,
+      "secondary_domain": null,
+      "is_crossover": false,
+      "spark": null
     },
     {
       "slug": "curriculum-design-peer-review",
@@ -89,7 +149,13 @@
       "domain": "curriculum design peer review",
       "date": "2026-04-11",
       "day_number": 11,
-      "technique": "with inventory and supply chain tracking"
+      "technique": "with inventory and supply chain tracking",
+      "primary_category": "Automotive & Engine",
+      "primary_domain": "brake system failure analysis",
+      "secondary_category": "Earth Sciences",
+      "secondary_domain": "dendrochronology tree ring dating",
+      "is_crossover": true,
+      "spark": "Create a brake system failure analysis workspace with the rigor and process of dendrochronology tree ring dating."
     },
     {
       "slug": "dam-safety-inspection",
@@ -97,7 +163,13 @@
       "domain": "dam safety inspection",
       "date": "2026-04-12",
       "day_number": 12,
-      "technique": "using peer review workflows"
+      "technique": "using peer review workflows",
+      "primary_category": "Education & Training",
+      "primary_domain": "curriculum design learning objectives",
+      "secondary_category": null,
+      "secondary_domain": null,
+      "is_crossover": false,
+      "spark": null
     },
     {
       "slug": "ecu-tune-engine-build-workspace",
@@ -105,7 +177,13 @@
       "domain": "ecu tune engine build",
       "date": "2026-04-13",
       "day_number": 13,
-      "technique": "using apprenticeship progression tracking"
+      "technique": "using apprenticeship progression tracking",
+      "primary_category": "Engineering & Technical",
+      "primary_domain": "railway signaling systems",
+      "secondary_category": null,
+      "secondary_domain": null,
+      "is_crossover": false,
+      "spark": null
     },
     {
       "slug": "emergency-triage-protocols",
@@ -113,7 +191,13 @@
       "domain": "emergency triage protocols",
       "date": "2026-04-14",
       "day_number": 14,
-      "technique": "using Bayesian probability assessment"
+      "technique": "using Bayesian probability assessment",
+      "primary_category": "Computing & Software",
+      "primary_domain": "data structure algorithm analysis",
+      "secondary_category": "Automotive & Engine",
+      "secondary_domain": "fuel injection optimization",
+      "is_crossover": true,
+      "spark": "Someone working in data structure algorithm analysis wants to borrow the analytical framework of fuel injection optimization."
     },
     {
       "slug": "expo-debugger-workspace",
@@ -121,7 +205,13 @@
       "domain": "expo debugger",
       "date": "2026-04-15",
       "day_number": 15,
-      "technique": "with automated anomaly detection"
+      "technique": "with automated anomaly detection",
+      "primary_category": "Engineering & Technical",
+      "primary_domain": "dam safety inspection protocols",
+      "secondary_category": null,
+      "secondary_domain": null,
+      "is_crossover": false,
+      "spark": null
     },
     {
       "slug": "firmware-re-workspace",
@@ -129,7 +219,13 @@
       "domain": "firmware re",
       "date": "2026-04-16",
       "day_number": 16,
-      "technique": "with knowledge base and FAQ generation"
+      "technique": "with knowledge base and FAQ generation",
+      "primary_category": "Cyber & DFIR",
+      "primary_domain": "supply chain security audit",
+      "secondary_category": "Medical & Health",
+      "secondary_domain": "palliative care symptom management",
+      "is_crossover": true,
+      "spark": "Create a supply chain security audit workspace with the rigor and process of palliative care symptom management."
     },
     {
       "slug": "hydraulic-engineering-fluid-dynamics",
@@ -137,7 +233,13 @@
       "domain": "hydraulic engineering fluid dynamics",
       "date": "2026-04-17",
       "day_number": 17,
-      "technique": "using Bayesian probability assessment"
+      "technique": "using Bayesian probability assessment",
+      "primary_category": "Environmental & Earth",
+      "primary_domain": "light pollution measurement sky brightness",
+      "secondary_category": null,
+      "secondary_domain": null,
+      "is_crossover": false,
+      "spark": null
     },
     {
       "slug": "palliative-care-symptom-checklists",
@@ -145,7 +247,13 @@
       "domain": "palliative care symptom checklists",
       "date": "2026-04-18",
       "day_number": 18,
-      "technique": "using simulation and scenario testing"
+      "technique": "using simulation and scenario testing",
+      "primary_category": "Medical & Health",
+      "primary_domain": "sleep medicine sleep study analysis",
+      "secondary_category": "Hardware & Embedded",
+      "secondary_domain": "bootloader reverse engineering",
+      "is_crossover": true,
+      "spark": "Someone working in sleep medicine sleep study analysis wants to borrow the analytical framework of bootloader reverse engineering."
     },
     {
       "slug": "phishing-kit-analyzer",
@@ -153,7 +261,13 @@
       "domain": "phishing kit analyzer",
       "date": "2026-04-19",
       "day_number": 19,
-      "technique": "with compliance audit trails"
+      "technique": "with compliance audit trails",
+      "primary_category": "Medical & Health",
+      "primary_domain": "surgical planning imaging analysis",
+      "secondary_category": null,
+      "secondary_domain": null,
+      "is_crossover": false,
+      "spark": null
     },
     {
       "slug": "supply-chain-security-audit",
@@ -161,7 +275,13 @@
       "domain": "supply chain security audit",
       "date": "2026-04-20",
       "day_number": 20,
-      "technique": "with predictive maintenance scheduling"
+      "technique": "with predictive maintenance scheduling",
+      "primary_category": "Security & Intelligence",
+      "primary_domain": "security clearance vetting investigation",
+      "secondary_category": null,
+      "secondary_domain": null,
+      "is_crossover": false,
+      "spark": null
     },
     {
       "slug": "wireless-protocol-re",
@@ -169,7 +289,13 @@
       "domain": "wireless protocol re",
       "date": "2026-04-21",
       "day_number": 21,
-      "technique": "with failure mode analysis (FMEA)"
+      "technique": "with failure mode analysis (FMEA)",
+      "primary_category": "Physical Sciences",
+      "primary_domain": "optics system design",
+      "secondary_category": null,
+      "secondary_domain": null,
+      "is_crossover": false,
+      "spark": null
     },
     {
       "slug": "wireless-tpms-analyzer",
@@ -177,7 +303,13 @@
       "domain": "wireless tpms analyzer",
       "date": "2026-04-22",
       "day_number": 22,
-      "technique": "using standardized inspection checklists"
+      "technique": "using standardized inspection checklists",
+      "primary_category": "Medical & Health",
+      "primary_domain": "palliative care symptom management",
+      "secondary_category": null,
+      "secondary_domain": null,
+      "is_crossover": false,
+      "spark": null
     },
     {
       "slug": "power-grid-management",
@@ -185,7 +317,13 @@
       "domain": "power grid management",
       "date": "2026-04-23",
       "day_number": 23,
-      "technique": "with geographic/spatial analysis"
+      "technique": "with geographic/spatial analysis",
+      "primary_category": "Engineering & Technical",
+      "primary_domain": "power grid management",
+      "secondary_category": null,
+      "secondary_domain": null,
+      "is_crossover": false,
+      "spark": null
     },
     {
       "date": "2026-04-25",
@@ -193,7 +331,13 @@
       "category": "Life Sciences",
       "domain": "zoology comparative anatomy",
       "day_number": 31,
-      "technique": "using standardized inspection checklists"
+      "technique": "using standardized inspection checklists",
+      "primary_category": "Life Sciences",
+      "primary_domain": "zoology comparative anatomy",
+      "secondary_category": null,
+      "secondary_domain": null,
+      "is_crossover": false,
+      "spark": null
     },
     {
       "date": "2026-04-27",
@@ -201,7 +345,13 @@
       "category": "Finance & Economics",
       "domain": "microeconomics supply demand",
       "day_number": 33,
-      "technique": "using risk scoring matrices"
+      "technique": "using risk scoring matrices",
+      "primary_category": "Finance & Economics",
+      "primary_domain": "microeconomics supply demand",
+      "secondary_category": null,
+      "secondary_domain": null,
+      "is_crossover": false,
+      "spark": null
     },
     {
       "date": "2026-04-28",
@@ -209,7 +359,13 @@
       "category": "Security & Intelligence",
       "domain": "vip motorcade planning route",
       "day_number": 34,
-      "technique": "using risk scoring matrices"
+      "technique": "using risk scoring matrices",
+      "primary_category": "Security & Intelligence",
+      "primary_domain": "VIP motorcade planning route",
+      "secondary_category": null,
+      "secondary_domain": null,
+      "is_crossover": false,
+      "spark": null
     },
     {
       "date": "2026-04-29",
@@ -217,7 +373,13 @@
       "category": "Transportation & Logistics",
       "domain": "traffic engineering signal timing",
       "day_number": 35,
-      "technique": "with environmental impact assessment"
+      "technique": "with environmental impact assessment",
+      "primary_category": "Transportation & Logistics",
+      "primary_domain": "traffic engineering signal timing",
+      "secondary_category": null,
+      "secondary_domain": null,
+      "is_crossover": false,
+      "spark": null
     },
     {
       "date": "2026-04-30",
@@ -225,7 +387,13 @@
       "category": "Finance & Economics",
       "domain": "macroeconomics GDP modeling",
       "day_number": 36,
-      "technique": "using evidence chain-of-custody tracking"
+      "technique": "using evidence chain-of-custody tracking",
+      "primary_category": "Finance & Economics",
+      "primary_domain": "macroeconomics GDP modeling",
+      "secondary_category": "Computing & Software",
+      "secondary_domain": "machine learning model training",
+      "is_crossover": true,
+      "spark": "Someone working in macroeconomics GDP modeling wants to borrow the analytical framework of machine learning model training."
     },
     {
       "date": "2026-05-01",
@@ -233,7 +401,13 @@
       "category": "Arts & Creative",
       "domain": "puppetry movement mechanics",
       "day_number": 37,
-      "technique": "using peer review workflows"
+      "technique": "using peer review workflows",
+      "primary_category": "Arts & Creative",
+      "primary_domain": "puppetry movement mechanics",
+      "secondary_category": "Cyber & DFIR",
+      "secondary_domain": "security log analysis",
+      "is_crossover": true,
+      "spark": "Build a workspace that applies security log analysis methodology to puppetry movement mechanics problems."
     },
     {
       "date": "2026-05-02",
@@ -241,7 +415,13 @@
       "category": "Security & Intelligence",
       "domain": "executive protection threat assessment",
       "day_number": 38,
-      "technique": "using risk scoring matrices"
+      "technique": "using risk scoring matrices",
+      "primary_category": "Security & Intelligence",
+      "primary_domain": "executive protection threat assessment",
+      "secondary_category": "Automotive & Engine",
+      "secondary_domain": "vehicle crash test interpretation",
+      "is_crossover": true,
+      "spark": "What if executive protection threat assessment practitioners used techniques from vehicle crash test interpretation?"
     },
     {
       "date": "2026-05-03",
@@ -249,7 +429,13 @@
       "category": "Trades & Crafts",
       "domain": "glassblowing form shaping",
       "day_number": 39,
-      "technique": "using simulation and scenario testing"
+      "technique": "using simulation and scenario testing",
+      "primary_category": "Trades & Crafts",
+      "primary_domain": "glassblowing form shaping",
+      "secondary_category": "Food & Agriculture",
+      "secondary_domain": "soil microbiome management",
+      "is_crossover": true,
+      "spark": "A glassblowing form shaping expert needs soil microbiome management-style documentation and tracking."
     },
     {
       "slug": "course-facilitation-engagement",
@@ -257,7 +443,13 @@
       "domain": "course facilitation engagement",
       "date": "2026-05-04",
       "day_number": 40,
-      "technique": "using stakeholder communication templates"
+      "technique": "using stakeholder communication templates",
+      "primary_category": "Education & Training",
+      "primary_domain": "course facilitation engagement",
+      "secondary_category": null,
+      "secondary_domain": null,
+      "is_crossover": false,
+      "spark": null
     },
     {
       "slug": "mars-terrain-analysis-rover-planning",
@@ -265,7 +457,13 @@
       "domain": "Mars terrain analysis rover planning",
       "date": "2026-05-05",
       "day_number": 41,
-      "technique": "using peer review workflows"
+      "technique": "using peer review workflows",
+      "primary_category": "Space & Aviation",
+      "primary_domain": "Mars terrain analysis rover planning",
+      "secondary_category": "Arts & Creative",
+      "secondary_domain": "jazz composition harmony theory",
+      "is_crossover": true,
+      "spark": "Someone working in Mars terrain analysis rover planning wants to borrow the analytical framework of jazz composition harmony theory."
     },
     {
       "slug": "frequency-hopping-analysis",
@@ -273,7 +471,13 @@
       "domain": "frequency hopping analysis",
       "date": "2026-05-06",
       "day_number": 42,
-      "technique": "using Bayesian probability assessment"
+      "technique": "using Bayesian probability assessment",
+      "primary_category": "RF/SDR/Signals",
+      "primary_domain": "frequency hopping analysis",
+      "secondary_category": null,
+      "secondary_domain": null,
+      "is_crossover": false,
+      "spark": null
     },
     {
       "slug": "counterintelligence-analysis-motive-identification",
@@ -281,7 +485,13 @@
       "domain": "counterintelligence analysis motive identification",
       "date": "2026-05-08",
       "day_number": 44,
-      "technique": "using standardized inspection checklists"
+      "technique": "using standardized inspection checklists",
+      "primary_category": "Security & Intelligence",
+      "primary_domain": "counterintelligence analysis motive identification",
+      "secondary_category": null,
+      "secondary_domain": null,
+      "is_crossover": false,
+      "spark": null
     },
     {
       "slug": "hybrid-system-energy-management",
@@ -289,7 +499,13 @@
       "domain": "hybrid system energy management",
       "date": "2026-05-09",
       "day_number": 45,
-      "technique": "using Bayesian probability assessment"
+      "technique": "using Bayesian probability assessment",
+      "primary_category": "Automotive & Engine",
+      "primary_domain": "hybrid system energy management",
+      "secondary_category": null,
+      "secondary_domain": null,
+      "is_crossover": false,
+      "spark": null
     },
     {
       "slug": "soil-microbiome-management",
@@ -297,7 +513,13 @@
       "domain": "soil microbiome management",
       "date": "2026-05-10",
       "day_number": 46,
-      "technique": "using time-series trend analysis"
+      "technique": "using time-series trend analysis",
+      "primary_category": "Food & Agriculture",
+      "primary_domain": "soil microbiome management",
+      "secondary_category": null,
+      "secondary_domain": null,
+      "is_crossover": false,
+      "spark": null
     },
     {
       "slug": "rf-spectrum-analysis",
@@ -305,7 +527,13 @@
       "domain": "RF spectrum analysis",
       "date": "2026-05-12",
       "day_number": 48,
-      "technique": "using quality control statistical methods"
+      "technique": "using quality control statistical methods",
+      "primary_category": "RF/SDR/Signals",
+      "primary_domain": "RF spectrum analysis",
+      "secondary_category": "Medical & Health",
+      "secondary_domain": "palliative care symptom management",
+      "is_crossover": true,
+      "spark": "Someone working in RF spectrum analysis wants to borrow the analytical framework of palliative care symptom management."
     },
     {
       "slug": "superconductor-characterization",
@@ -313,7 +541,13 @@
       "domain": "superconductor characterization",
       "date": "2026-05-13",
       "day_number": 49,
-      "technique": "with capacity planning models"
+      "technique": "with capacity planning models",
+      "primary_category": "Physical Sciences",
+      "primary_domain": "superconductor characterization",
+      "secondary_category": null,
+      "secondary_domain": null,
+      "is_crossover": false,
+      "spark": null
     },
     {
       "slug": "roller-coaster-design-forces-physics",
@@ -321,7 +555,13 @@
       "domain": "roller coaster design forces physics",
       "date": "2026-05-14",
       "day_number": 50,
-      "technique": "with decision tree triage workflows"
+      "technique": "with decision tree triage workflows",
+      "primary_category": "Unusual & Niche",
+      "primary_domain": "roller coaster design forces physics",
+      "secondary_category": null,
+      "secondary_domain": null,
+      "is_crossover": false,
+      "spark": null
     },
     {
       "slug": "renewable-energy-siting-analysis",
@@ -329,7 +569,13 @@
       "domain": "renewable energy siting analysis",
       "date": "2026-05-15",
       "day_number": 51,
-      "technique": "with capacity planning models"
+      "technique": "with capacity planning models",
+      "primary_category": "Environmental & Earth",
+      "primary_domain": "renewable energy siting analysis",
+      "secondary_category": "Arts & Creative",
+      "secondary_domain": "puppetry movement mechanics",
+      "is_crossover": true,
+      "spark": "Build a workspace that applies puppetry movement mechanics methodology to renewable energy siting analysis problems."
     },
     {
       "slug": "vehicle-crash-test-interpretation",
@@ -337,7 +583,13 @@
       "domain": "vehicle crash test interpretation",
       "date": "2026-05-16",
       "day_number": 52,
-      "technique": "using Bayesian probability assessment"
+      "technique": "using Bayesian probability assessment",
+      "primary_category": "Automotive & Engine",
+      "primary_domain": "vehicle crash test interpretation",
+      "secondary_category": null,
+      "secondary_domain": null,
+      "is_crossover": false,
+      "spark": null
     },
     {
       "slug": "electromagnetic-field-mapping",
@@ -345,7 +597,13 @@
       "domain": "electromagnetic field mapping",
       "date": "2026-05-17",
       "day_number": 53,
-      "technique": "with decision tree triage workflows"
+      "technique": "with decision tree triage workflows",
+      "primary_category": "Physical Sciences",
+      "primary_domain": "electromagnetic field mapping",
+      "secondary_category": null,
+      "secondary_domain": null,
+      "is_crossover": false,
+      "spark": null
     },
     {
       "slug": "rocket-engine-testing-thrust-measurement",
@@ -353,7 +611,13 @@
       "domain": "rocket engine testing thrust measurement",
       "date": "2026-05-18",
       "day_number": 54,
-      "technique": "using risk scoring matrices"
+      "technique": "using risk scoring matrices",
+      "primary_category": "Space & Aviation",
+      "primary_domain": "rocket engine testing thrust measurement",
+      "secondary_category": null,
+      "secondary_domain": null,
+      "is_crossover": false,
+      "spark": null
     },
     {
       "slug": "api-design-specification",
@@ -361,7 +625,13 @@
       "domain": "API design specification",
       "date": "2026-05-19",
       "day_number": 55,
-      "technique": "with multi-source intelligence fusion"
+      "technique": "with multi-source intelligence fusion",
+      "primary_category": "Computing & Software",
+      "primary_domain": "API design specification",
+      "secondary_category": null,
+      "secondary_domain": null,
+      "is_crossover": false,
+      "spark": null
     }
   ]
 }

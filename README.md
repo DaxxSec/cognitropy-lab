@@ -8,7 +8,7 @@
 
 <!-- COGNITROPY-STATS-START -->
 
-![Workspaces](https://img.shields.io/badge/workspaces-45-8b5cf6?style=flat-square&logo=github) ![Categories](https://img.shields.io/badge/categories-21-06b6d4?style=flat-square) ![Streak](https://img.shields.io/badge/streak-1%20days-10b981?style=flat-square) ![Last Build](https://img.shields.io/badge/last%20build-2026-05-19-3b82f6?style=flat-square) ![Project Day](https://img.shields.io/badge/project%20day-55-f59e0b?style=flat-square)
+![Workspaces](https://img.shields.io/badge/workspaces-45-8b5cf6?style=flat-square&logo=github) ![Categories](https://img.shields.io/badge/categories-21-06b6d4?style=flat-square) ![Streak](https://img.shields.io/badge/streak-1%20days-10b981?style=flat-square) ![Last Build](https://img.shields.io/badge/last%20build-2026-05-20-3b82f6?style=flat-square) ![Project Day](https://img.shields.io/badge/project%20day-56-f59e0b?style=flat-square)
 
 ### Project Statistics
 
@@ -17,8 +17,8 @@
 | Total Workspaces | **45** |
 | Categories Covered | **21** |
 | Build Streak | **1 days** |
-| Project Day | **55** |
-| Last Build | **2026-05-19** |
+| Project Day | **56** |
+| Last Build | **2026-05-20** |
 | Categories | Arts & Creative, Automotive & Engine, Computing & Software, Cyber & DFIR, Earth Sciences, Education & Training, Engineering & Technical, Environmental & Earth, Finance & Economics, Food & Agriculture, Hardware & Embedded, Life Sciences, Medical & Health, Outdoor & Adventure, Physical Sciences, RF/SDR/Signals, Security & Intelligence, Space & Aviation, Trades & Crafts, Transportation & Logistics, Unusual & Niche |
 
 <!-- COGNITROPY-STATS-END -->
@@ -91,20 +91,20 @@ python3 cognitropy.py 2026-05-12   # Check any date
 
 **Recent builds (the last 10 days the engine has surfaced; click any to open the workspace):**
 
-| Date | Domain | Category | Engine technique |
-|---|---|---|---|
-| May 18 | [Rocket Engine Testing Thrust Measurement](./rocket-engine-testing-thrust-measurement) | Space & Aviation | Risk scoring matrices |
-| May 17 | [Electromagnetic Field Mapping](./electromagnetic-field-mapping) | Physical Sciences | Decision tree triage workflows |
-| May 16 | [Vehicle Crash Test Interpretation](./vehicle-crash-test-interpretation) | Automotive & Engine | Bayesian probability assessment |
-| May 15 | [Renewable Energy Siting Analysis](./renewable-energy-siting-analysis) | Environmental & Earth | Capacity planning models |
-| May 14 | [Roller Coaster Design Forces Physics](./roller-coaster-design-forces-physics) | Unusual & Niche | Decision tree triage workflows |
-| May 13 | [Superconductor Characterization](./superconductor-characterization) | Physical Sciences | Capacity planning models |
-| May 12 | [RF Spectrum Analysis](./rf-spectrum-analysis) | RF/SDR/Signals | Quality control statistical methods |
-| May 10 | [Soil Microbiome Management](./soil-microbiome-management) | Food & Agriculture | Time-series trend analysis |
-| May 09 | [Hybrid System Energy Management](./hybrid-system-energy-management) | Automotive & Engine | Bayesian probability assessment |
-| May 08 | [Counterintelligence Analysis Motive Identification](./counterintelligence-analysis-motive-identification) | Security & Intelligence | Standardized inspection checklists |
+| Date | Domain | Type | Category | Engine technique |
+|---|---|---|---|---|
+| May 19 | [API Design Specification](./api-design-specification) | Standard | Computing & Software | Multi-source intelligence fusion |
+| May 18 | [Rocket Engine Testing Thrust Measurement](./rocket-engine-testing-thrust-measurement) | Standard | Space & Aviation | Risk scoring matrices |
+| May 17 | [Electromagnetic Field Mapping](./electromagnetic-field-mapping) | Standard | Physical Sciences | Decision tree triage workflows |
+| May 16 | [Vehicle Crash Test Interpretation](./vehicle-crash-test-interpretation) | Standard | Automotive & Engine | Bayesian probability assessment |
+| May 15 | [Renewable Energy Siting Analysis](./renewable-energy-siting-analysis) | **× Arts & Creative** | Environmental & Earth | Capacity planning models |
+| May 14 | [Roller Coaster Design Forces Physics](./roller-coaster-design-forces-physics) | Standard | Unusual & Niche | Decision tree triage workflows |
+| May 13 | [Superconductor Characterization](./superconductor-characterization) | Standard | Physical Sciences | Capacity planning models |
+| May 12 | [RF Spectrum Analysis](./rf-spectrum-analysis) | **× Medical & Health** | RF/SDR/Signals | Quality control statistical methods |
+| May 10 | [Soil Microbiome Management](./soil-microbiome-management) | Standard | Food & Agriculture | Time-series trend analysis |
+| May 09 | [Hybrid System Energy Management](./hybrid-system-energy-management) | Standard | Automotive & Engine | Bayesian probability assessment |
 
-Same engine, same technique pool — wildly different domains, and the *technique modifier* (the rightmost column) gets re-rolled per day, so even when two days land in the same category the workflow framing is different. The full catalog is in [`WORKSPACES.md`](./WORKSPACES.md); the cumulative history of every day's assignment is in [`cognitropy-history.json`](./cognitropy-history.json).
+Same engine, same technique pool — wildly different domains, and the *technique modifier* (the rightmost column) gets re-rolled per day, so even when two days land in the same category the workflow framing is different. **Crossover days** (rows marked **× SecondaryCategory**) are when the engine rolls a secondary domain and emits a "spark" prompt — the workspace agent fuses the two domains into a unified methodology. May 15 reads capacity-planning models through a *puppetry movement-mechanics* lens (every renewable portfolio is an articulated body of joints, linkages, and drives). May 12 frames RF spectrum analysis as *chronic-patient triage* (grade symptoms, chart vitals, escalate proportionately). About 30% of days the engine rolls a crossover; the full catalog including all crossovers is in [`WORKSPACES.md`](./WORKSPACES.md), the cumulative history in [`cognitropy-history.json`](./cognitropy-history.json).
 
 ---
 
