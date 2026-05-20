@@ -1,7 +1,7 @@
 {
   "version": 1,
   "project_start": "2026-03-26",
-  "updated_at": "2026-05-19",
+  "updated_at": "2026-05-20",
   "entries": [
     {
       "slug": "wildland-invasive-scout",
@@ -628,6 +628,20 @@
       "technique": "with multi-source intelligence fusion",
       "primary_category": "Computing & Software",
       "primary_domain": "API design specification",
+      "secondary_category": null,
+      "secondary_domain": null,
+      "is_crossover": false,
+      "spark": null
+    },
+    {
+      "slug": "hybrid-ems-intelligence-fusion",
+      "category": "Automotive & Engine",
+      "domain": "hybrid system energy management",
+      "date": "2026-05-20",
+      "day_number": 56,
+      "technique": "with multi-source intelligence fusion",
+      "primary_category": "Automotive & Engine",
+      "primary_domain": "hybrid system energy management",
       "secondary_category": null,
       "secondary_domain": null,
       "is_crossover": false,

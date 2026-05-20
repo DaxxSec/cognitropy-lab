@@ -3,12 +3,12 @@
 > Auto-generated from each workspace's README tagline and `cognitropy-history.json`.
 > Regenerates daily as part of the `cognitropy-daily-build` pipeline. Last refresh: **2026-05-20**.
 
-**45 workspaces across 21 categories** — 13 of which are **crossovers** (two-domain fusions where the engine rolled a secondary category and gave the day a "spark" prompt to bridge the two). Browse by category below, or explore the full project context in the [README](./README.md).
+**46 workspaces across 21 categories** — 13 of which are **crossovers** (two-domain fusions where the engine rolled a secondary category and gave the day a "spark" prompt to bridge the two). Browse by category below, or explore the full project context in the [README](./README.md).
 
 ## Categories
 
 - [Arts & Creative](#arts--creative) (1)
-- [Automotive & Engine](#automotive--engine) (3)
+- [Automotive & Engine](#automotive--engine) (4)
 - [Computing & Software](#computing--software) (2)
 - [Cyber & DFIR](#cyber--dfir) (3)
 - [Earth Sciences](#earth-sciences) (1)
@@ -41,6 +41,7 @@
 
 | Workspace | Type | Tagline |
 |---|---|---|
+| [Hybrid EMS — Multi-Source Intelligence Fusion Workspace](./hybrid-ems-intelligence-fusion) | Standard | An agent workspace for hybrid-vehicle energy management that fuses navigation, traffic, weather, V2X, driver, and powertrain telemetry into a single look-ahead picture — and turns that picture into torque-split and SOC-trajectory decisions you can defend to a calibration engineer. |
 | [Vehicle Crash Test Interpretation Workspace](./vehicle-crash-test-interpretation) | Standard | Turn raw crash-test instrumentation into Bayesian probability statements about injury, restraint performance, and regulatory compliance. |
 | [Hybrid System Energy Management Workspace](./hybrid-system-energy-management) | Standard | A Claude Code workspace for designing and tuning energy-management strategies (EMS) for hybrid electric powertrains — HEV, PHEV, and MHEV — across parallel, series, and power-split architectures, framed throughout as **Bayesian probability assessment**. |
 | [ECU Tune & Engine Build Workspace](./ecu-tune-engine-build-workspace) | Standard | A Claude Agent Workspace for performance tuners, engine builders, and automotive enthusiasts who want an intelligent co-pilot for ECU calibration, build documentation, datalog analysis, and modification planning. |
