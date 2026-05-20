@@ -4,17 +4,17 @@
 
 <br/>
 
-[![Built With](https://img.shields.io/badge/Built_With-Claude_Code-D4A0FF?style=for-the-badge&logo=anthropic&logoColor=white)](https://claude.ai) [![Domain Pool](https://img.shields.io/badge/Domain_Pool-363-8b5cf6?style=for-the-badge)](./cognitropy.py) [![License](https://img.shields.io/badge/License-MIT-10b981?style=for-the-badge)](.)
+[![Built With](https://img.shields.io/badge/Built_With-Claude_Code-D4A0FF?style=for-the-badge&logo=anthropic&logoColor=white)](https://claude.ai) [![Domain Pool](https://img.shields.io/badge/Domain_Pool-451-8b5cf6?style=for-the-badge)](./cognitropy.py) [![Cadence](https://img.shields.io/badge/Cadence-2_per_day-f97316?style=for-the-badge)](./cognitropy-history.json) [![License](https://img.shields.io/badge/License-MIT-10b981?style=for-the-badge)](.)
 
 <!-- COGNITROPY-STATS-START -->
 
-![Workspaces](https://img.shields.io/badge/workspaces-46-8b5cf6?style=flat-square&logo=github) ![Categories](https://img.shields.io/badge/categories-21-06b6d4?style=flat-square) ![Streak](https://img.shields.io/badge/streak-9%20days-10b981?style=flat-square) ![Last Build](https://img.shields.io/badge/last%20build-2026-05-20-3b82f6?style=flat-square) ![Project Day](https://img.shields.io/badge/project%20day-56-f59e0b?style=flat-square)
+![Workspaces](https://img.shields.io/badge/workspaces-45-8b5cf6?style=flat-square&logo=github) ![Categories](https://img.shields.io/badge/categories-21-06b6d4?style=flat-square) ![Streak](https://img.shields.io/badge/streak-9%20days-10b981?style=flat-square) ![Last Build](https://img.shields.io/badge/last%20build-2026-05-20-3b82f6?style=flat-square) ![Project Day](https://img.shields.io/badge/project%20day-56-f59e0b?style=flat-square)
 
 ### Project Statistics
 
 | Metric | Value |
 |--------|-------|
-| Total Workspaces | **46** |
+| Total Workspaces | **45** |
 | Categories Covered | **21** |
 | Build Streak | **9 days** |
 | Project Day | **56** |
@@ -25,9 +25,9 @@
 
 </div>
 
-Every morning, a Claude agent wakes up and receives a fresh creative challenge — maybe *limnology* (freshwater lake science), maybe *coopering* (barrel-making), maybe *Mars terrain analysis crossed with EVA procedure planning*. Each day is a new domain to explore, a new puzzle to solve. The agent builds a full, professional-grade workspace for whatever the entropy engine surfaces, then pushes it here.
+Every morning and every evening, a Claude agent wakes up and receives a fresh creative challenge — maybe *limnology* (freshwater lake science), maybe *coopering* (barrel-making), maybe *Mars terrain analysis crossed with puppetry movement mechanics*. Each slot is a new domain to explore, a new puzzle to solve. The agent builds a full, professional-grade workspace for whatever the entropy engine surfaces, then pushes it here.
 
-This repo is the result. It grows by one workspace daily, completely autonomously. No human in the loop. Just an AI, an entropy engine, and an ever-expanding collection of workspaces for domains you didn't know you needed.
+This repo is the result. As of 2026-05-20 it grows by **two workspaces per day** (morning at 06:05 and evening at 18:05, with fully independent rolls), completely autonomously. No human in the loop. Just an AI, an entropy engine, and an ever-expanding collection of workspaces for domains you didn't know you needed.
 
 > Built by [DaxxSec](https://github.com/DaxxSec) & Claude (Anthropic)
 
@@ -55,8 +55,8 @@ The engine ([`cognitropy.py`](./cognitropy.py)) takes today's date (e.g. `2026-0
     │                                                                   │
     │   Step 1: Hash the date with different salts                      │
     │                                                                   │
-    │     sha256("2026-03-27")              → huge int → % 363 domains  │
-    │     sha256("2026-03-27" + "secondary")→ huge int → % 363 domains  │
+    │     sha256("2026-03-27")              → huge int → % 451 domains  │
+    │     sha256("2026-03-27" + "secondary")→ huge int → % 451 domains  │
     │     sha256("2026-03-27" + "technique")→ huge int → % 30 methods   │
     │     sha256("2026-03-27" + "spark")    → huge int → % 5 templates  │
     │     sha256("2026-03-27" + "crossover")→ huge int → % 10 → <3?    │
@@ -80,7 +80,9 @@ The engine ([`cognitropy.py`](./cognitropy.py)) takes today's date (e.g. `2026-0
 
 **Why this works:** SHA-256 is a cryptographic hash — even a one-day difference in the input date produces a completely unrelated output number. The selections *look* random but are fully deterministic: run it twice on the same date, get the same result every time. No external APIs, no randomness source needed — just math.
 
-The domain pool spans **363 wildly diverse fields** across **22 categories** — volcanology, watchmaking, competitive barbecue judging, Mars terrain analysis, coopering, and 358 more. Combined with 30 technique modifiers, 5 crossover spark templates, and the constraint that crossover domains must come from *different* categories, that's **18,863,790 unique possible outcomes**. The creative constraint is the point. Each day brings an unexpected domain, and the agent rises to meet it.
+The domain pool spans **451 wildly diverse fields** across **25 categories** — volcanology, watchmaking, competitive barbecue judging, Mars terrain analysis, coopering, gun barrel cryogenic stress relief, sushi rice acidification balance, and 444 more. Combined with 30 technique modifiers, 5 crossover spark templates, and the constraint that crossover domains must come from *different* categories, that's **29,298,030 unique possible outcomes**. The creative constraint is the point. Each slot brings an unexpected domain, and the agent rises to meet it.
+
+> **2026-05-20 — cadence doubled.** The engine now produces two assignments per day (morning + evening, fully independent rolls). The domain pool also expanded from 363 → 451 with three new categories (Culinary & Beverage, Metallurgy & Materials Science, Firearms & Ballistics) and ~50 gap-fill entries across existing categories. See [`cognitropy-history.json`](./cognitropy-history.json) for the `pool_versions` log of every pool change.
 
 **Try it yourself:**
 
@@ -124,18 +126,18 @@ Same engine, same technique pool — wildly different domains, and the *techniqu
 ```
 
 ```
-  ~6:05 AM   Scheduled Claude agent wakes up
-     ↓       Pulls the cognitropy-library (private factory) and lab (public mirror)
-     ↓       Runs cognitropy.py → gets today's (category, domain, technique, spark)
-     ↓       Anti-clustering check against the last 5 days
-     ↓       Copies the hybrid skeleton, then AUTHORS bespoke content
-     ↓        (.claude/commands/, context/concepts/workflows/references, prompts)
-     ↓       Scans for secrets leakage
-     ↓       Commits to library; mirrors to lab
-     ↓       Refreshes WORKSPACES.md + README badges + cognitropy-history.json
-     ↓       Pushes lab; regenerates local dashboard HTML
-     ↓       Cleans up the ephemeral deploy-path workspace
-  Done.      One new workspace in the repo. Every day.
+  06:05 + 18:05   Scheduled Claude agent wakes up (twice daily, fully independent rolls)
+     ↓            Pulls the cognitropy-library (private factory) and lab (public mirror)
+     ↓            Runs cognitropy.py $DATE <morning|evening>  → today's slot assignment
+     ↓            Anti-clustering check against the last 10 entries (5 days × 2 slots)
+     ↓            Copies the hybrid skeleton, then AUTHORS bespoke content
+     ↓             (.claude/commands/ × 5-10, context/concepts/workflows/references, prompts × 3-5)
+     ↓            Scans for secrets leakage
+     ↓            Commits to library; mirrors to lab
+     ↓            Refreshes WORKSPACES.md + README badges + cognitropy-history.json
+     ↓            Pushes lab; regenerates local dashboard HTML
+     ↓            Cleans up the ephemeral deploy-path workspace
+  Done.           Two new workspaces in the repo per day (morning + evening).
 ```
 
 ---
@@ -203,14 +205,18 @@ Each entry links to the workspace folder and includes its tagline. The index reg
 
 | Metric | Value |
 |---|---|
-| Cognitropy Domain Pool | **363** |
-| Domain Categories | **22** |
+| Cognitropy Domain Pool | **451** |
+| Domain Categories | **25** |
 | Technique Modifiers | **30** |
 | Crossover Sparks | **5** |
 | Crossover Probability | **~30%** |
-| **Total Unique Outcomes** | **18,863,790** |
+| Build Cadence | **2 / day** (morning 06:05 + evening 18:05) |
+| Engine Pool Version | **v2-451d-25c** (since 2026-05-20) |
+| **Total Unique Outcomes** | **29,298,030** |
 
-> **The math:** Standard days = 363 domains × 30 techniques = **10,890** combos. Crossover days = 125,686 cross-category domain pairs × 30 techniques × 5 sparks = **18,852,900** combos. Total: **18,863,790** unique possible assignments. At one workspace per day, that's **51,646 years** before a repeat is even *possible* — and even then, the agent would build it differently. (Cross-category pairs = 363² − Σd² = 131,769 − 6,083 = 125,686 — because the engine enforces that crossover domains come from different categories.)
+> **The math:** Standard slots = 451 domains × 30 techniques = **13,530** combos. Crossover slots = 195,230 cross-category domain pairs × 30 techniques × 5 sparks = **29,284,500** combos. Total: **29,298,030** unique possible assignments. At **two workspaces per day**, that's **40,134 years** before a repeat is even *possible* — and even then, the agent would build it differently. (Cross-category pairs = 451² − Σdᵢ² = 203,401 − 8,171 = 195,230 — because the engine enforces that crossover domains come from different categories.)
+>
+> Pre-2026-05-20 the pool was 363 domains × 22 categories at 1 build/day → 18,863,790 outcomes / ~51,646 years. The doubling event (engine v1 → v2) is recorded in `cognitropy-history.json` under `pool_versions[]`; entries with `pool_version: "v1"` were built under the smaller pool and are NOT re-derivable by the current engine without a pool re-pin.
 
 ---
 

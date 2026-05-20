@@ -2,6 +2,30 @@
   "version": 1,
   "project_start": "2026-03-26",
   "updated_at": "2026-05-20",
+  "pool_versions": [
+    {
+      "version": "v1",
+      "start_date": "2026-03-26",
+      "end_date": "2026-05-19",
+      "domains": 363,
+      "categories": 22,
+      "techniques": 30,
+      "sparks": 5,
+      "cadence_per_day": 1,
+      "note": "Initial pool. 18,863,790 unique outcomes / ~51,646 years to repeat at 1 build/day."
+    },
+    {
+      "version": "v2-451d-25c",
+      "start_date": "2026-05-20",
+      "end_date": null,
+      "domains": 451,
+      "categories": 25,
+      "techniques": 30,
+      "sparks": 5,
+      "cadence_per_day": 2,
+      "note": "Doubled cadence to morning+evening (06:05 + 18:05). Added 3 new categories (Culinary & Beverage, Metallurgy & Materials Science, Firearms & Ballistics) + ~50 gap-fill entries across existing categories. Per-workspace command range bumped 4-8 → 5-10, prompts 2-4 → 3-5 (natural floor > forced ceiling). 29,298,030 unique outcomes / ~40,134 years to repeat at 2 builds/day."
+    }
+  ],
   "entries": [
     {
       "slug": "wildland-invasive-scout",
