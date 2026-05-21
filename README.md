@@ -106,7 +106,14 @@ python3 cognitropy.py 2026-05-12   # Check any date
 | May 10 | [Soil Microbiome Management](./soil-microbiome-management) | Standard | Food & Agriculture | Time-series trend analysis |
 | May 09 | [Hybrid System Energy Management](./hybrid-system-energy-management) | Standard | Automotive & Engine | Bayesian probability assessment |
 
-Same engine, same technique pool — wildly different domains, and the *technique modifier* (the rightmost column) gets re-rolled per day, so even when two days land in the same category the workflow framing is different. **Crossover days** (rows marked **× SecondaryCategory**) are when the engine rolls a secondary domain and emits a "spark" prompt — the workspace agent fuses the two domains into a unified methodology. May 15 reads capacity-planning models through a *puppetry movement-mechanics* lens (every renewable portfolio is an articulated body of joints, linkages, and drives). May 12 frames RF spectrum analysis as *chronic-patient triage* (grade symptoms, chart vitals, escalate proportionately). About 30% of days the engine rolls a crossover; the full catalog including all crossovers is in [`WORKSPACES.md`](./WORKSPACES.md), the cumulative history in [`cognitropy-history.json`](./cognitropy-history.json).
+Same engine, same technique pool — wildly different domains, and the *technique modifier* (the rightmost column) gets re-rolled per day, so even when two days land in the same category the workflow framing is different. **Crossover days** (rows marked **× SecondaryCategory**) are when the engine rolls a secondary domain and emits a "spark" prompt — the workspace agent fuses the two domains into a unified methodology. May 15 reads capacity-planning models through a *puppetry movement-mechanics* lens (every renewable portfolio is an articulated body of joints, linkages, and drives). May 12 frames RF spectrum analysis as *chronic-patient triage* (grade symptoms, chart vitals, escalate proportionately). About 30% of days the engine rolls a crossover.
+
+**Three ways to browse the project:**
+- [`README`](./README.md) (this file) — project context + last 10 builds
+- [`WORKSPACES.md`](./WORKSPACES.md) — full catalog grouped by category
+- [`BUILDS.md`](./BUILDS.md) — full day-by-day chronological log of every engine roll
+
+Raw data: [`cognitropy-history.json`](./cognitropy-history.json).
 
 ---
 
@@ -134,7 +141,7 @@ Same engine, same technique pool — wildly different domains, and the *techniqu
      ↓             (.claude/commands/ × 5-10, context/concepts/workflows/references, prompts × 3-5)
      ↓            Scans for secrets leakage
      ↓            Commits to library; mirrors to lab
-     ↓            Refreshes WORKSPACES.md + README badges + cognitropy-history.json
+     ↓            Refreshes WORKSPACES.md + BUILDS.md + README badges + cognitropy-history.json
      ↓            Pushes lab; regenerates local dashboard HTML
      ↓            Cleans up the ephemeral deploy-path workspace
   Done.           Two new workspaces in the repo per day (morning + evening).
