@@ -1,9 +1,9 @@
 # Cognitropy Workspaces
 
 > Auto-generated from each workspace's README tagline and `cognitropy-history.json`.
-> Regenerates daily as part of the `cognitropy-daily-build` pipeline. Last refresh: **2026-05-20**.
+> Regenerates daily as part of the `cognitropy-daily-build` pipeline. Last refresh: **2026-05-21**.
 
-**46 workspaces across 21 categories** — 13 of which are **crossovers** (two-domain fusions where the engine rolled a secondary category and gave the day a "spark" prompt to bridge the two). Browse by category below, or explore the full project context in the [README](./README.md).
+**47 workspaces across 21 categories** — 13 of which are **crossovers** (two-domain fusions where the engine rolled a secondary category and gave the day a "spark" prompt to bridge the two). Browse by category below, or explore the full project context in the [README](./README.md).
 
 ## Categories
 
@@ -13,7 +13,7 @@
 - [Cyber & DFIR](#cyber--dfir) (3)
 - [Earth Sciences](#earth-sciences) (1)
 - [Education & Training](#education--training) (2)
-- [Engineering & Technical](#engineering--technical) (4)
+- [Engineering & Technical](#engineering--technical) (5)
 - [Environmental & Earth](#environmental--earth) (2)
 - [Finance & Economics](#finance--economics) (3)
 - [Food & Agriculture](#food--agriculture) (2)
@@ -78,6 +78,7 @@
 
 | Workspace | Type | Tagline |
 |---|---|---|
+| [Biomechanical Engineering — Prosthetics Workspace](./biomechanical-engineering-prosthetics) | Standard | A Claude Code workspace for biomechanical prosthetics engineering — lower-limb and upper-limb fittings — framed throughout as **statistical process control**. Every decision about socket fit, gait kinematics, component fatigue, and patient-reported outcomes is treated as a measured process with characteristic variation, control limits, and capability indices. |
 | [Power Grid Management Workspace](./power-grid-management) | Standard | A structured analytical environment for electrical power grid operations, planning, and incident investigation — framed through geographic and spatial reasoning. Grid Spatial Analyst helps you turn topology diagrams, GIS layers, SCADA exports, outage logs, weather feeds, and satellite imagery into defensible answers about the grid's exposure, vulnerability, and behavior in space. |
 | [Hydraulic Engineering Fluid Dynamics Workspace](./hydraulic-engineering-fluid-dynamics) | Standard | A Claude agent workspace for hydraulic engineering analysis with Bayesian probability methods. This workspace combines classical fluid dynamics with modern probabilistic reasoning to handle the uncertainty inherent in real-world hydraulic systems — from pipe network design to flood risk assessment. |
 | [Dam Safety Inspection Protocols](./dam-safety-inspection) | Standard | A Claude Agent workspace for dam safety inspection, structural health monitoring, and automated anomaly detection in dam instrumentation data. |

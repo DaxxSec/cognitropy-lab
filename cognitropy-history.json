@@ -1,7 +1,7 @@
 {
   "version": 1,
   "project_start": "2026-03-26",
-  "updated_at": "2026-05-20",
+  "updated_at": "2026-05-21",
   "pool_versions": [
     {
       "version": "v1",
@@ -670,6 +670,22 @@
       "secondary_domain": null,
       "is_crossover": false,
       "spark": null
+    },
+    {
+      "slug": "biomechanical-engineering-prosthetics",
+      "category": "Engineering & Technical",
+      "domain": "biomechanical engineering prosthetics",
+      "date": "2026-05-21",
+      "day_number": 57,
+      "slot": "morning",
+      "technique": "using quality control statistical methods",
+      "primary_category": "Engineering & Technical",
+      "primary_domain": "biomechanical engineering prosthetics",
+      "secondary_category": null,
+      "secondary_domain": null,
+      "is_crossover": false,
+      "spark": null,
+      "pool_version": "v2-451d-25c"
     }
   ]
 }
