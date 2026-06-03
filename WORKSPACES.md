@@ -1,15 +1,16 @@
 # Cognitropy Workspaces
 
 > Auto-generated from each workspace's README tagline and `cognitropy-history.json`.
-> Regenerates daily as part of the `cognitropy-daily-build` pipeline. Last refresh: **2026-05-21**.
+> Regenerates daily as part of the `cognitropy-daily-build` pipeline. Last refresh: **2026-06-03**.
 
-**47 workspaces across 21 categories** — 13 of which are **crossovers** (two-domain fusions where the engine rolled a secondary category and gave the day a "spark" prompt to bridge the two). Browse by category below, or explore the full project context in the [README](./README.md).
+**49 workspaces across 22 categories** — 14 of which are **crossovers** (two-domain fusions where the engine rolled a secondary category and gave the day a "spark" prompt to bridge the two). Browse by category below, or explore the full project context in the [README](./README.md).
 
 ## Categories
 
 - [Arts & Creative](#arts--creative) (1)
 - [Automotive & Engine](#automotive--engine) (4)
 - [Computing & Software](#computing--software) (2)
+- [Culinary & Beverage](#culinary--beverage) (1)
 - [Cyber & DFIR](#cyber--dfir) (3)
 - [Earth Sciences](#earth-sciences) (1)
 - [Education & Training](#education--training) (2)
@@ -20,7 +21,7 @@
 - [Hardware & Embedded](#hardware--embedded) (1)
 - [Life Sciences](#life-sciences) (1)
 - [Medical & Health](#medical--health) (2)
-- [Outdoor & Adventure](#outdoor--adventure) (1)
+- [Outdoor & Adventure](#outdoor--adventure) (2)
 - [Physical Sciences](#physical-sciences) (3)
 - [RF/SDR/Signals](#rfsdrsignals) (4)
 - [Security & Intelligence](#security--intelligence) (4)
@@ -52,6 +53,12 @@
 |---|---|---|
 | [API Design Specification Workspace](./api-design-specification) | Standard | Treat API spec authoring as multi-source intelligence fusion: collect signals from telemetry, tickets, standards, peers, and stakeholders; weight them; produce a single OpenAPI specification with traceable provenance for every operation. |
 | [Expo App Debugger Workspace](./expo-debugger-workspace) | Standard | A Claude agent workspace purpose-built for debugging React Native apps built with the Expo framework and Railway backends. Designed to take you from cryptic error message to working fix with minimal frustration. |
+
+## Culinary & Beverage
+
+| Workspace | Type | Tagline |
+|---|---|---|
+| [Pastry Lamination Dough Technique Workspace](./pastry-lamination-dough-technique) | **Crossover** × History & Culture | _Engine fusion: medieval manuscript analysis paleography_ — Read a laminated dough like a medieval codex — codicology, collation, and diplomatic transcription applied to butter and flour, delivered as stakeholder-ready communications. |
 
 ## Cyber & DFIR
 
@@ -129,6 +136,7 @@
 
 | Workspace | Type | Tagline |
 |---|---|---|
+| [Underwater Archaeology Excavation Workspace](./underwater-archaeology-excavation) | Standard | Decide what to dig, what to leave, and what it will really cost — submerged-heritage excavation run as an explicit cost-benefit analysis. |
 | [Avalanche Forecasting & Slope Analysis Workspace](./avalanche-forecasting-slope-analysis) | Standard | A Claude agent workspace for snow-science forecasters, ski-patrol leads, and backcountry guides that transforms raw weather + snowpack observations into defensible avalanche hazard ratings — built on a **predictive-maintenance scheduling** cadence so that pack checks, instrument calibration, and mitigation asset readiness never drift out of the operational loop. |
 
 ## Physical Sciences

@@ -14,13 +14,13 @@ workspace-name/
 ├── CLAUDE.md                # Lightweight: identity + role + commands table + plugin-primitives note
 ├── README.md                # Comprehensive showcase intro: what / why / quick start / commands / refs
 ├── .claude/
-│   └── commands/            # 4-8 bespoke domain commands (NO required /onboard)
+│   └── commands/            # 5-10 bespoke domain commands (NO required /onboard)
 │       └── <name>.md        # Each: brief purpose + Inputs / Steps / Output
 ├── context/
 │   ├── concepts.md          # Domain knowledge — taxonomies, frameworks, failure modes (80-200 lines)
 │   ├── workflows.md         # Methodology — step-by-step procedures, decision trees (50-150 lines)
 │   └── references.md        # Lookup tables, cheat-sheets, links to upstream catalogues (30-100 lines)
-├── prompts/                 # 2-4 bespoke reusable prompt templates
+├── prompts/                 # 3-5 bespoke reusable prompt templates
 │   └── <name>.md            # Each: Purpose / Prompt Template (parameterised) / Expected Output
 └── outputs/                 # Generated artifacts; .gitkeep at scaffold time
     └── .gitkeep
@@ -35,7 +35,7 @@ Loaded with every prompt, so stays compact. Sections:
 - `# <Domain> Workspace` header
 - One-paragraph agent role tied to today's domain
 - `## Context References` — stubs pointing to `context/concepts.md`, `context/workflows.md`, `context/references.md`, `prompts/`
-- `## Available Commands` — markdown table listing the 4-8 commands in `.claude/commands/`
+- `## Available Commands` — markdown table listing the 5-10 commands in `.claude/commands/`
 - `## Foundational Instructions` — 3-5 numbered items (repo-as-memory, legal/ethical reminders, reproducibility, etc.)
 - `## Optional plugin primitives` — one-line note that `/workspace-foundational:context-sweep` and `/workspace-foundational:find-template` are available **if** the user has the foundational plugin installed; the workspace works without them.
 
@@ -53,13 +53,16 @@ This is the public-facing showcase. Sections:
 - Legal & ethical considerations if applicable
 - Technical references with real links
 
-### .claude/commands/<name>.md × 4-8
+### .claude/commands/<name>.md × 5-10 (natural floor > forced ceiling)
 
 Bespoke per today's domain. Each command file: brief purpose sentence, then `## Inputs`, `## Steps` (numbered procedure), `## Output`.
 
+If today's domain genuinely only yields 5-6 substantive bespoke commands, stop at the natural number — padding to hit the upper bound with generic commands is worse than honoring the floor. Conversely, rich domains can comfortably hit 10 and should.
+
 **Anti-patterns:**
-- Generic command names (`/analyze`, `/triage`, `/report`) reused across domains.
+- Generic command names (`/analyze`, `/triage`, `/report`, `/summarize`) reused across domains.
 - The legacy `/onboard` interview command (retired — workspaces are showcase artifacts, not personal projects to interview the user about).
+- Padding the command count past the natural depth of the topic.
 
 ### context/concepts.md (80-200 lines)
 
@@ -73,9 +76,9 @@ Step-by-step workflows tied to today's `technique` field from the engine. Decisi
 
 Lookup tables, cheat-sheets, links to upstream catalogues. Compact lookup data, not prose.
 
-### prompts/<name>.md × 2-4
+### prompts/<name>.md × 3-5
 
-Reusable prompt templates for recurring tasks in today's domain. Each: `## Purpose`, `## Prompt Template` (parameterised slots in `[brackets]`), `## Expected Output`.
+Reusable prompt templates for recurring tasks in today's domain. Each: `## Purpose`, `## Prompt Template` (parameterised slots in `[brackets]`), `## Expected Output`. Natural floor applies here too — 3 substantive prompts beats 5 padded ones.
 
 ## Key Principles
 
@@ -90,7 +93,8 @@ Reusable prompt templates for recurring tasks in today's domain. Each: `## Purpo
 
 - **2026-04-01 → 2026-05-09** — workspaces followed the legacy `danielrosehill/Claude-Agent-Workspace-Model` spec verbatim (`.claude/commands/onboard.md`, `context/for-agent/`, `planning/`, `user-docs/`, `work-log/`, `CREATION_REPORT.md`, `resources/`). The upstream Claude-Agent-Workspace-Model repo was retired by the author and superseded by `Claude-Workspace-Foundational-Plugin`. The 32 workspaces from this period remain in `files/workspaces/` with the legacy shape — they are showcase artifacts of that era and are not retroactively migrated.
 - **2026-05-10 (briefly)** — two workspaces were built in pure-foundational shape (`hybrid-system-energy-management`, `soil-microbiome-management`) during a misfired migration. Same-day regeneration in the hybrid shape (this commit and the next).
-- **2026-05-10 → present** — hybrid model. New daily builds use the canonical hybrid skeleton at `skills/cognitropy-daily-build/templates/workspace-base/`.
+- **2026-05-10 → 2026-05-19** — hybrid model with **one build per day** at 06:05 local.
+- **2026-05-20 → present** — **doubled cadence: morning (06:05) + evening (18:05)** builds per day, fully-independent rolls per slot. Engine pool expanded 363 → 451 domains and 22 → 25 categories (added Culinary & Beverage + Metallurgy & Materials Science + Firearms & Ballistics). Per-workspace command range bumped from 4-8 to 5-10 (natural floor > forced ceiling), prompts from 2-4 to 3-5. Engine now emits `slot`, `pool_version` fields; history schema additive. Pool version: `v2-451d-25c`.
 
 ## Upstream references
 

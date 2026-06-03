@@ -1,7 +1,7 @@
 {
   "version": 1,
   "project_start": "2026-03-26",
-  "updated_at": "2026-05-21",
+  "updated_at": "2026-06-03",
   "pool_versions": [
     {
       "version": "v1",
@@ -685,6 +685,40 @@
       "secondary_domain": null,
       "is_crossover": false,
       "spark": null,
+      "pool_version": "v2-451d-25c"
+    },
+    {
+      "slug": "underwater-archaeology-excavation",
+      "category": "Outdoor & Adventure",
+      "domain": "underwater archaeology excavation",
+      "date": "2026-06-02",
+      "day_number": 69,
+      "slot": "morning",
+      "slot_number": 137,
+      "technique": "using cost-benefit analysis frameworks",
+      "primary_category": "Outdoor & Adventure",
+      "primary_domain": "underwater archaeology excavation",
+      "secondary_category": null,
+      "secondary_domain": null,
+      "is_crossover": false,
+      "spark": null,
+      "pool_version": "v2-451d-25c"
+    },
+    {
+      "slug": "pastry-lamination-dough-technique",
+      "category": "Culinary & Beverage",
+      "domain": "pastry lamination dough technique",
+      "date": "2026-06-03",
+      "day_number": 70,
+      "slot": "morning",
+      "slot_number": 139,
+      "technique": "using stakeholder communication templates",
+      "primary_category": "Culinary & Beverage",
+      "primary_domain": "pastry lamination dough technique",
+      "secondary_category": "History & Culture",
+      "secondary_domain": "medieval manuscript analysis paleography",
+      "is_crossover": true,
+      "spark": "Build a workspace that applies medieval manuscript analysis paleography methodology to pastry lamination dough technique problems.",
       "pool_version": "v2-451d-25c"
     }
   ]
