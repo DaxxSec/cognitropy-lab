@@ -1,7 +1,7 @@
 {
   "version": 1,
   "project_start": "2026-03-26",
-  "updated_at": "2026-06-03",
+  "updated_at": "2026-06-04",
   "pool_versions": [
     {
       "version": "v1",
@@ -719,6 +719,23 @@
       "secondary_domain": "medieval manuscript analysis paleography",
       "is_crossover": true,
       "spark": "Build a workspace that applies medieval manuscript analysis paleography methodology to pastry lamination dough technique problems.",
+      "pool_version": "v2-451d-25c"
+    },
+    {
+      "slug": "hazmat-transportation-regulations",
+      "category": "Transportation & Logistics",
+      "domain": "hazmat transportation regulations",
+      "date": "2026-06-04",
+      "day_number": 71,
+      "slot": "morning",
+      "slot_number": 141,
+      "technique": "using standardized inspection checklists",
+      "primary_category": "Transportation & Logistics",
+      "primary_domain": "hazmat transportation regulations",
+      "secondary_category": "Cyber & DFIR",
+      "secondary_domain": "cryptanalysis",
+      "is_crossover": true,
+      "spark": "What if hazmat transportation regulations practitioners used techniques from cryptanalysis?",
       "pool_version": "v2-451d-25c"
     }
   ]

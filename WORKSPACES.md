@@ -1,9 +1,9 @@
 # Cognitropy Workspaces
 
 > Auto-generated from each workspace's README tagline and `cognitropy-history.json`.
-> Regenerates daily as part of the `cognitropy-daily-build` pipeline. Last refresh: **2026-06-03**.
+> Regenerates daily as part of the `cognitropy-daily-build` pipeline. Last refresh: **2026-06-04**.
 
-**49 workspaces across 22 categories** — 14 of which are **crossovers** (two-domain fusions where the engine rolled a secondary category and gave the day a "spark" prompt to bridge the two). Browse by category below, or explore the full project context in the [README](./README.md).
+**50 workspaces across 22 categories** — 15 of which are **crossovers** (two-domain fusions where the engine rolled a secondary category and gave the day a "spark" prompt to bridge the two). Browse by category below, or explore the full project context in the [README](./README.md).
 
 ## Categories
 
@@ -27,7 +27,7 @@
 - [Security & Intelligence](#security--intelligence) (4)
 - [Space & Aviation](#space--aviation) (3)
 - [Trades & Crafts](#trades--crafts) (1)
-- [Transportation & Logistics](#transportation--logistics) (1)
+- [Transportation & Logistics](#transportation--logistics) (2)
 - [Unusual & Niche](#unusual--niche) (1)
 
 ---
@@ -183,6 +183,7 @@
 
 | Workspace | Type | Tagline |
 |---|---|---|
+| [HAZMAT Transportation Regulations Workspace](./hazmat-transportation-regulations) | **Crossover** × Cyber & DFIR | _Engine fusion: cryptanalysis_ — Read a dangerous goods shipment like ciphertext — the codebook is the regulation, the redundancy is the security, and a cryptanalyst's toolkit catches the misdeclaration before it catches fire. |
 | [Traffic Engineering Signal Timing — with Environmental Impact Assessment](./traffic-engineering-signal-timing) | Standard | An agent workspace for designing, retiming, and evaluating signalized-intersection control plans on the **delay × emissions × fuel × noise** Pareto frontier rather than as a single-objective level-of-service exercise. |
 
 ## Unusual & Niche
