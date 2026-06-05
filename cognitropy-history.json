@@ -1,7 +1,7 @@
 {
   "version": 1,
   "project_start": "2026-03-26",
-  "updated_at": "2026-06-04",
+  "updated_at": "2026-06-05",
   "pool_versions": [
     {
       "version": "v1",
@@ -736,6 +736,23 @@
       "secondary_domain": "cryptanalysis",
       "is_crossover": true,
       "spark": "What if hazmat transportation regulations practitioners used techniques from cryptanalysis?",
+      "pool_version": "v2-451d-25c"
+    },
+    {
+      "slug": "falconry-bird-training",
+      "category": "Outdoor & Adventure",
+      "domain": "falconry bird training",
+      "date": "2026-06-05",
+      "day_number": 72,
+      "slot": "morning",
+      "slot_number": 143,
+      "technique": "using stakeholder communication templates",
+      "primary_category": "Outdoor & Adventure",
+      "primary_domain": "falconry bird training",
+      "secondary_category": null,
+      "secondary_domain": null,
+      "is_crossover": false,
+      "spark": null,
       "pool_version": "v2-451d-25c"
     }
   ]

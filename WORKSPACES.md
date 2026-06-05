@@ -1,9 +1,9 @@
 # Cognitropy Workspaces
 
 > Auto-generated from each workspace's README tagline and `cognitropy-history.json`.
-> Regenerates daily as part of the `cognitropy-daily-build` pipeline. Last refresh: **2026-06-04**.
+> Regenerates daily as part of the `cognitropy-daily-build` pipeline. Last refresh: **2026-06-05**.
 
-**50 workspaces across 22 categories** — 15 of which are **crossovers** (two-domain fusions where the engine rolled a secondary category and gave the day a "spark" prompt to bridge the two). Browse by category below, or explore the full project context in the [README](./README.md).
+**51 workspaces across 22 categories** — 15 of which are **crossovers** (two-domain fusions where the engine rolled a secondary category and gave the day a "spark" prompt to bridge the two). Browse by category below, or explore the full project context in the [README](./README.md).
 
 ## Categories
 
@@ -21,7 +21,7 @@
 - [Hardware & Embedded](#hardware--embedded) (1)
 - [Life Sciences](#life-sciences) (1)
 - [Medical & Health](#medical--health) (2)
-- [Outdoor & Adventure](#outdoor--adventure) (2)
+- [Outdoor & Adventure](#outdoor--adventure) (3)
 - [Physical Sciences](#physical-sciences) (3)
 - [RF/SDR/Signals](#rfsdrsignals) (4)
 - [Security & Intelligence](#security--intelligence) (4)
@@ -136,6 +136,7 @@
 
 | Workspace | Type | Tagline |
 |---|---|---|
+| [Falconry Bird Training Workspace](./falconry-bird-training) | Standard | Train the hawk, manage the humans — a falconry program workspace built around reusable **stakeholder communication templates** for regulators, sponsors, vets, landowners, and abatement clients. |
 | [Underwater Archaeology Excavation Workspace](./underwater-archaeology-excavation) | Standard | Decide what to dig, what to leave, and what it will really cost — submerged-heritage excavation run as an explicit cost-benefit analysis. |
 | [Avalanche Forecasting & Slope Analysis Workspace](./avalanche-forecasting-slope-analysis) | Standard | A Claude agent workspace for snow-science forecasters, ski-patrol leads, and backcountry guides that transforms raw weather + snowpack observations into defensible avalanche hazard ratings — built on a **predictive-maintenance scheduling** cadence so that pack checks, instrument calibration, and mitigation asset readiness never drift out of the operational loop. |
 
