@@ -1,7 +1,7 @@
 {
   "version": 1,
   "project_start": "2026-03-26",
-  "updated_at": "2026-06-06",
+  "updated_at": "2026-06-07",
   "pool_versions": [
     {
       "version": "v1",
@@ -770,6 +770,23 @@
       "secondary_domain": "mycology taxonomy",
       "is_crossover": true,
       "spark": "What if masonry restoration mortar selection practitioners used techniques from mycology taxonomy?",
+      "pool_version": "v2-451d-25c"
+    },
+    {
+      "slug": "epidemiological-modeling-disease-spread",
+      "category": "Medical & Health",
+      "domain": "epidemiological modeling disease spread",
+      "date": "2026-06-07",
+      "day_number": 74,
+      "slot": "morning",
+      "slot_number": 147,
+      "technique": "using time-series trend analysis",
+      "primary_category": "Medical & Health",
+      "primary_domain": "epidemiological modeling disease spread",
+      "secondary_category": null,
+      "secondary_domain": null,
+      "is_crossover": false,
+      "spark": null,
       "pool_version": "v2-451d-25c"
     }
   ]
