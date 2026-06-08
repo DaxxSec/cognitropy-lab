@@ -1,9 +1,9 @@
 # Cognitropy Workspaces
 
 > Auto-generated from each workspace's README tagline and `cognitropy-history.json`.
-> Regenerates daily as part of the `cognitropy-daily-build` pipeline. Last refresh: **2026-06-07**.
+> Regenerates daily as part of the `cognitropy-daily-build` pipeline. Last refresh: **2026-06-08**.
 
-**53 workspaces across 22 categories** — 16 of which are **crossovers** (two-domain fusions where the engine rolled a secondary category and gave the day a "spark" prompt to bridge the two). Browse by category below, or explore the full project context in the [README](./README.md).
+**54 workspaces across 22 categories** — 16 of which are **crossovers** (two-domain fusions where the engine rolled a secondary category and gave the day a "spark" prompt to bridge the two). Browse by category below, or explore the full project context in the [README](./README.md).
 
 ## Categories
 
@@ -26,7 +26,7 @@
 - [RF/SDR/Signals](#rfsdrsignals) (4)
 - [Security & Intelligence](#security--intelligence) (4)
 - [Space & Aviation](#space--aviation) (3)
-- [Trades & Crafts](#trades--crafts) (2)
+- [Trades & Crafts](#trades--crafts) (3)
 - [Transportation & Logistics](#transportation--logistics) (2)
 - [Unusual & Niche](#unusual--niche) (1)
 
@@ -179,6 +179,7 @@
 
 | Workspace | Type | Tagline |
 |---|---|---|
+| [Gem Cutting Angle Optimization Workspace](./gem-cutting-angle-optimization) | Standard | Optimize faceting angles for maximum light return — and keep the machine inside the tolerance band those angles demand with predictive maintenance scheduling. |
 | [Masonry Restoration Mortar Selection Workspace](./masonry-restoration-mortar-selection) | **Crossover** × Life Sciences | _Engine fusion: mycology taxonomy_ — A Claude Code workspace that picks compatible repair mortars for historic masonry by borrowing the **methodology of mycology taxonomy** — keys, type specimens, binomial naming, two-track identification and phylogenetic reasoning — and schedules the work with **predictive maintenance**. |
 | [Glassblowing Form Shaping Workspace](./glassblowing-form-shaping) | **Crossover** × Food & Agriculture | _Engine fusion: soil microbiome management_ — An agent workspace for hot-glass artists who want to plan forms with simulation and scenario testing instead of intuition alone — and who want every gather, color rod, and lehr run logged with the same rigor a soil-microbiome research plot gets. |
 

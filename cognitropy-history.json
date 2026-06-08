@@ -1,7 +1,7 @@
 {
   "version": 1,
   "project_start": "2026-03-26",
-  "updated_at": "2026-06-07",
+  "updated_at": "2026-06-08",
   "pool_versions": [
     {
       "version": "v1",
@@ -23,7 +23,7 @@
       "techniques": 30,
       "sparks": 5,
       "cadence_per_day": 2,
-      "note": "Doubled cadence to morning+evening (06:05 + 18:05). Added 3 new categories (Culinary & Beverage, Metallurgy & Materials Science, Firearms & Ballistics) + ~50 gap-fill entries across existing categories. Per-workspace command range bumped 4-8 \u2192 5-10, prompts 2-4 \u2192 3-5 (natural floor > forced ceiling). 29,298,030 unique outcomes / ~40,134 years to repeat at 2 builds/day."
+      "note": "Doubled cadence to morning+evening (06:05 + 18:05). Added 3 new categories (Culinary & Beverage, Metallurgy & Materials Science, Firearms & Ballistics) + ~50 gap-fill entries across existing categories. Per-workspace command range bumped 4-8 → 5-10, prompts 2-4 → 3-5 (natural floor > forced ceiling). 29,298,030 unique outcomes / ~40,134 years to repeat at 2 builds/day."
     }
   ],
   "entries": [
@@ -783,6 +783,23 @@
       "technique": "using time-series trend analysis",
       "primary_category": "Medical & Health",
       "primary_domain": "epidemiological modeling disease spread",
+      "secondary_category": null,
+      "secondary_domain": null,
+      "is_crossover": false,
+      "spark": null,
+      "pool_version": "v2-451d-25c"
+    },
+    {
+      "slug": "gem-cutting-angle-optimization",
+      "category": "Trades & Crafts",
+      "domain": "gem cutting angle optimization",
+      "date": "2026-06-08",
+      "day_number": 75,
+      "slot": "morning",
+      "slot_number": 149,
+      "technique": "with predictive maintenance scheduling",
+      "primary_category": "Trades & Crafts",
+      "primary_domain": "gem cutting angle optimization",
       "secondary_category": null,
       "secondary_domain": null,
       "is_crossover": false,
