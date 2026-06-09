@@ -1,7 +1,7 @@
 {
   "version": 1,
   "project_start": "2026-03-26",
-  "updated_at": "2026-06-08",
+  "updated_at": "2026-06-09",
   "pool_versions": [
     {
       "version": "v1",
@@ -800,6 +800,23 @@
       "technique": "with predictive maintenance scheduling",
       "primary_category": "Trades & Crafts",
       "primary_domain": "gem cutting angle optimization",
+      "secondary_category": null,
+      "secondary_domain": null,
+      "is_crossover": false,
+      "spark": null,
+      "pool_version": "v2-451d-25c"
+    },
+    {
+      "slug": "soil-erosion-prevention-contour-design",
+      "category": "Environmental & Earth",
+      "domain": "soil erosion prevention contour design",
+      "date": "2026-06-09",
+      "day_number": 76,
+      "slot": "morning",
+      "slot_number": 151,
+      "technique": "with capacity planning models",
+      "primary_category": "Environmental & Earth",
+      "primary_domain": "soil erosion prevention contour design",
       "secondary_category": null,
       "secondary_domain": null,
       "is_crossover": false,
