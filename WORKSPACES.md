@@ -1,9 +1,9 @@
 # Cognitropy Workspaces
 
 > Auto-generated from each workspace's README tagline and `cognitropy-history.json`.
-> Regenerates daily as part of the `cognitropy-daily-build` pipeline. Last refresh: **2026-06-09**.
+> Regenerates daily as part of the `cognitropy-daily-build` pipeline. Last refresh: **2026-06-10**.
 
-**55 workspaces across 22 categories** — 16 of which are **crossovers** (two-domain fusions where the engine rolled a secondary category and gave the day a "spark" prompt to bridge the two). Browse by category below, or explore the full project context in the [README](./README.md).
+**56 workspaces across 22 categories** — 16 of which are **crossovers** (two-domain fusions where the engine rolled a secondary category and gave the day a "spark" prompt to bridge the two). Browse by category below, or explore the full project context in the [README](./README.md).
 
 ## Categories
 
@@ -17,7 +17,7 @@
 - [Engineering & Technical](#engineering--technical) (5)
 - [Environmental & Earth](#environmental--earth) (3)
 - [Finance & Economics](#finance--economics) (3)
-- [Food & Agriculture](#food--agriculture) (2)
+- [Food & Agriculture](#food--agriculture) (3)
 - [Hardware & Embedded](#hardware--embedded) (1)
 - [Life Sciences](#life-sciences) (1)
 - [Medical & Health](#medical--health) (3)
@@ -111,6 +111,7 @@
 
 | Workspace | Type | Tagline |
 |---|---|---|
+| [Coffee Roasting Temperature Profiling Workspace](./coffee-roasting-temperature-profiling) | Standard | Design and reproduce coffee roast curves — charge, turning point, drying/Maillard/development phases, rate-of-rise, first crack, development-time ratio — and wire every profile into green-coffee inventory and supply-chain tracking, so each roasted bag traces back to a green lot and a versioned profile, and every batch is reconciled in roast-loss, yield, and FIFO terms. |
 | [Soil Microbiome Management Workspace](./soil-microbiome-management) | Standard | A Claude Code workspace for longitudinal management of agricultural soil microbiomes — built around **time-series trend analysis** of community composition, functional-gene abundance, and soil-health proxies across cropping cycles, amendments, and disturbances. |
 | [Aquaponics Anomaly Monitor](./aquaponics-anomaly-monitor) | Standard | "In aquaponics, everything is connected. A failing biofilter kills fish. Dead fish crash the plant bed. A crashed plant bed is just expensive compost with a pump. The anomaly you ignored at 9 AM is a system failure by midnight." |
 

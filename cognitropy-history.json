@@ -1,7 +1,7 @@
 {
   "version": 1,
   "project_start": "2026-03-26",
-  "updated_at": "2026-06-09",
+  "updated_at": "2026-06-10",
   "pool_versions": [
     {
       "version": "v1",
@@ -817,6 +817,23 @@
       "technique": "with capacity planning models",
       "primary_category": "Environmental & Earth",
       "primary_domain": "soil erosion prevention contour design",
+      "secondary_category": null,
+      "secondary_domain": null,
+      "is_crossover": false,
+      "spark": null,
+      "pool_version": "v2-451d-25c"
+    },
+    {
+      "slug": "coffee-roasting-temperature-profiling",
+      "category": "Food & Agriculture",
+      "domain": "coffee roasting temperature profiling",
+      "date": "2026-06-10",
+      "day_number": 77,
+      "slot": "morning",
+      "slot_number": 153,
+      "technique": "with inventory and supply chain tracking",
+      "primary_category": "Food & Agriculture",
+      "primary_domain": "coffee roasting temperature profiling",
       "secondary_category": null,
       "secondary_domain": null,
       "is_crossover": false,
