@@ -1,9 +1,9 @@
 # Cognitropy Workspaces
 
 > Auto-generated from each workspace's README tagline and `cognitropy-history.json`.
-> Regenerates daily as part of the `cognitropy-daily-build` pipeline. Last refresh: **2026-06-11**.
+> Regenerates daily as part of the `cognitropy-daily-build` pipeline. Last refresh: **2026-06-12**.
 
-**57 workspaces across 23 categories** — 16 of which are **crossovers** (two-domain fusions where the engine rolled a secondary category and gave the day a "spark" prompt to bridge the two). Browse by category below, or explore the full project context in the [README](./README.md).
+**58 workspaces across 23 categories** — 16 of which are **crossovers** (two-domain fusions where the engine rolled a secondary category and gave the day a "spark" prompt to bridge the two). Browse by category below, or explore the full project context in the [README](./README.md).
 
 ## Categories
 
@@ -25,7 +25,7 @@
 - [Outdoor & Adventure](#outdoor--adventure) (3)
 - [Physical Sciences](#physical-sciences) (3)
 - [RF/SDR/Signals](#rfsdrsignals) (4)
-- [Security & Intelligence](#security--intelligence) (4)
+- [Security & Intelligence](#security--intelligence) (5)
 - [Space & Aviation](#space--aviation) (3)
 - [Trades & Crafts](#trades--crafts) (3)
 - [Transportation & Logistics](#transportation--logistics) (2)
@@ -171,6 +171,7 @@
 
 | Workspace | Type | Tagline |
 |---|---|---|
+| [Executive Protection — Threat Assessment & Apprenticeship Progression Workspace](./executive-protection-threat-assessment-apprenticeship) | Standard | A close-protection training officer's workspace where every threat assessment is also a graded step in an agent's apprenticeship — operational product and competency evidence in one artifact. |
 | [Counterintelligence Motive Identification Workspace](./counterintelligence-analysis-motive-identification) | Standard | An agent workspace for authorized counterintelligence analysts, insider-threat program managers, and corporate security investigators to build defensible motive assessments on subjects of interest, using standardized inspection checklists drawn from ICD 700-series doctrine, DCSA insider-threat program guidance, and the MICE-RC analytic framework. |
 | [Executive Protection Threat Assessment Workspace](./executive-protection-threat-assessment) | **Crossover** × Automotive & Engine | _Engine fusion: vehicle crash test interpretation_ — An agent workspace for protective intelligence analysts and EP detail leaders. It builds principal-specific threat risk scoring matrices, runs structured threat assessments against engagements and itineraries, and — uniquely — borrows vehicle crash test interpretation methodology (delta-V, energy partitioning, intrusion modelling) to reason quantitatively about vehicle-borne attack scenarios. |
 | [VIP Motorcade Planning & Route Risk Workspace](./vip-motorcade-planning-route) | Standard | An agent workspace for designing, quantifying, and briefing VIP motorcade routes using formal risk scoring matrices (likelihood × impact), so primary, alternate, and abort legs are chosen on auditable, defensible numbers rather than intuition. |

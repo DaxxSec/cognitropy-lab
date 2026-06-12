@@ -1,7 +1,7 @@
 {
   "version": 1,
   "project_start": "2026-03-26",
-  "updated_at": "2026-06-11",
+  "updated_at": "2026-06-12",
   "pool_versions": [
     {
       "version": "v1",
@@ -851,6 +851,23 @@
       "technique": "with environmental impact assessment",
       "primary_category": "Metallurgy & Materials Science",
       "primary_domain": "shape memory alloy phase transformation",
+      "secondary_category": null,
+      "secondary_domain": null,
+      "is_crossover": false,
+      "spark": null,
+      "pool_version": "v2-451d-25c"
+    },
+    {
+      "slug": "executive-protection-threat-assessment-apprenticeship",
+      "category": "Security & Intelligence",
+      "domain": "executive protection threat assessment",
+      "date": "2026-06-12",
+      "day_number": 79,
+      "slot": "morning",
+      "slot_number": 157,
+      "technique": "using apprenticeship progression tracking",
+      "primary_category": "Security & Intelligence",
+      "primary_domain": "executive protection threat assessment",
       "secondary_category": null,
       "secondary_domain": null,
       "is_crossover": false,
