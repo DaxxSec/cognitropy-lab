@@ -1,15 +1,15 @@
 # Cognitropy Workspaces
 
 > Auto-generated from each workspace's README tagline and `cognitropy-history.json`.
-> Regenerates daily as part of the `cognitropy-daily-build` pipeline. Last refresh: **2026-06-12**.
+> Regenerates daily as part of the `cognitropy-daily-build` pipeline. Last refresh: **2026-06-13**.
 
-**58 workspaces across 23 categories** — 16 of which are **crossovers** (two-domain fusions where the engine rolled a secondary category and gave the day a "spark" prompt to bridge the two). Browse by category below, or explore the full project context in the [README](./README.md).
+**59 workspaces across 23 categories** — 16 of which are **crossovers** (two-domain fusions where the engine rolled a secondary category and gave the day a "spark" prompt to bridge the two). Browse by category below, or explore the full project context in the [README](./README.md).
 
 ## Categories
 
 - [Arts & Creative](#arts--creative) (1)
 - [Automotive & Engine](#automotive--engine) (4)
-- [Computing & Software](#computing--software) (2)
+- [Computing & Software](#computing--software) (3)
 - [Culinary & Beverage](#culinary--beverage) (1)
 - [Cyber & DFIR](#cyber--dfir) (3)
 - [Earth Sciences](#earth-sciences) (1)
@@ -52,6 +52,7 @@
 
 | Workspace | Type | Tagline |
 |---|---|---|
+| [Machine Learning Model Training Workspace](./machine-learning-model-training) | Standard | Operate ML model training the way an SRE team operates production — with severity levels, runbooks, on-call handoffs, and blameless postmortems. |
 | [API Design Specification Workspace](./api-design-specification) | Standard | Treat API spec authoring as multi-source intelligence fusion: collect signals from telemetry, tickets, standards, peers, and stakeholders; weight them; produce a single OpenAPI specification with traceable provenance for every operation. |
 | [Expo App Debugger Workspace](./expo-debugger-workspace) | Standard | A Claude agent workspace purpose-built for debugging React Native apps built with the Expo framework and Railway backends. Designed to take you from cryptic error message to working fix with minimal frustration. |
 

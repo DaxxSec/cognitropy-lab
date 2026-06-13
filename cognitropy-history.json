@@ -1,7 +1,7 @@
 {
   "version": 1,
   "project_start": "2026-03-26",
-  "updated_at": "2026-06-12",
+  "updated_at": "2026-06-13",
   "pool_versions": [
     {
       "version": "v1",
@@ -868,6 +868,23 @@
       "technique": "using apprenticeship progression tracking",
       "primary_category": "Security & Intelligence",
       "primary_domain": "executive protection threat assessment",
+      "secondary_category": null,
+      "secondary_domain": null,
+      "is_crossover": false,
+      "spark": null,
+      "pool_version": "v2-451d-25c"
+    },
+    {
+      "slug": "machine-learning-model-training",
+      "category": "Computing & Software",
+      "domain": "machine learning model training",
+      "date": "2026-06-13",
+      "day_number": 80,
+      "slot": "morning",
+      "slot_number": 159,
+      "technique": "with incident response runbooks",
+      "primary_category": "Computing & Software",
+      "primary_domain": "machine learning model training",
       "secondary_category": null,
       "secondary_domain": null,
       "is_crossover": false,
