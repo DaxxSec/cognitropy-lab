@@ -1,7 +1,7 @@
 {
   "version": 1,
   "project_start": "2026-03-26",
-  "updated_at": "2026-06-13",
+  "updated_at": "2026-06-14",
   "pool_versions": [
     {
       "version": "v1",
@@ -889,6 +889,23 @@
       "secondary_domain": null,
       "is_crossover": false,
       "spark": null,
+      "pool_version": "v2-451d-25c"
+    },
+    {
+      "slug": "powertrain-control-module-reprogramming",
+      "category": "Automotive & Engine",
+      "domain": "powertrain control module reprogramming",
+      "date": "2026-06-14",
+      "day_number": 81,
+      "slot": "morning",
+      "slot_number": 161,
+      "technique": "with geographic/spatial analysis",
+      "primary_category": "Automotive & Engine",
+      "primary_domain": "powertrain control module reprogramming",
+      "secondary_category": "Trades & Crafts",
+      "secondary_domain": "taxidermy animal preservation",
+      "is_crossover": true,
+      "spark": "What if powertrain control module reprogramming practitioners used techniques from taxidermy animal preservation?",
       "pool_version": "v2-451d-25c"
     }
   ]

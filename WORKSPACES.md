@@ -1,14 +1,14 @@
 # Cognitropy Workspaces
 
 > Auto-generated from each workspace's README tagline and `cognitropy-history.json`.
-> Regenerates daily as part of the `cognitropy-daily-build` pipeline. Last refresh: **2026-06-13**.
+> Regenerates daily as part of the `cognitropy-daily-build` pipeline. Last refresh: **2026-06-14**.
 
-**59 workspaces across 23 categories** — 16 of which are **crossovers** (two-domain fusions where the engine rolled a secondary category and gave the day a "spark" prompt to bridge the two). Browse by category below, or explore the full project context in the [README](./README.md).
+**60 workspaces across 23 categories** — 17 of which are **crossovers** (two-domain fusions where the engine rolled a secondary category and gave the day a "spark" prompt to bridge the two). Browse by category below, or explore the full project context in the [README](./README.md).
 
 ## Categories
 
 - [Arts & Creative](#arts--creative) (1)
-- [Automotive & Engine](#automotive--engine) (4)
+- [Automotive & Engine](#automotive--engine) (5)
 - [Computing & Software](#computing--software) (3)
 - [Culinary & Beverage](#culinary--beverage) (1)
 - [Cyber & DFIR](#cyber--dfir) (3)
@@ -43,6 +43,7 @@
 
 | Workspace | Type | Tagline |
 |---|---|---|
+| [Powertrain Control Module Reprogramming Workspace](./powertrain-control-module-reprogramming) | **Crossover** × Trades & Crafts | _Engine fusion: taxidermy animal preservation_ — Reprogram PCMs the way a conservator handles a specimen — archive the original before you touch it, fit the calibration to the vehicle's exact form, and map every variant to the geography it was built for. |
 | [Hybrid EMS — Multi-Source Intelligence Fusion Workspace](./hybrid-ems-intelligence-fusion) | Standard | An agent workspace for hybrid-vehicle energy management that fuses navigation, traffic, weather, V2X, driver, and powertrain telemetry into a single look-ahead picture — and turns that picture into torque-split and SOC-trajectory decisions you can defend to a calibration engineer. |
 | [Vehicle Crash Test Interpretation Workspace](./vehicle-crash-test-interpretation) | Standard | Turn raw crash-test instrumentation into Bayesian probability statements about injury, restraint performance, and regulatory compliance. |
 | [Hybrid System Energy Management Workspace](./hybrid-system-energy-management) | Standard | A Claude Code workspace for designing and tuning energy-management strategies (EMS) for hybrid electric powertrains — HEV, PHEV, and MHEV — across parallel, series, and power-split architectures, framed throughout as **Bayesian probability assessment**. |
