@@ -1,7 +1,7 @@
 {
   "version": 1,
   "project_start": "2026-03-26",
-  "updated_at": "2026-06-14",
+  "updated_at": "2026-06-15",
   "pool_versions": [
     {
       "version": "v1",
@@ -906,6 +906,23 @@
       "secondary_domain": "taxidermy animal preservation",
       "is_crossover": true,
       "spark": "What if powertrain control module reprogramming practitioners used techniques from taxidermy animal preservation?",
+      "pool_version": "v2-451d-25c"
+    },
+    {
+      "slug": "rf-spectrum-knowledge-base",
+      "category": "RF/SDR/Signals",
+      "domain": "RF spectrum analysis",
+      "date": "2026-06-15",
+      "day_number": 82,
+      "slot": "morning",
+      "slot_number": 163,
+      "technique": "with knowledge base and FAQ generation",
+      "primary_category": "RF/SDR/Signals",
+      "primary_domain": "RF spectrum analysis",
+      "secondary_category": null,
+      "secondary_domain": null,
+      "is_crossover": false,
+      "spark": null,
       "pool_version": "v2-451d-25c"
     }
   ]

@@ -1,9 +1,9 @@
 # Cognitropy Workspaces
 
 > Auto-generated from each workspace's README tagline and `cognitropy-history.json`.
-> Regenerates daily as part of the `cognitropy-daily-build` pipeline. Last refresh: **2026-06-14**.
+> Regenerates daily as part of the `cognitropy-daily-build` pipeline. Last refresh: **2026-06-15**.
 
-**60 workspaces across 23 categories** — 17 of which are **crossovers** (two-domain fusions where the engine rolled a secondary category and gave the day a "spark" prompt to bridge the two). Browse by category below, or explore the full project context in the [README](./README.md).
+**61 workspaces across 23 categories** — 17 of which are **crossovers** (two-domain fusions where the engine rolled a secondary category and gave the day a "spark" prompt to bridge the two). Browse by category below, or explore the full project context in the [README](./README.md).
 
 ## Categories
 
@@ -24,7 +24,7 @@
 - [Metallurgy & Materials Science](#metallurgy--materials-science) (1)
 - [Outdoor & Adventure](#outdoor--adventure) (3)
 - [Physical Sciences](#physical-sciences) (3)
-- [RF/SDR/Signals](#rfsdrsignals) (4)
+- [RF/SDR/Signals](#rfsdrsignals) (5)
 - [Security & Intelligence](#security--intelligence) (5)
 - [Space & Aviation](#space--aviation) (3)
 - [Trades & Crafts](#trades--crafts) (3)
@@ -164,6 +164,7 @@
 
 | Workspace | Type | Tagline |
 |---|---|---|
+| [RF Spectrum Analysis — Knowledge Base Workspace](./rf-spectrum-knowledge-base) | Standard | Stop running spectrum surveys you forget by next week. Turn every sweep into a durable, citable, FAQ-driven knowledge base — and keep it honest. |
 | [RF Spectrum Analysis Workspace](./rf-spectrum-analysis) | **Crossover** × Medical & Health | _Engine fusion: palliative care symptom management_ — Treat the radio spectrum like a chronic patient: grade the symptoms, chart the vitals, escalate proportionately, follow up for life. |
 | [Frequency Hopping Analysis Workspace](./frequency-hopping-analysis) | Standard | A Claude Agent Workspace for detecting, dehopping, and reverse-engineering frequency-hopping spread-spectrum (FHSS) radios from SDR captures, using Bayesian probability assessment to recover hop sets, dwell times, and sequences under low SNR and partial-observation conditions. |
 | [Wireless TPMS Analyzer](./wireless-tpms-analyzer) | Standard | A Claude Agent workspace for passive analysis and reverse engineering of automotive short-range wireless protocols — primarily Tire Pressure Monitoring Systems (TPMS) and Remote Keyless Entry (RKE) signals using RTL-SDR, HackRF, and open-source tooling. |
