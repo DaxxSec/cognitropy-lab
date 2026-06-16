@@ -1,7 +1,7 @@
 {
   "version": 1,
   "project_start": "2026-03-26",
-  "updated_at": "2026-06-15",
+  "updated_at": "2026-06-16",
   "pool_versions": [
     {
       "version": "v1",
@@ -923,6 +923,23 @@
       "secondary_domain": null,
       "is_crossover": false,
       "spark": null,
+      "pool_version": "v2-451d-25c"
+    },
+    {
+      "slug": "emissions-system-troubleshooting",
+      "category": "Automotive & Engine",
+      "domain": "emissions system troubleshooting",
+      "date": "2026-06-16",
+      "day_number": 83,
+      "slot": "morning",
+      "slot_number": 165,
+      "technique": "using evidence chain-of-custody tracking",
+      "primary_category": "Automotive & Engine",
+      "primary_domain": "emissions system troubleshooting",
+      "secondary_category": "Computing & Software",
+      "secondary_domain": "distributed systems consensus algorithms",
+      "is_crossover": true,
+      "spark": "Create a emissions system troubleshooting workspace with the rigor and process of distributed systems consensus algorithms.",
       "pool_version": "v2-451d-25c"
     }
   ]

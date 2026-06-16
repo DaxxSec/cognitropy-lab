@@ -1,14 +1,14 @@
 # Cognitropy Workspaces
 
 > Auto-generated from each workspace's README tagline and `cognitropy-history.json`.
-> Regenerates daily as part of the `cognitropy-daily-build` pipeline. Last refresh: **2026-06-15**.
+> Regenerates daily as part of the `cognitropy-daily-build` pipeline. Last refresh: **2026-06-16**.
 
-**61 workspaces across 23 categories** — 17 of which are **crossovers** (two-domain fusions where the engine rolled a secondary category and gave the day a "spark" prompt to bridge the two). Browse by category below, or explore the full project context in the [README](./README.md).
+**62 workspaces across 23 categories** — 18 of which are **crossovers** (two-domain fusions where the engine rolled a secondary category and gave the day a "spark" prompt to bridge the two). Browse by category below, or explore the full project context in the [README](./README.md).
 
 ## Categories
 
 - [Arts & Creative](#arts--creative) (1)
-- [Automotive & Engine](#automotive--engine) (5)
+- [Automotive & Engine](#automotive--engine) (6)
 - [Computing & Software](#computing--software) (3)
 - [Culinary & Beverage](#culinary--beverage) (1)
 - [Cyber & DFIR](#cyber--dfir) (3)
@@ -43,6 +43,7 @@
 
 | Workspace | Type | Tagline |
 |---|---|---|
+| [Emissions System Troubleshooting Workspace](./emissions-system-troubleshooting) | **Crossover** × Computing & Software | _Engine fusion: distributed systems consensus algorithms_ — Diagnose emissions faults the way a distributed system reaches consensus — corroborate conflicting sensors, tolerate the ones that lie, and only *commit* a root cause the evidence can defend. |
 | [Powertrain Control Module Reprogramming Workspace](./powertrain-control-module-reprogramming) | **Crossover** × Trades & Crafts | _Engine fusion: taxidermy animal preservation_ — Reprogram PCMs the way a conservator handles a specimen — archive the original before you touch it, fit the calibration to the vehicle's exact form, and map every variant to the geography it was built for. |
 | [Hybrid EMS — Multi-Source Intelligence Fusion Workspace](./hybrid-ems-intelligence-fusion) | Standard | An agent workspace for hybrid-vehicle energy management that fuses navigation, traffic, weather, V2X, driver, and powertrain telemetry into a single look-ahead picture — and turns that picture into torque-split and SOC-trajectory decisions you can defend to a calibration engineer. |
 | [Vehicle Crash Test Interpretation Workspace](./vehicle-crash-test-interpretation) | Standard | Turn raw crash-test instrumentation into Bayesian probability statements about injury, restraint performance, and regulatory compliance. |
