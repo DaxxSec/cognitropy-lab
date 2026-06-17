@@ -1,9 +1,9 @@
 # Cognitropy Workspaces
 
 > Auto-generated from each workspace's README tagline and `cognitropy-history.json`.
-> Regenerates daily as part of the `cognitropy-daily-build` pipeline. Last refresh: **2026-06-16**.
+> Regenerates daily as part of the `cognitropy-daily-build` pipeline. Last refresh: **2026-06-17**.
 
-**62 workspaces across 23 categories** — 18 of which are **crossovers** (two-domain fusions where the engine rolled a secondary category and gave the day a "spark" prompt to bridge the two). Browse by category below, or explore the full project context in the [README](./README.md).
+**63 workspaces across 23 categories** — 19 of which are **crossovers** (two-domain fusions where the engine rolled a secondary category and gave the day a "spark" prompt to bridge the two). Browse by category below, or explore the full project context in the [README](./README.md).
 
 ## Categories
 
@@ -11,7 +11,7 @@
 - [Automotive & Engine](#automotive--engine) (6)
 - [Computing & Software](#computing--software) (3)
 - [Culinary & Beverage](#culinary--beverage) (1)
-- [Cyber & DFIR](#cyber--dfir) (3)
+- [Cyber & DFIR](#cyber--dfir) (4)
 - [Earth Sciences](#earth-sciences) (1)
 - [Education & Training](#education--training) (2)
 - [Engineering & Technical](#engineering--technical) (5)
@@ -68,6 +68,7 @@
 
 | Workspace | Type | Tagline |
 |---|---|---|
+| [Endpoint Detection & Response — Reconstruction Workspace](./endpoint-detection-and-response) | **Crossover** × History & Culture | _Engine fusion: historical costume reconstruction_ — Investigate endpoint intrusions the way a conservator reconstructs a historical garment — provenance, anachronism, stratigraphy, and material analysis — with geographic/spatial mapping of how the attack spread. |
 | [Supply Chain Security Audit Workspace](./supply-chain-security-audit) | Standard | An AI-powered agent workspace for conducting comprehensive software and hardware supply chain security audits. This workspace applies a novel **triage methodology** — borrowing systematic assessment techniques from palliative care symptom management — to bring structure and prioritization to the complex problem of supply chain risk. |
 | [Phishing Kit Analyzer](./phishing-kit-analyzer) | Standard | A Claude Agent Workspace for dissecting, reverse-engineering, and extracting threat intelligence from phishing kits. |
 | [Aquaponics ICS/OT Security](./aquaponics-ics-security) | Standard | "The aquaponics industry discovered automation before it discovered security. Today, thousands of fish farms run PLCs with default passwords, Modbus TCP on flat networks, and SCADA dashboards exposed to the internet via Shodan. The next fish kill might not be pH. It might be a port scan." |

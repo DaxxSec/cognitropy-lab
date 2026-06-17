@@ -1,7 +1,7 @@
 {
   "version": 1,
   "project_start": "2026-03-26",
-  "updated_at": "2026-06-16",
+  "updated_at": "2026-06-17",
   "pool_versions": [
     {
       "version": "v1",
@@ -940,6 +940,23 @@
       "secondary_domain": "distributed systems consensus algorithms",
       "is_crossover": true,
       "spark": "Create a emissions system troubleshooting workspace with the rigor and process of distributed systems consensus algorithms.",
+      "pool_version": "v2-451d-25c"
+    },
+    {
+      "slug": "endpoint-detection-and-response",
+      "category": "Cyber & DFIR",
+      "domain": "endpoint detection and response",
+      "date": "2026-06-17",
+      "day_number": 84,
+      "slot": "morning",
+      "slot_number": 167,
+      "technique": "with geographic/spatial analysis",
+      "primary_category": "Cyber & DFIR",
+      "primary_domain": "endpoint detection and response",
+      "secondary_category": "History & Culture",
+      "secondary_domain": "historical costume reconstruction",
+      "is_crossover": true,
+      "spark": "What if endpoint detection and response practitioners used techniques from historical costume reconstruction?",
       "pool_version": "v2-451d-25c"
     }
   ]
