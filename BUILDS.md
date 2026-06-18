@@ -1,8 +1,8 @@
 # Cognitropy Daily Build Log
 
-> Auto-generated from `cognitropy-history.json`. Regenerates as part of every build. Last refresh: **2026-06-17**.
+> Auto-generated from `cognitropy-history.json`. Regenerates as part of every build. Last refresh: **2026-06-18**.
 
-**63 builds since project start (2026-03-26); 19 crossovers (30% — engine targets ~30%).**
+**64 builds since project start (2026-03-26); 19 crossovers (29% — engine targets ~30%).**
 
 Engine pool: **v2-451d-25c** (451 domains × 25 categories, 2/day). See [`cognitropy-history.json`](./cognitropy-history.json) `pool_versions[]` for the full engine-evolution log.
 
@@ -10,6 +10,7 @@ Most recent first. Click any domain to open its workspace; see [`WORKSPACES.md`]
 
 | Day | Date | Slot | Type | Category | Domain | Technique |
 |---|---|---|---|---|---|---|
+| 85 | Jun 18, 2026 | morning | Standard | Metallurgy & Materials Science | [Amorphous Metal Bulk Glass Formation](./amorphous-metal-bulk-glass-formation) | Capacity planning models |
 | 84 | Jun 17, 2026 | morning | **× History & Culture** | Cyber & DFIR | [Endpoint Detection And Response](./endpoint-detection-and-response) _× historical costume reconstruction_ | Geographic/spatial analysis |
 | 83 | Jun 16, 2026 | morning | **× Computing & Software** | Automotive & Engine | [Emissions System Troubleshooting](./emissions-system-troubleshooting) _× distributed systems consensus algorithms_ | Evidence chain-of-custody tracking |
 | 82 | Jun 15, 2026 | morning | Standard | RF/SDR/Signals | [RF Spectrum Knowledge Base](./rf-spectrum-knowledge-base) | Knowledge base and FAQ generation |

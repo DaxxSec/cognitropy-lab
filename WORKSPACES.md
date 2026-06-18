@@ -1,9 +1,9 @@
 # Cognitropy Workspaces
 
 > Auto-generated from each workspace's README tagline and `cognitropy-history.json`.
-> Regenerates daily as part of the `cognitropy-daily-build` pipeline. Last refresh: **2026-06-17**.
+> Regenerates daily as part of the `cognitropy-daily-build` pipeline. Last refresh: **2026-06-18**.
 
-**63 workspaces across 23 categories** — 19 of which are **crossovers** (two-domain fusions where the engine rolled a secondary category and gave the day a "spark" prompt to bridge the two). Browse by category below, or explore the full project context in the [README](./README.md).
+**64 workspaces across 23 categories** — 19 of which are **crossovers** (two-domain fusions where the engine rolled a secondary category and gave the day a "spark" prompt to bridge the two). Browse by category below, or explore the full project context in the [README](./README.md).
 
 ## Categories
 
@@ -21,7 +21,7 @@
 - [Hardware & Embedded](#hardware--embedded) (1)
 - [Life Sciences](#life-sciences) (1)
 - [Medical & Health](#medical--health) (3)
-- [Metallurgy & Materials Science](#metallurgy--materials-science) (1)
+- [Metallurgy & Materials Science](#metallurgy--materials-science) (2)
 - [Outdoor & Adventure](#outdoor--adventure) (3)
 - [Physical Sciences](#physical-sciences) (3)
 - [RF/SDR/Signals](#rfsdrsignals) (5)
@@ -144,6 +144,7 @@
 
 | Workspace | Type | Tagline |
 |---|---|---|
+| [Amorphous Metal Bulk Glass Formation Workspace](./amorphous-metal-bulk-glass-formation) | Standard | Planning an amorphous-alloy foundry where the crystallization nose — not the machine — is the binding capacity constraint. |
 | [Shape Memory Alloy Phase Transformation Workspace](./shape-memory-alloy-phase-transformation) | Standard | A Claude Code workspace for engineering the martensite ↔ austenite transformation in shape memory alloys — and weighing every transformation decision against its full environmental life cycle. |
 
 ## Outdoor & Adventure
