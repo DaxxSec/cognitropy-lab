@@ -1,9 +1,9 @@
 # Cognitropy Workspaces
 
 > Auto-generated from each workspace's README tagline and `cognitropy-history.json`.
-> Regenerates daily as part of the `cognitropy-daily-build` pipeline. Last refresh: **2026-06-18**.
+> Regenerates daily as part of the `cognitropy-daily-build` pipeline. Last refresh: **2026-06-19**.
 
-**64 workspaces across 23 categories** — 19 of which are **crossovers** (two-domain fusions where the engine rolled a secondary category and gave the day a "spark" prompt to bridge the two). Browse by category below, or explore the full project context in the [README](./README.md).
+**65 workspaces across 23 categories** — 20 of which are **crossovers** (two-domain fusions where the engine rolled a secondary category and gave the day a "spark" prompt to bridge the two). Browse by category below, or explore the full project context in the [README](./README.md).
 
 ## Categories
 
@@ -24,7 +24,7 @@
 - [Metallurgy & Materials Science](#metallurgy--materials-science) (2)
 - [Outdoor & Adventure](#outdoor--adventure) (3)
 - [Physical Sciences](#physical-sciences) (3)
-- [RF/SDR/Signals](#rfsdrsignals) (5)
+- [RF/SDR/Signals](#rfsdrsignals) (6)
 - [Security & Intelligence](#security--intelligence) (5)
 - [Space & Aviation](#space--aviation) (3)
 - [Trades & Crafts](#trades--crafts) (3)
@@ -167,6 +167,7 @@
 
 | Workspace | Type | Tagline |
 |---|---|---|
+| [Satellite Communication Protocols Workspace](./satellite-communication-protocols) | **Crossover** × Physical Sciences | _Engine fusion: optics system design_ — Design satellite links the way an optician designs a lens — as a budgeted cascade bounded by a conservation law, with every dB justified by cost-benefit. |
 | [RF Spectrum Analysis — Knowledge Base Workspace](./rf-spectrum-knowledge-base) | Standard | Stop running spectrum surveys you forget by next week. Turn every sweep into a durable, citable, FAQ-driven knowledge base — and keep it honest. |
 | [RF Spectrum Analysis Workspace](./rf-spectrum-analysis) | **Crossover** × Medical & Health | _Engine fusion: palliative care symptom management_ — Treat the radio spectrum like a chronic patient: grade the symptoms, chart the vitals, escalate proportionately, follow up for life. |
 | [Frequency Hopping Analysis Workspace](./frequency-hopping-analysis) | Standard | A Claude Agent Workspace for detecting, dehopping, and reverse-engineering frequency-hopping spread-spectrum (FHSS) radios from SDR captures, using Bayesian probability assessment to recover hop sets, dwell times, and sequences under low SNR and partial-observation conditions. |
