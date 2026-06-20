@@ -688,6 +688,22 @@
       "pool_version": "v2-451d-25c"
     },
     {
+      "slug": "diplomatic-security-advance-planning",
+      "category": "Security & Intelligence",
+      "domain": "diplomatic security advance planning",
+      "date": "2026-05-22",
+      "day_number": 58,
+      "slot": "morning",
+      "technique": "with safety protocol enforcement",
+      "primary_category": "Security & Intelligence",
+      "primary_domain": "diplomatic security advance planning",
+      "secondary_category": null,
+      "secondary_domain": null,
+      "is_crossover": false,
+      "spark": null,
+      "pool_version": "v2-451d-25c"
+    },
+    {
       "slug": "underwater-archaeology-excavation",
       "category": "Outdoor & Adventure",
       "domain": "underwater archaeology excavation",
@@ -991,6 +1007,23 @@
       "secondary_domain": "optics system design",
       "is_crossover": true,
       "spark": "What if satellite communication protocols practitioners used techniques from optics system design?",
+      "pool_version": "v2-451d-25c"
+    },
+    {
+      "slug": "pottery-wheel-throwing",
+      "category": "Trades & Crafts",
+      "domain": "pottery wheel throwing",
+      "date": "2026-06-19",
+      "day_number": 86,
+      "slot": "evening",
+      "slot_number": 172,
+      "technique": "with environmental impact assessment",
+      "primary_category": "Trades & Crafts",
+      "primary_domain": "pottery wheel throwing",
+      "secondary_category": "Transportation & Logistics",
+      "secondary_domain": "traffic engineering signal timing",
+      "is_crossover": true,
+      "spark": "Build a workspace that applies traffic engineering signal timing methodology to pottery wheel throwing problems.",
       "pool_version": "v2-451d-25c"
     }
   ]

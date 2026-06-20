@@ -3,7 +3,7 @@
 > Auto-generated from each workspace's README tagline and `cognitropy-history.json`.
 > Regenerates daily as part of the `cognitropy-daily-build` pipeline. Last refresh: **2026-06-19**.
 
-**65 workspaces across 23 categories** — 20 of which are **crossovers** (two-domain fusions where the engine rolled a secondary category and gave the day a "spark" prompt to bridge the two). Browse by category below, or explore the full project context in the [README](./README.md).
+**67 workspaces across 23 categories** — 21 of which are **crossovers** (two-domain fusions where the engine rolled a secondary category and gave the day a "spark" prompt to bridge the two). Browse by category below, or explore the full project context in the [README](./README.md).
 
 ## Categories
 
@@ -25,9 +25,9 @@
 - [Outdoor & Adventure](#outdoor--adventure) (3)
 - [Physical Sciences](#physical-sciences) (3)
 - [RF/SDR/Signals](#rfsdrsignals) (6)
-- [Security & Intelligence](#security--intelligence) (5)
+- [Security & Intelligence](#security--intelligence) (6)
 - [Space & Aviation](#space--aviation) (3)
-- [Trades & Crafts](#trades--crafts) (3)
+- [Trades & Crafts](#trades--crafts) (4)
 - [Transportation & Logistics](#transportation--logistics) (2)
 - [Unusual & Niche](#unusual--niche) (1)
 
@@ -179,6 +179,7 @@
 | Workspace | Type | Tagline |
 |---|---|---|
 | [Executive Protection — Threat Assessment & Apprenticeship Progression Workspace](./executive-protection-threat-assessment-apprenticeship) | Standard | A close-protection training officer's workspace where every threat assessment is also a graded step in an agent's apprenticeship — operational product and competency evidence in one artifact. |
+| [Diplomatic Security Advance Planning Workspace](./diplomatic-security-advance-planning) | Standard | A Claude Code workspace for diplomatic-security advance planners — RSOs, protective-services agents, contracted advance teams — framed throughout as **safety protocol enforcement**. Every venue, route, motorcade configuration, contact, and contingency runs through a documented protocol with explicit acceptance criteria, deviation handling, and post-mortem reporting. |
 | [Counterintelligence Motive Identification Workspace](./counterintelligence-analysis-motive-identification) | Standard | An agent workspace for authorized counterintelligence analysts, insider-threat program managers, and corporate security investigators to build defensible motive assessments on subjects of interest, using standardized inspection checklists drawn from ICD 700-series doctrine, DCSA insider-threat program guidance, and the MICE-RC analytic framework. |
 | [Executive Protection Threat Assessment Workspace](./executive-protection-threat-assessment) | **Crossover** × Automotive & Engine | _Engine fusion: vehicle crash test interpretation_ — An agent workspace for protective intelligence analysts and EP detail leaders. It builds principal-specific threat risk scoring matrices, runs structured threat assessments against engagements and itineraries, and — uniquely — borrows vehicle crash test interpretation methodology (delta-V, energy partitioning, intrusion modelling) to reason quantitatively about vehicle-borne attack scenarios. |
 | [VIP Motorcade Planning & Route Risk Workspace](./vip-motorcade-planning-route) | Standard | An agent workspace for designing, quantifying, and briefing VIP motorcade routes using formal risk scoring matrices (likelihood × impact), so primary, alternate, and abort legs are chosen on auditable, defensible numbers rather than intuition. |
@@ -196,6 +197,7 @@
 
 | Workspace | Type | Tagline |
 |---|---|---|
+| [Pottery Wheel Throwing Workspace](./pottery-wheel-throwing) | **Crossover** × Transportation & Logistics | _Engine fusion: traffic engineering signal timing_ — Run a throwing studio like a signalized intersection — time the kiln like a traffic light, and let the throughput optimization double as the environmental one. |
 | [Gem Cutting Angle Optimization Workspace](./gem-cutting-angle-optimization) | Standard | Optimize faceting angles for maximum light return — and keep the machine inside the tolerance band those angles demand with predictive maintenance scheduling. |
 | [Masonry Restoration Mortar Selection Workspace](./masonry-restoration-mortar-selection) | **Crossover** × Life Sciences | _Engine fusion: mycology taxonomy_ — A Claude Code workspace that picks compatible repair mortars for historic masonry by borrowing the **methodology of mycology taxonomy** — keys, type specimens, binomial naming, two-track identification and phylogenetic reasoning — and schedules the work with **predictive maintenance**. |
 | [Glassblowing Form Shaping Workspace](./glassblowing-form-shaping) | **Crossover** × Food & Agriculture | _Engine fusion: soil microbiome management_ — An agent workspace for hot-glass artists who want to plan forms with simulation and scenario testing instead of intuition alone — and who want every gather, color rod, and lehr run logged with the same rigor a soil-microbiome research plot gets. |

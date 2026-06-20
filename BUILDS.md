@@ -2,7 +2,7 @@
 
 > Auto-generated from `cognitropy-history.json`. Regenerates as part of every build. Last refresh: **2026-06-19**.
 
-**65 builds since project start (2026-03-26); 20 crossovers (30% — engine targets ~30%).**
+**67 builds since project start (2026-03-26); 21 crossovers (31% — engine targets ~30%).**
 
 Engine pool: **v2-451d-25c** (451 domains × 25 categories, 2/day). See [`cognitropy-history.json`](./cognitropy-history.json) `pool_versions[]` for the full engine-evolution log.
 
@@ -11,6 +11,7 @@ Most recent first. Click any domain to open its workspace; see [`WORKSPACES.md`]
 | Day | Date | Slot | Type | Category | Domain | Technique |
 |---|---|---|---|---|---|---|
 | 86 | Jun 19, 2026 | morning | **× Physical Sciences** | RF/SDR/Signals | [Satellite Communication Protocols](./satellite-communication-protocols) _× optics system design_ | Cost-benefit analysis frameworks |
+| 86 | Jun 19, 2026 | evening | **× Transportation & Logistics** | Trades & Crafts | [Pottery Wheel Throwing](./pottery-wheel-throwing) _× traffic engineering signal timing_ | Environmental impact assessment |
 | 85 | Jun 18, 2026 | morning | Standard | Metallurgy & Materials Science | [Amorphous Metal Bulk Glass Formation](./amorphous-metal-bulk-glass-formation) | Capacity planning models |
 | 84 | Jun 17, 2026 | morning | **× History & Culture** | Cyber & DFIR | [Endpoint Detection And Response](./endpoint-detection-and-response) _× historical costume reconstruction_ | Geographic/spatial analysis |
 | 83 | Jun 16, 2026 | morning | **× Computing & Software** | Automotive & Engine | [Emissions System Troubleshooting](./emissions-system-troubleshooting) _× distributed systems consensus algorithms_ | Evidence chain-of-custody tracking |
@@ -28,6 +29,7 @@ Most recent first. Click any domain to open its workspace; see [`WORKSPACES.md`]
 | 71 | Jun 04, 2026 | morning | **× Cyber & DFIR** | Transportation & Logistics | [Hazmat Transportation Regulations](./hazmat-transportation-regulations) _× cryptanalysis_ | Standardized inspection checklists |
 | 70 | Jun 03, 2026 | morning | **× History & Culture** | Culinary & Beverage | [Pastry Lamination Dough Technique](./pastry-lamination-dough-technique) _× medieval manuscript analysis paleography_ | Stakeholder communication templates |
 | 69 | Jun 02, 2026 | morning | Standard | Outdoor & Adventure | [Underwater Archaeology Excavation](./underwater-archaeology-excavation) | Cost-benefit analysis frameworks |
+| 58 | May 22, 2026 | morning | Standard | Security & Intelligence | [Diplomatic Security Advance Planning](./diplomatic-security-advance-planning) | Safety protocol enforcement |
 | 57 | May 21, 2026 | morning | Standard | Engineering & Technical | [Biomechanical Engineering Prosthetics](./biomechanical-engineering-prosthetics) | Quality control statistical methods |
 | 56 | May 20, 2026 | morning | Standard | Automotive & Engine | [Hybrid EMS Intelligence Fusion](./hybrid-ems-intelligence-fusion) | Multi-source intelligence fusion |
 | 55 | May 19, 2026 | morning | Standard | Computing & Software | [API Design Specification](./api-design-specification) | Multi-source intelligence fusion |
