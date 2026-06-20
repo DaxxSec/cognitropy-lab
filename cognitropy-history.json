@@ -1,7 +1,7 @@
 {
   "version": 1,
   "project_start": "2026-03-26",
-  "updated_at": "2026-06-19",
+  "updated_at": "2026-06-20",
   "pool_versions": [
     {
       "version": "v1",
@@ -1024,6 +1024,23 @@
       "secondary_domain": "traffic engineering signal timing",
       "is_crossover": true,
       "spark": "Build a workspace that applies traffic engineering signal timing methodology to pottery wheel throwing problems.",
+      "pool_version": "v2-451d-25c"
+    },
+    {
+      "slug": "mycology-taxonomy",
+      "category": "Life Sciences",
+      "domain": "mycology taxonomy",
+      "date": "2026-06-20",
+      "day_number": 87,
+      "slot": "morning",
+      "slot_number": 173,
+      "technique": "with capacity planning models",
+      "primary_category": "Life Sciences",
+      "primary_domain": "mycology taxonomy",
+      "secondary_category": null,
+      "secondary_domain": null,
+      "is_crossover": false,
+      "spark": null,
       "pool_version": "v2-451d-25c"
     }
   ]

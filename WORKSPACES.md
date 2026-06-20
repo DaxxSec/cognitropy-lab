@@ -1,9 +1,9 @@
 # Cognitropy Workspaces
 
 > Auto-generated from each workspace's README tagline and `cognitropy-history.json`.
-> Regenerates daily as part of the `cognitropy-daily-build` pipeline. Last refresh: **2026-06-19**.
+> Regenerates daily as part of the `cognitropy-daily-build` pipeline. Last refresh: **2026-06-20**.
 
-**67 workspaces across 23 categories** — 21 of which are **crossovers** (two-domain fusions where the engine rolled a secondary category and gave the day a "spark" prompt to bridge the two). Browse by category below, or explore the full project context in the [README](./README.md).
+**68 workspaces across 23 categories** — 21 of which are **crossovers** (two-domain fusions where the engine rolled a secondary category and gave the day a "spark" prompt to bridge the two). Browse by category below, or explore the full project context in the [README](./README.md).
 
 ## Categories
 
@@ -19,7 +19,7 @@
 - [Finance & Economics](#finance--economics) (3)
 - [Food & Agriculture](#food--agriculture) (3)
 - [Hardware & Embedded](#hardware--embedded) (1)
-- [Life Sciences](#life-sciences) (1)
+- [Life Sciences](#life-sciences) (2)
 - [Medical & Health](#medical--health) (3)
 - [Metallurgy & Materials Science](#metallurgy--materials-science) (2)
 - [Outdoor & Adventure](#outdoor--adventure) (3)
@@ -130,6 +130,7 @@
 
 | Workspace | Type | Tagline |
 |---|---|---|
+| [Mycology Taxonomy Workspace](./mycology-taxonomy) | Standard | Determine fungal specimens correctly — morphology, DNA barcode, and phylogeny — and run the determination pipeline like a capacity-planned production line. |
 | [Zoology Comparative Anatomy](./zoology-comparative-anatomy) | Standard | A Claude Agent Workspace for **comparative anatomy fieldwork driven by standardized inspection checklists.** |
 
 ## Medical & Health

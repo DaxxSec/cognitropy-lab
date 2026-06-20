@@ -1,8 +1,8 @@
 # Cognitropy Daily Build Log
 
-> Auto-generated from `cognitropy-history.json`. Regenerates as part of every build. Last refresh: **2026-06-19**.
+> Auto-generated from `cognitropy-history.json`. Regenerates as part of every build. Last refresh: **2026-06-20**.
 
-**67 builds since project start (2026-03-26); 21 crossovers (31% — engine targets ~30%).**
+**68 builds since project start (2026-03-26); 21 crossovers (30% — engine targets ~30%).**
 
 Engine pool: **v2-451d-25c** (451 domains × 25 categories, 2/day). See [`cognitropy-history.json`](./cognitropy-history.json) `pool_versions[]` for the full engine-evolution log.
 
@@ -10,6 +10,7 @@ Most recent first. Click any domain to open its workspace; see [`WORKSPACES.md`]
 
 | Day | Date | Slot | Type | Category | Domain | Technique |
 |---|---|---|---|---|---|---|
+| 87 | Jun 20, 2026 | morning | Standard | Life Sciences | [Mycology Taxonomy](./mycology-taxonomy) | Capacity planning models |
 | 86 | Jun 19, 2026 | morning | **× Physical Sciences** | RF/SDR/Signals | [Satellite Communication Protocols](./satellite-communication-protocols) _× optics system design_ | Cost-benefit analysis frameworks |
 | 86 | Jun 19, 2026 | evening | **× Transportation & Logistics** | Trades & Crafts | [Pottery Wheel Throwing](./pottery-wheel-throwing) _× traffic engineering signal timing_ | Environmental impact assessment |
 | 85 | Jun 18, 2026 | morning | Standard | Metallurgy & Materials Science | [Amorphous Metal Bulk Glass Formation](./amorphous-metal-bulk-glass-formation) | Capacity planning models |
