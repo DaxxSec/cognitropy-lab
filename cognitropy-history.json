@@ -1,7 +1,7 @@
 {
   "version": 1,
   "project_start": "2026-03-26",
-  "updated_at": "2026-06-20",
+  "updated_at": "2026-06-21",
   "pool_versions": [
     {
       "version": "v1",
@@ -1074,6 +1074,23 @@
       "secondary_domain": "ionospheric HF propagation modeling",
       "is_crossover": true,
       "spark": "Create a SIEM rule development workspace with the rigor and process of ionospheric HF propagation modeling.",
+      "pool_version": "v2-451d-25c"
+    },
+    {
+      "slug": "immunology-antibody-engineering",
+      "category": "Life Sciences",
+      "domain": "immunology antibody engineering",
+      "date": "2026-06-21",
+      "day_number": 88,
+      "slot": "morning",
+      "slot_number": 175,
+      "technique": "using apprenticeship progression tracking",
+      "primary_category": "Life Sciences",
+      "primary_domain": "immunology antibody engineering",
+      "secondary_category": null,
+      "secondary_domain": null,
+      "is_crossover": false,
+      "spark": null,
       "pool_version": "v2-451d-25c"
     }
   ]
