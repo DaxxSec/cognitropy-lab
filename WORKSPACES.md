@@ -3,7 +3,7 @@
 > Auto-generated from each workspace's README tagline and `cognitropy-history.json`.
 > Regenerates daily as part of the `cognitropy-daily-build` pipeline. Last refresh: **2026-06-20**.
 
-**68 workspaces across 23 categories** — 21 of which are **crossovers** (two-domain fusions where the engine rolled a secondary category and gave the day a "spark" prompt to bridge the two). Browse by category below, or explore the full project context in the [README](./README.md).
+**70 workspaces across 23 categories** — 22 of which are **crossovers** (two-domain fusions where the engine rolled a secondary category and gave the day a "spark" prompt to bridge the two). Browse by category below, or explore the full project context in the [README](./README.md).
 
 ## Categories
 
@@ -11,7 +11,7 @@
 - [Automotive & Engine](#automotive--engine) (6)
 - [Computing & Software](#computing--software) (3)
 - [Culinary & Beverage](#culinary--beverage) (1)
-- [Cyber & DFIR](#cyber--dfir) (4)
+- [Cyber & DFIR](#cyber--dfir) (5)
 - [Earth Sciences](#earth-sciences) (1)
 - [Education & Training](#education--training) (2)
 - [Engineering & Technical](#engineering--technical) (5)
@@ -24,7 +24,7 @@
 - [Metallurgy & Materials Science](#metallurgy--materials-science) (2)
 - [Outdoor & Adventure](#outdoor--adventure) (3)
 - [Physical Sciences](#physical-sciences) (3)
-- [RF/SDR/Signals](#rfsdrsignals) (6)
+- [RF/SDR/Signals](#rfsdrsignals) (7)
 - [Security & Intelligence](#security--intelligence) (6)
 - [Space & Aviation](#space--aviation) (3)
 - [Trades & Crafts](#trades--crafts) (4)
@@ -68,6 +68,7 @@
 
 | Workspace | Type | Tagline |
 |---|---|---|
+| [SIEM Rule Development Workspace](./siem-rule-development) | **Crossover** × RF/SDR/Signals | _Engine fusion: ionospheric HF propagation modeling_ — Detection engineering with the rigor of HF propagation prediction: every rule is a circuit, tuned to its Frequency of Optimum Transmission and triaged by decision tree. |
 | [Endpoint Detection & Response — Reconstruction Workspace](./endpoint-detection-and-response) | **Crossover** × History & Culture | _Engine fusion: historical costume reconstruction_ — Investigate endpoint intrusions the way a conservator reconstructs a historical garment — provenance, anachronism, stratigraphy, and material analysis — with geographic/spatial mapping of how the attack spread. |
 | [Supply Chain Security Audit Workspace](./supply-chain-security-audit) | Standard | An AI-powered agent workspace for conducting comprehensive software and hardware supply chain security audits. This workspace applies a novel **triage methodology** — borrowing systematic assessment techniques from palliative care symptom management — to bring structure and prioritization to the complex problem of supply chain risk. |
 | [Phishing Kit Analyzer](./phishing-kit-analyzer) | Standard | A Claude Agent Workspace for dissecting, reverse-engineering, and extracting threat intelligence from phishing kits. |
@@ -170,6 +171,7 @@
 |---|---|---|
 | [Satellite Communication Protocols Workspace](./satellite-communication-protocols) | **Crossover** × Physical Sciences | _Engine fusion: optics system design_ — Design satellite links the way an optician designs a lens — as a budgeted cascade bounded by a conservation law, with every dB justified by cost-benefit. |
 | [RF Spectrum Analysis — Knowledge Base Workspace](./rf-spectrum-knowledge-base) | Standard | Stop running spectrum surveys you forget by next week. Turn every sweep into a durable, citable, FAQ-driven knowledge base — and keep it honest. |
+| [Software Defined Radio Development Workspace](./software-defined-radio-development) | Standard | A Claude Code workspace for building and optimizing software-defined radio applications across the GNU Radio / SoapySDR ecosystem — framed throughout as **resource optimization**: every flowgraph, decimation chain, and buffer configuration is treated as a constrained optimization over CPU, bandwidth, latency, and memory. |
 | [RF Spectrum Analysis Workspace](./rf-spectrum-analysis) | **Crossover** × Medical & Health | _Engine fusion: palliative care symptom management_ — Treat the radio spectrum like a chronic patient: grade the symptoms, chart the vitals, escalate proportionately, follow up for life. |
 | [Frequency Hopping Analysis Workspace](./frequency-hopping-analysis) | Standard | A Claude Agent Workspace for detecting, dehopping, and reverse-engineering frequency-hopping spread-spectrum (FHSS) radios from SDR captures, using Bayesian probability assessment to recover hop sets, dwell times, and sequences under low SNR and partial-observation conditions. |
 | [Wireless TPMS Analyzer](./wireless-tpms-analyzer) | Standard | A Claude Agent workspace for passive analysis and reverse engineering of automotive short-range wireless protocols — primarily Tire Pressure Monitoring Systems (TPMS) and Remote Keyless Entry (RKE) signals using RTL-SDR, HackRF, and open-source tooling. |

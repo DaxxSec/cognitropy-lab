@@ -704,6 +704,22 @@
       "pool_version": "v2-451d-25c"
     },
     {
+      "slug": "software-defined-radio-development",
+      "category": "RF/SDR/Signals",
+      "domain": "software defined radio development",
+      "date": "2026-05-23",
+      "day_number": 59,
+      "slot": "morning",
+      "technique": "using resource optimization algorithms",
+      "primary_category": "RF/SDR/Signals",
+      "primary_domain": "software defined radio development",
+      "secondary_category": null,
+      "secondary_domain": null,
+      "is_crossover": false,
+      "spark": null,
+      "pool_version": "v2-451d-25c"
+    },
+    {
       "slug": "underwater-archaeology-excavation",
       "category": "Outdoor & Adventure",
       "domain": "underwater archaeology excavation",
@@ -1041,6 +1057,23 @@
       "secondary_domain": null,
       "is_crossover": false,
       "spark": null,
+      "pool_version": "v2-451d-25c"
+    },
+    {
+      "slug": "siem-rule-development",
+      "category": "Cyber & DFIR",
+      "domain": "SIEM rule development",
+      "date": "2026-06-20",
+      "day_number": 87,
+      "slot": "evening",
+      "slot_number": 174,
+      "technique": "with decision tree triage workflows",
+      "primary_category": "Cyber & DFIR",
+      "primary_domain": "SIEM rule development",
+      "secondary_category": "RF/SDR/Signals",
+      "secondary_domain": "ionospheric HF propagation modeling",
+      "is_crossover": true,
+      "spark": "Create a SIEM rule development workspace with the rigor and process of ionospheric HF propagation modeling.",
       "pool_version": "v2-451d-25c"
     }
   ]

@@ -2,7 +2,7 @@
 
 > Auto-generated from `cognitropy-history.json`. Regenerates as part of every build. Last refresh: **2026-06-20**.
 
-**68 builds since project start (2026-03-26); 21 crossovers (30% — engine targets ~30%).**
+**70 builds since project start (2026-03-26); 22 crossovers (31% — engine targets ~30%).**
 
 Engine pool: **v2-451d-25c** (451 domains × 25 categories, 2/day). See [`cognitropy-history.json`](./cognitropy-history.json) `pool_versions[]` for the full engine-evolution log.
 
@@ -11,6 +11,7 @@ Most recent first. Click any domain to open its workspace; see [`WORKSPACES.md`]
 | Day | Date | Slot | Type | Category | Domain | Technique |
 |---|---|---|---|---|---|---|
 | 87 | Jun 20, 2026 | morning | Standard | Life Sciences | [Mycology Taxonomy](./mycology-taxonomy) | Capacity planning models |
+| 87 | Jun 20, 2026 | evening | **× RF/SDR/Signals** | Cyber & DFIR | [Siem Rule Development](./siem-rule-development) _× ionospheric HF propagation modeling_ | Decision tree triage workflows |
 | 86 | Jun 19, 2026 | morning | **× Physical Sciences** | RF/SDR/Signals | [Satellite Communication Protocols](./satellite-communication-protocols) _× optics system design_ | Cost-benefit analysis frameworks |
 | 86 | Jun 19, 2026 | evening | **× Transportation & Logistics** | Trades & Crafts | [Pottery Wheel Throwing](./pottery-wheel-throwing) _× traffic engineering signal timing_ | Environmental impact assessment |
 | 85 | Jun 18, 2026 | morning | Standard | Metallurgy & Materials Science | [Amorphous Metal Bulk Glass Formation](./amorphous-metal-bulk-glass-formation) | Capacity planning models |
@@ -30,6 +31,7 @@ Most recent first. Click any domain to open its workspace; see [`WORKSPACES.md`]
 | 71 | Jun 04, 2026 | morning | **× Cyber & DFIR** | Transportation & Logistics | [Hazmat Transportation Regulations](./hazmat-transportation-regulations) _× cryptanalysis_ | Standardized inspection checklists |
 | 70 | Jun 03, 2026 | morning | **× History & Culture** | Culinary & Beverage | [Pastry Lamination Dough Technique](./pastry-lamination-dough-technique) _× medieval manuscript analysis paleography_ | Stakeholder communication templates |
 | 69 | Jun 02, 2026 | morning | Standard | Outdoor & Adventure | [Underwater Archaeology Excavation](./underwater-archaeology-excavation) | Cost-benefit analysis frameworks |
+| 59 | May 23, 2026 | morning | Standard | RF/SDR/Signals | [Software Defined Radio Development](./software-defined-radio-development) | Resource optimization algorithms |
 | 58 | May 22, 2026 | morning | Standard | Security & Intelligence | [Diplomatic Security Advance Planning](./diplomatic-security-advance-planning) | Safety protocol enforcement |
 | 57 | May 21, 2026 | morning | Standard | Engineering & Technical | [Biomechanical Engineering Prosthetics](./biomechanical-engineering-prosthetics) | Quality control statistical methods |
 | 56 | May 20, 2026 | morning | Standard | Automotive & Engine | [Hybrid EMS Intelligence Fusion](./hybrid-ems-intelligence-fusion) | Multi-source intelligence fusion |
