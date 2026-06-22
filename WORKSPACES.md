@@ -1,9 +1,9 @@
 # Cognitropy Workspaces
 
 > Auto-generated from each workspace's README tagline and `cognitropy-history.json`.
-> Regenerates daily as part of the `cognitropy-daily-build` pipeline. Last refresh: **2026-06-21**.
+> Regenerates daily as part of the `cognitropy-daily-build` pipeline. Last refresh: **2026-06-22**.
 
-**72 workspaces across 23 categories** — 23 of which are **crossovers** (two-domain fusions where the engine rolled a secondary category and gave the day a "spark" prompt to bridge the two). Browse by category below, or explore the full project context in the [README](./README.md).
+**73 workspaces across 23 categories** — 23 of which are **crossovers** (two-domain fusions where the engine rolled a secondary category and gave the day a "spark" prompt to bridge the two). Browse by category below, or explore the full project context in the [README](./README.md).
 
 ## Categories
 
@@ -27,7 +27,7 @@
 - [RF/SDR/Signals](#rfsdrsignals) (7)
 - [Security & Intelligence](#security--intelligence) (6)
 - [Space & Aviation](#space--aviation) (3)
-- [Trades & Crafts](#trades--crafts) (4)
+- [Trades & Crafts](#trades--crafts) (5)
 - [Transportation & Logistics](#transportation--logistics) (2)
 - [Unusual & Niche](#unusual--niche) (2)
 
@@ -201,6 +201,7 @@
 
 | Workspace | Type | Tagline |
 |---|---|---|
+| [Upholstery Frame Restoration Workspace](./upholstery-frame-restoration) | Standard | Restore the wooden carcass under the padding — and run the bench as a measured, statistically-controlled process, not a guess. |
 | [Pottery Wheel Throwing Workspace](./pottery-wheel-throwing) | **Crossover** × Transportation & Logistics | _Engine fusion: traffic engineering signal timing_ — Run a throwing studio like a signalized intersection — time the kiln like a traffic light, and let the throughput optimization double as the environmental one. |
 | [Gem Cutting Angle Optimization Workspace](./gem-cutting-angle-optimization) | Standard | Optimize faceting angles for maximum light return — and keep the machine inside the tolerance band those angles demand with predictive maintenance scheduling. |
 | [Masonry Restoration Mortar Selection Workspace](./masonry-restoration-mortar-selection) | **Crossover** × Life Sciences | _Engine fusion: mycology taxonomy_ — A Claude Code workspace that picks compatible repair mortars for historic masonry by borrowing the **methodology of mycology taxonomy** — keys, type specimens, binomial naming, two-track identification and phylogenetic reasoning — and schedules the work with **predictive maintenance**. |
