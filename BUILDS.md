@@ -2,7 +2,7 @@
 
 > Auto-generated from `cognitropy-history.json`. Regenerates as part of every build. Last refresh: **2026-06-21**.
 
-**71 builds since project start (2026-03-26); 22 crossovers (30% — engine targets ~30%).**
+**72 builds since project start (2026-03-26); 23 crossovers (31% — engine targets ~30%).**
 
 Engine pool: **v2-451d-25c** (451 domains × 25 categories, 2/day). See [`cognitropy-history.json`](./cognitropy-history.json) `pool_versions[]` for the full engine-evolution log.
 
@@ -11,6 +11,7 @@ Most recent first. Click any domain to open its workspace; see [`WORKSPACES.md`]
 | Day | Date | Slot | Type | Category | Domain | Technique |
 |---|---|---|---|---|---|---|
 | 88 | Jun 21, 2026 | morning | Standard | Life Sciences | [Immunology Antibody Engineering](./immunology-antibody-engineering) | Apprenticeship progression tracking |
+| 88 | Jun 21, 2026 | evening | **× Computing & Software** | Unusual & Niche | [Pyrotechnics Choreography Timing](./pyrotechnics-choreography-timing) _× formal verification proof construction_ | Decision tree triage workflows |
 | 87 | Jun 20, 2026 | morning | Standard | Life Sciences | [Mycology Taxonomy](./mycology-taxonomy) | Capacity planning models |
 | 87 | Jun 20, 2026 | evening | **× RF/SDR/Signals** | Cyber & DFIR | [Siem Rule Development](./siem-rule-development) _× ionospheric HF propagation modeling_ | Decision tree triage workflows |
 | 86 | Jun 19, 2026 | morning | **× Physical Sciences** | RF/SDR/Signals | [Satellite Communication Protocols](./satellite-communication-protocols) _× optics system design_ | Cost-benefit analysis frameworks |

@@ -3,7 +3,7 @@
 > Auto-generated from each workspace's README tagline and `cognitropy-history.json`.
 > Regenerates daily as part of the `cognitropy-daily-build` pipeline. Last refresh: **2026-06-21**.
 
-**71 workspaces across 23 categories** — 22 of which are **crossovers** (two-domain fusions where the engine rolled a secondary category and gave the day a "spark" prompt to bridge the two). Browse by category below, or explore the full project context in the [README](./README.md).
+**72 workspaces across 23 categories** — 23 of which are **crossovers** (two-domain fusions where the engine rolled a secondary category and gave the day a "spark" prompt to bridge the two). Browse by category below, or explore the full project context in the [README](./README.md).
 
 ## Categories
 
@@ -29,7 +29,7 @@
 - [Space & Aviation](#space--aviation) (3)
 - [Trades & Crafts](#trades--crafts) (4)
 - [Transportation & Logistics](#transportation--logistics) (2)
-- [Unusual & Niche](#unusual--niche) (1)
+- [Unusual & Niche](#unusual--niche) (2)
 
 ---
 
@@ -217,6 +217,7 @@
 
 | Workspace | Type | Tagline |
 |---|---|---|
+| [Pyrotechnics Choreography Timing Workspace](./pyrotechnics-choreography-timing) | **Crossover** × Computing & Software | _Engine fusion: formal verification proof construction_ — Treat a fireworks show like a safety-critical timed system: model the cues, write the safety and music-sync constraints as proof obligations, and *discharge every one* — or get a counterexample. |
 | [Roller Coaster Design Forces Physics Workspace](./roller-coaster-design-forces-physics) | Standard | A ride-dynamics workspace for triaging roller coaster forces — g-loads, jerks, restraint demands — against ASTM F2291 / EN 13814 envelopes using explicit decision trees. |
 
 ---
