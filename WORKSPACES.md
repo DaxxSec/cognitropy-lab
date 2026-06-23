@@ -3,14 +3,14 @@
 > Auto-generated from each workspace's README tagline and `cognitropy-history.json`.
 > Regenerates daily as part of the `cognitropy-daily-build` pipeline. Last refresh: **2026-06-22**.
 
-**73 workspaces across 23 categories** — 23 of which are **crossovers** (two-domain fusions where the engine rolled a secondary category and gave the day a "spark" prompt to bridge the two). Browse by category below, or explore the full project context in the [README](./README.md).
+**74 workspaces across 23 categories** — 23 of which are **crossovers** (two-domain fusions where the engine rolled a secondary category and gave the day a "spark" prompt to bridge the two). Browse by category below, or explore the full project context in the [README](./README.md).
 
 ## Categories
 
 - [Arts & Creative](#arts--creative) (1)
 - [Automotive & Engine](#automotive--engine) (6)
 - [Computing & Software](#computing--software) (3)
-- [Culinary & Beverage](#culinary--beverage) (1)
+- [Culinary & Beverage](#culinary--beverage) (2)
 - [Cyber & DFIR](#cyber--dfir) (5)
 - [Earth Sciences](#earth-sciences) (1)
 - [Education & Training](#education--training) (2)
@@ -62,6 +62,7 @@
 
 | Workspace | Type | Tagline |
 |---|---|---|
+| [Emulsion Sauce Mother Technique Workspace](./emulsion-sauce-mother-technique) | Standard | Develop the foundational emulsified-sauce technique as a peer-reviewed discipline — every formula blind-tasted, replicated across hands, and signed off against an explicit rubric before it joins the canon. |
 | [Pastry Lamination Dough Technique Workspace](./pastry-lamination-dough-technique) | **Crossover** × History & Culture | _Engine fusion: medieval manuscript analysis paleography_ — Read a laminated dough like a medieval codex — codicology, collation, and diplomatic transcription applied to butter and flour, delivered as stakeholder-ready communications. |
 
 ## Cyber & DFIR

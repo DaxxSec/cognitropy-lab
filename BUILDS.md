@@ -2,7 +2,7 @@
 
 > Auto-generated from `cognitropy-history.json`. Regenerates as part of every build. Last refresh: **2026-06-22**.
 
-**73 builds since project start (2026-03-26); 23 crossovers (31% — engine targets ~30%).**
+**74 builds since project start (2026-03-26); 23 crossovers (31% — engine targets ~30%).**
 
 Engine pool: **v2-451d-25c** (451 domains × 25 categories, 2/day). See [`cognitropy-history.json`](./cognitropy-history.json) `pool_versions[]` for the full engine-evolution log.
 
@@ -11,6 +11,7 @@ Most recent first. Click any domain to open its workspace; see [`WORKSPACES.md`]
 | Day | Date | Slot | Type | Category | Domain | Technique |
 |---|---|---|---|---|---|---|
 | 89 | Jun 22, 2026 | morning | Standard | Trades & Crafts | [Upholstery Frame Restoration](./upholstery-frame-restoration) | Quality control statistical methods |
+| 89 | Jun 22, 2026 | evening | Standard | Culinary & Beverage | [Emulsion Sauce Mother Technique](./emulsion-sauce-mother-technique) | Peer review workflows |
 | 88 | Jun 21, 2026 | morning | Standard | Life Sciences | [Immunology Antibody Engineering](./immunology-antibody-engineering) | Apprenticeship progression tracking |
 | 88 | Jun 21, 2026 | evening | **× Computing & Software** | Unusual & Niche | [Pyrotechnics Choreography Timing](./pyrotechnics-choreography-timing) _× formal verification proof construction_ | Decision tree triage workflows |
 | 87 | Jun 20, 2026 | morning | Standard | Life Sciences | [Mycology Taxonomy](./mycology-taxonomy) | Capacity planning models |

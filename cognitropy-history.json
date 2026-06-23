@@ -1126,6 +1126,23 @@
       "is_crossover": false,
       "spark": null,
       "pool_version": "v2-451d-25c"
+    },
+    {
+      "slug": "emulsion-sauce-mother-technique",
+      "category": "Culinary & Beverage",
+      "domain": "emulsion sauce mother technique",
+      "date": "2026-06-22",
+      "day_number": 89,
+      "slot": "evening",
+      "slot_number": 178,
+      "technique": "using peer review workflows",
+      "primary_category": "Culinary & Beverage",
+      "primary_domain": "emulsion sauce mother technique",
+      "secondary_category": null,
+      "secondary_domain": null,
+      "is_crossover": false,
+      "spark": null,
+      "pool_version": "v2-451d-25c"
     }
   ]
 }
