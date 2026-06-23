@@ -1,9 +1,9 @@
 # Cognitropy Workspaces
 
 > Auto-generated from each workspace's README tagline and `cognitropy-history.json`.
-> Regenerates daily as part of the `cognitropy-daily-build` pipeline. Last refresh: **2026-06-22**.
+> Regenerates daily as part of the `cognitropy-daily-build` pipeline. Last refresh: **2026-06-23**.
 
-**74 workspaces across 23 categories** — 23 of which are **crossovers** (two-domain fusions where the engine rolled a secondary category and gave the day a "spark" prompt to bridge the two). Browse by category below, or explore the full project context in the [README](./README.md).
+**75 workspaces across 24 categories** — 23 of which are **crossovers** (two-domain fusions where the engine rolled a secondary category and gave the day a "spark" prompt to bridge the two). Browse by category below, or explore the full project context in the [README](./README.md).
 
 ## Categories
 
@@ -19,6 +19,7 @@
 - [Finance & Economics](#finance--economics) (3)
 - [Food & Agriculture](#food--agriculture) (3)
 - [Hardware & Embedded](#hardware--embedded) (1)
+- [History & Culture](#history--culture) (1)
 - [Life Sciences](#life-sciences) (3)
 - [Medical & Health](#medical--health) (3)
 - [Metallurgy & Materials Science](#metallurgy--materials-science) (2)
@@ -127,6 +128,12 @@
 | Workspace | Type | Tagline |
 |---|---|---|
 | [Firmware Reverse Engineering Workspace](./firmware-re-workspace) | **Crossover** × Medical & Health | _Engine fusion: palliative care symptom management_ — A Claude Agent Workspace for systematic firmware extraction, analysis, vulnerability research, and reporting on embedded device firmware images. |
+
+## History & Culture
+
+| Workspace | Type | Tagline |
+|---|---|---|
+| [Archival Preservation Digital Scanning Workspace](./archival-preservation-digital-scanning) | Standard | Run a cultural-heritage digitization program with operations-research rigor — preserve the most value per scarce capture-hour, without ever letting the schedule endanger a fragile original. |
 
 ## Life Sciences
 
