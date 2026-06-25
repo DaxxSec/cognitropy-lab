@@ -1,8 +1,8 @@
 # Cognitropy Daily Build Log
 
-> Auto-generated from `cognitropy-history.json`. Regenerates as part of every build. Last refresh: **2026-06-24**.
+> Auto-generated from `cognitropy-history.json`. Regenerates as part of every build. Last refresh: **2026-06-25**.
 
-**77 builds since project start (2026-03-26); 23 crossovers (29% — engine targets ~30%).**
+**78 builds since project start (2026-03-26); 23 crossovers (29% — engine targets ~30%).**
 
 Engine pool: **v2-451d-25c** (451 domains × 25 categories, 2/day). See [`cognitropy-history.json`](./cognitropy-history.json) `pool_versions[]` for the full engine-evolution log.
 
@@ -10,6 +10,7 @@ Most recent first. Click any domain to open its workspace; see [`WORKSPACES.md`]
 
 | Day | Date | Slot | Type | Category | Domain | Technique |
 |---|---|---|---|---|---|---|
+| 92 | Jun 25, 2026 | morning | Standard | Automotive & Engine | [Engine Block Metallurgy Analysis](./engine-block-metallurgy-analysis) | Bayesian probability assessment |
 | 91 | Jun 24, 2026 | evening | Standard | Hardware & Embedded | [Microcontroller Firmware Development](./microcontroller-firmware-development) | Cost-benefit analysis frameworks |
 | 90 | Jun 23, 2026 | morning | Standard | History & Culture | [Archival Preservation Digital Scanning](./archival-preservation-digital-scanning) | Resource optimization algorithms |
 | 89 | Jun 22, 2026 | morning | Standard | Trades & Crafts | [Upholstery Frame Restoration](./upholstery-frame-restoration) | Quality control statistical methods |

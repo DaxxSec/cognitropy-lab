@@ -1,14 +1,14 @@
 # Cognitropy Workspaces
 
 > Auto-generated from each workspace's README tagline and `cognitropy-history.json`.
-> Regenerates daily as part of the `cognitropy-daily-build` pipeline. Last refresh: **2026-06-24**.
+> Regenerates daily as part of the `cognitropy-daily-build` pipeline. Last refresh: **2026-06-25**.
 
-**77 workspaces across 24 categories** — 23 of which are **crossovers** (two-domain fusions where the engine rolled a secondary category and gave the day a "spark" prompt to bridge the two). Browse by category below, or explore the full project context in the [README](./README.md).
+**78 workspaces across 24 categories** — 23 of which are **crossovers** (two-domain fusions where the engine rolled a secondary category and gave the day a "spark" prompt to bridge the two). Browse by category below, or explore the full project context in the [README](./README.md).
 
 ## Categories
 
 - [Arts & Creative](#arts--creative) (1)
-- [Automotive & Engine](#automotive--engine) (6)
+- [Automotive & Engine](#automotive--engine) (7)
 - [Computing & Software](#computing--software) (3)
 - [Culinary & Beverage](#culinary--beverage) (2)
 - [Cyber & DFIR](#cyber--dfir) (5)
@@ -44,6 +44,7 @@
 
 | Workspace | Type | Tagline |
 |---|---|---|
+| [Engine Block Metallurgy Analysis Workspace](./engine-block-metallurgy-analysis) | Standard | A forensic-metallurgy workspace for engine blocks, heads, and liners that reasons about composition, microstructure, and failure with explicit Bayesian probability assessment rather than gut-feel verdicts. |
 | [Emissions System Troubleshooting Workspace](./emissions-system-troubleshooting) | **Crossover** × Computing & Software | _Engine fusion: distributed systems consensus algorithms_ — Diagnose emissions faults the way a distributed system reaches consensus — corroborate conflicting sensors, tolerate the ones that lie, and only *commit* a root cause the evidence can defend. |
 | [Powertrain Control Module Reprogramming Workspace](./powertrain-control-module-reprogramming) | **Crossover** × Trades & Crafts | _Engine fusion: taxidermy animal preservation_ — Reprogram PCMs the way a conservator handles a specimen — archive the original before you touch it, fit the calibration to the vehicle's exact form, and map every variant to the geography it was built for. |
 | [Hybrid EMS — Multi-Source Intelligence Fusion Workspace](./hybrid-ems-intelligence-fusion) | Standard | An agent workspace for hybrid-vehicle energy management that fuses navigation, traffic, weather, V2X, driver, and powertrain telemetry into a single look-ahead picture — and turns that picture into torque-split and SOC-trajectory decisions you can defend to a calibration engineer. |
