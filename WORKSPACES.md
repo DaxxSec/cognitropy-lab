@@ -1,9 +1,9 @@
 # Cognitropy Workspaces
 
 > Auto-generated from each workspace's README tagline and `cognitropy-history.json`.
-> Regenerates daily as part of the `cognitropy-daily-build` pipeline. Last refresh: **2026-06-23**.
+> Regenerates daily as part of the `cognitropy-daily-build` pipeline. Last refresh: **2026-06-24**.
 
-**75 workspaces across 24 categories** — 23 of which are **crossovers** (two-domain fusions where the engine rolled a secondary category and gave the day a "spark" prompt to bridge the two). Browse by category below, or explore the full project context in the [README](./README.md).
+**77 workspaces across 24 categories** — 23 of which are **crossovers** (two-domain fusions where the engine rolled a secondary category and gave the day a "spark" prompt to bridge the two). Browse by category below, or explore the full project context in the [README](./README.md).
 
 ## Categories
 
@@ -18,9 +18,9 @@
 - [Environmental & Earth](#environmental--earth) (3)
 - [Finance & Economics](#finance--economics) (3)
 - [Food & Agriculture](#food--agriculture) (3)
-- [Hardware & Embedded](#hardware--embedded) (1)
+- [Hardware & Embedded](#hardware--embedded) (2)
 - [History & Culture](#history--culture) (1)
-- [Life Sciences](#life-sciences) (3)
+- [Life Sciences](#life-sciences) (4)
 - [Medical & Health](#medical--health) (3)
 - [Metallurgy & Materials Science](#metallurgy--materials-science) (2)
 - [Outdoor & Adventure](#outdoor--adventure) (3)
@@ -127,6 +127,7 @@
 
 | Workspace | Type | Tagline |
 |---|---|---|
+| [Microcontroller Firmware Development Workspace](./microcontroller-firmware-development) | Standard | Build firmware the way a budget-holder would — every flash byte, microamp, dollar, and dev-hour is a currency, and every design decision is a trade you can show the math for. |
 | [Firmware Reverse Engineering Workspace](./firmware-re-workspace) | **Crossover** × Medical & Health | _Engine fusion: palliative care symptom management_ — A Claude Agent Workspace for systematic firmware extraction, analysis, vulnerability research, and reporting on embedded device firmware images. |
 
 ## History & Culture
@@ -141,6 +142,7 @@
 |---|---|---|
 | [Immunology Antibody Engineering Workspace](./immunology-antibody-engineering) | Standard | Engineer developable antibodies — humanize, mature, and de-risk them — while running the lab as a structured apprenticeship where every task is also a logged competency. |
 | [Mycology Taxonomy Workspace](./mycology-taxonomy) | Standard | Determine fungal specimens correctly — morphology, DNA barcode, and phylogeny — and run the determination pipeline like a capacity-planned production line. |
+| [Ornithology Song Spectrogram Analysis Workspace](./ornithology-song-spectrogram-analysis) | Standard | Identify and classify bird vocalizations from spectrograms the way a systematist keys a specimen — by diagnostic characters, measured and vouchered, across two nested taxonomies (acoustic structure and biological identity). |
 | [Zoology Comparative Anatomy](./zoology-comparative-anatomy) | Standard | A Claude Agent Workspace for **comparative anatomy fieldwork driven by standardized inspection checklists.** |
 
 ## Medical & Health

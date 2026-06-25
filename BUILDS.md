@@ -1,8 +1,8 @@
 # Cognitropy Daily Build Log
 
-> Auto-generated from `cognitropy-history.json`. Regenerates as part of every build. Last refresh: **2026-06-23**.
+> Auto-generated from `cognitropy-history.json`. Regenerates as part of every build. Last refresh: **2026-06-24**.
 
-**75 builds since project start (2026-03-26); 23 crossovers (30% — engine targets ~30%).**
+**77 builds since project start (2026-03-26); 23 crossovers (29% — engine targets ~30%).**
 
 Engine pool: **v2-451d-25c** (451 domains × 25 categories, 2/day). See [`cognitropy-history.json`](./cognitropy-history.json) `pool_versions[]` for the full engine-evolution log.
 
@@ -10,6 +10,7 @@ Most recent first. Click any domain to open its workspace; see [`WORKSPACES.md`]
 
 | Day | Date | Slot | Type | Category | Domain | Technique |
 |---|---|---|---|---|---|---|
+| 91 | Jun 24, 2026 | evening | Standard | Hardware & Embedded | [Microcontroller Firmware Development](./microcontroller-firmware-development) | Cost-benefit analysis frameworks |
 | 90 | Jun 23, 2026 | morning | Standard | History & Culture | [Archival Preservation Digital Scanning](./archival-preservation-digital-scanning) | Resource optimization algorithms |
 | 89 | Jun 22, 2026 | morning | Standard | Trades & Crafts | [Upholstery Frame Restoration](./upholstery-frame-restoration) | Quality control statistical methods |
 | 89 | Jun 22, 2026 | evening | Standard | Culinary & Beverage | [Emulsion Sauce Mother Technique](./emulsion-sauce-mother-technique) | Peer review workflows |
@@ -36,6 +37,7 @@ Most recent first. Click any domain to open its workspace; see [`WORKSPACES.md`]
 | 71 | Jun 04, 2026 | morning | **× Cyber & DFIR** | Transportation & Logistics | [Hazmat Transportation Regulations](./hazmat-transportation-regulations) _× cryptanalysis_ | Standardized inspection checklists |
 | 70 | Jun 03, 2026 | morning | **× History & Culture** | Culinary & Beverage | [Pastry Lamination Dough Technique](./pastry-lamination-dough-technique) _× medieval manuscript analysis paleography_ | Stakeholder communication templates |
 | 69 | Jun 02, 2026 | morning | Standard | Outdoor & Adventure | [Underwater Archaeology Excavation](./underwater-archaeology-excavation) | Cost-benefit analysis frameworks |
+| 60 | May 24, 2026 | morning | Standard | Life Sciences | [Ornithology Song Spectrogram Analysis](./ornithology-song-spectrogram-analysis) | Taxonomy and classification systems |
 | 59 | May 23, 2026 | morning | Standard | RF/SDR/Signals | [Software Defined Radio Development](./software-defined-radio-development) | Resource optimization algorithms |
 | 58 | May 22, 2026 | morning | Standard | Security & Intelligence | [Diplomatic Security Advance Planning](./diplomatic-security-advance-planning) | Safety protocol enforcement |
 | 57 | May 21, 2026 | morning | Standard | Engineering & Technical | [Biomechanical Engineering Prosthetics](./biomechanical-engineering-prosthetics) | Quality control statistical methods |
