@@ -3,7 +3,7 @@
 > Auto-generated from each workspace's README tagline and `cognitropy-history.json`.
 > Regenerates daily as part of the `cognitropy-daily-build` pipeline. Last refresh: **2026-06-25**.
 
-**78 workspaces across 24 categories** — 23 of which are **crossovers** (two-domain fusions where the engine rolled a secondary category and gave the day a "spark" prompt to bridge the two). Browse by category below, or explore the full project context in the [README](./README.md).
+**79 workspaces across 24 categories** — 24 of which are **crossovers** (two-domain fusions where the engine rolled a secondary category and gave the day a "spark" prompt to bridge the two). Browse by category below, or explore the full project context in the [README](./README.md).
 
 ## Categories
 
@@ -15,7 +15,7 @@
 - [Earth Sciences](#earth-sciences) (1)
 - [Education & Training](#education--training) (2)
 - [Engineering & Technical](#engineering--technical) (5)
-- [Environmental & Earth](#environmental--earth) (3)
+- [Environmental & Earth](#environmental--earth) (4)
 - [Finance & Economics](#finance--economics) (3)
 - [Food & Agriculture](#food--agriculture) (3)
 - [Hardware & Embedded](#hardware--embedded) (2)
@@ -104,6 +104,7 @@
 
 | Workspace | Type | Tagline |
 |---|---|---|
+| [Microplastics Sampling & Testing](./microplastics-sampling-testing) | **Crossover** × Security & Intelligence | _Engine fusion: border security operations scanning_ — A Claude Agent workspace for running an environmental microplastics monitoring program like a layered border-screening operation — risk-targeted sampling, primary→secondary analytical screening, legal-grade chain of custody, and predictive maintenance that keeps the detection network honest. |
 | [Soil Erosion Prevention — Contour Design Workspace](./soil-erosion-prevention-contour-design) | Standard | Design contour-based water-erosion control — terraces, waterways, diversions, sediment basins, check dams — by treating every structure as a capacity-constrained system: storms are demand, conveyance and storage are capacity, and good design keeps utilization below 1.0 with headroom across its service life. |
 | [Renewable Energy Siting Analysis Workspace](./renewable-energy-siting-analysis) | **Crossover** × Arts & Creative | _Engine fusion: puppetry movement mechanics_ — A siting workspace that reads capacity planning models through a puppetry movement-mechanics lens — every portfolio is an articulated body of joints, linkages, and drives. |
 | [Wildland Invasive Scout](./wildland-invasive-scout) | Standard | Bushcraft Intelligence + Invasive Species Management Methodology |

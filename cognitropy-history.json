@@ -1211,6 +1211,23 @@
       "is_crossover": false,
       "spark": null,
       "pool_version": "v2-451d-25c"
+    },
+    {
+      "slug": "microplastics-sampling-testing",
+      "category": "Environmental & Earth",
+      "domain": "microplastics sampling testing",
+      "date": "2026-06-25",
+      "day_number": 92,
+      "slot": "evening",
+      "slot_number": 184,
+      "technique": "with predictive maintenance scheduling",
+      "primary_category": "Environmental & Earth",
+      "primary_domain": "microplastics sampling testing",
+      "secondary_category": "Security & Intelligence",
+      "secondary_domain": "border security operations scanning",
+      "is_crossover": true,
+      "spark": "Someone working in microplastics sampling testing wants to borrow the analytical framework of border security operations scanning.",
+      "pool_version": "v2-451d-25c"
     }
   ]
 }
