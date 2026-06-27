@@ -1,9 +1,9 @@
 # Cognitropy Workspaces
 
 > Auto-generated from each workspace's README tagline and `cognitropy-history.json`.
-> Regenerates daily as part of the `cognitropy-daily-build` pipeline. Last refresh: **2026-06-26**.
+> Regenerates daily as part of the `cognitropy-daily-build` pipeline. Last refresh: **2026-06-27**.
 
-**81 workspaces across 24 categories** — 24 of which are **crossovers** (two-domain fusions where the engine rolled a secondary category and gave the day a "spark" prompt to bridge the two). Browse by category below, or explore the full project context in the [README](./README.md).
+**82 workspaces across 24 categories** — 24 of which are **crossovers** (two-domain fusions where the engine rolled a secondary category and gave the day a "spark" prompt to bridge the two). Browse by category below, or explore the full project context in the [README](./README.md).
 
 ## Categories
 
@@ -11,7 +11,7 @@
 - [Automotive & Engine](#automotive--engine) (7)
 - [Computing & Software](#computing--software) (3)
 - [Culinary & Beverage](#culinary--beverage) (3)
-- [Cyber & DFIR](#cyber--dfir) (5)
+- [Cyber & DFIR](#cyber--dfir) (6)
 - [Earth Sciences](#earth-sciences) (1)
 - [Education & Training](#education--training) (3)
 - [Engineering & Technical](#engineering--technical) (5)
@@ -72,6 +72,7 @@
 
 | Workspace | Type | Tagline |
 |---|---|---|
+| [Mobile Forensics — iOS Extraction Workspace](./mobile-forensics-ios-extraction) | Standard | A Claude Agent workspace for acquiring and analysing iOS devices the disciplined way: pick the right extraction method for the hardware and lock state, then reason about the evidence with structured hypothesis testing instead of confirmation bias. |
 | [SIEM Rule Development Workspace](./siem-rule-development) | **Crossover** × RF/SDR/Signals | _Engine fusion: ionospheric HF propagation modeling_ — Detection engineering with the rigor of HF propagation prediction: every rule is a circuit, tuned to its Frequency of Optimum Transmission and triaged by decision tree. |
 | [Endpoint Detection & Response — Reconstruction Workspace](./endpoint-detection-and-response) | **Crossover** × History & Culture | _Engine fusion: historical costume reconstruction_ — Investigate endpoint intrusions the way a conservator reconstructs a historical garment — provenance, anachronism, stratigraphy, and material analysis — with geographic/spatial mapping of how the attack spread. |
 | [Supply Chain Security Audit Workspace](./supply-chain-security-audit) | Standard | An AI-powered agent workspace for conducting comprehensive software and hardware supply chain security audits. This workspace applies a novel **triage methodology** — borrowing systematic assessment techniques from palliative care symptom management — to bring structure and prioritization to the complex problem of supply chain risk. |
