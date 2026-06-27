@@ -3,7 +3,7 @@
 > Auto-generated from each workspace's README tagline and `cognitropy-history.json`.
 > Regenerates daily as part of the `cognitropy-daily-build` pipeline. Last refresh: **2026-06-26**.
 
-**80 workspaces across 24 categories** — 24 of which are **crossovers** (two-domain fusions where the engine rolled a secondary category and gave the day a "spark" prompt to bridge the two). Browse by category below, or explore the full project context in the [README](./README.md).
+**81 workspaces across 24 categories** — 24 of which are **crossovers** (two-domain fusions where the engine rolled a secondary category and gave the day a "spark" prompt to bridge the two). Browse by category below, or explore the full project context in the [README](./README.md).
 
 ## Categories
 
@@ -13,7 +13,7 @@
 - [Culinary & Beverage](#culinary--beverage) (3)
 - [Cyber & DFIR](#cyber--dfir) (5)
 - [Earth Sciences](#earth-sciences) (1)
-- [Education & Training](#education--training) (2)
+- [Education & Training](#education--training) (3)
 - [Engineering & Technical](#engineering--technical) (5)
 - [Environmental & Earth](#environmental--earth) (4)
 - [Finance & Economics](#finance--economics) (3)
@@ -88,6 +88,7 @@
 
 | Workspace | Type | Tagline |
 |---|---|---|
+| [Curriculum Design — Bayesian Learning-Objective Assessment](./curriculum-design-learning-objectives) | Standard | A Claude Agent workspace for writing measurable learning objectives and designing curricula |
 | [Course Facilitation Engagement Workspace](./course-facilitation-engagement) | Standard | An agent workspace for designing and running the multi-stakeholder communication system that keeps a live cohort course engaged — from pre-launch through certification — using parameterized message templates aligned to engagement-science frameworks. |
 | [Curriculum Design Peer Review Workspace](./curriculum-design-peer-review) | **Crossover** × Earth Sciences | _Engine fusion: dendrochronology tree ring dating_ — A Claude agent workspace for designing, aligning, and iteratively improving educational curricula through structured peer review workflows. Built on evidence-based instructional design principles including backward design, Bloom's Revised Taxonomy, and Webb's Depth of Knowledge. |
 
