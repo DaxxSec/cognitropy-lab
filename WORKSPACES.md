@@ -1,9 +1,9 @@
 # Cognitropy Workspaces
 
 > Auto-generated from each workspace's README tagline and `cognitropy-history.json`.
-> Regenerates daily as part of the `cognitropy-daily-build` pipeline. Last refresh: **2026-06-27**.
+> Regenerates daily as part of the `cognitropy-daily-build` pipeline. Last refresh: **2026-06-28**.
 
-**83 workspaces across 24 categories** — 24 of which are **crossovers** (two-domain fusions where the engine rolled a secondary category and gave the day a "spark" prompt to bridge the two). Browse by category below, or explore the full project context in the [README](./README.md).
+**84 workspaces across 24 categories** — 25 of which are **crossovers** (two-domain fusions where the engine rolled a secondary category and gave the day a "spark" prompt to bridge the two). Browse by category below, or explore the full project context in the [README](./README.md).
 
 ## Categories
 
@@ -21,7 +21,7 @@
 - [Hardware & Embedded](#hardware--embedded) (2)
 - [History & Culture](#history--culture) (1)
 - [Life Sciences](#life-sciences) (4)
-- [Medical & Health](#medical--health) (3)
+- [Medical & Health](#medical--health) (4)
 - [Metallurgy & Materials Science](#metallurgy--materials-science) (2)
 - [Outdoor & Adventure](#outdoor--adventure) (4)
 - [Physical Sciences](#physical-sciences) (3)
@@ -154,6 +154,7 @@
 
 | Workspace | Type | Tagline |
 |---|---|---|
+| [Radiology Interpretation Diagnosis Workspace](./radiology-interpretation-diagnosis) | **Crossover** × Medical & Health | _Engine fusion: radiology interpretation diagnosis_ — Read molecular-gastronomy spheres like radiographs: a fixed search pattern, a ranked differential for every defect, a Sphere-RADS category that carries an action, and an FMEA that ranks the whole process by risk. |
 | [Epidemiological Disease-Spread Modeling Workspace](./epidemiological-modeling-disease-spread) | Standard | Turn noisy disease-surveillance time series into defensible reads on epidemic direction — reproduction number, nowcasts, trend decomposition, aberration alarms, and calibrated short-term forecasts. |
 | [Palliative Care Symptom Checklist Assistant](./palliative-care-symptom-checklists) | **Crossover** × Hardware & Embedded | _Engine fusion: bootloader reverse engineering_ — **Scope:** Decision-*support* for licensed clinicians. Not a clinical decision-maker. Not a diagnostic tool. Not a prescriber. Every draft it produces is reviewed by a human in the care team before anything is entered into the medical record. |
 | [Emergency Triage Protocols Workspace](./emergency-triage-protocols) | **Crossover** × Automotive & Engine | _Engine fusion: fuel injection optimization_ — A comprehensive decision-support system for emergency medical teams applying structured triage protocols to mass casualty incidents (MCIs), surge events, and high-volume emergency department (ED) scenarios. Integrates evidence-based triage algorithms (START, JumpSTART, SALT, ESI) with predictive analytics for resource demand forecasting and equipment maintenance scheduling. |

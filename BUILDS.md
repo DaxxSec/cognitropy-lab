@@ -1,8 +1,8 @@
 # Cognitropy Daily Build Log
 
-> Auto-generated from `cognitropy-history.json`. Regenerates as part of every build. Last refresh: **2026-06-27**.
+> Auto-generated from `cognitropy-history.json`. Regenerates as part of every build. Last refresh: **2026-06-28**.
 
-**83 builds since project start (2026-03-26); 24 crossovers (28% — engine targets ~30%).**
+**84 builds since project start (2026-03-26); 25 crossovers (29% — engine targets ~30%).**
 
 Engine pool: **v2-451d-25c** (451 domains × 25 categories, 2/day). See [`cognitropy-history.json`](./cognitropy-history.json) `pool_versions[]` for the full engine-evolution log.
 
@@ -10,6 +10,7 @@ Most recent first. Click any domain to open its workspace; see [`WORKSPACES.md`]
 
 | Day | Date | Slot | Type | Category | Domain | Technique |
 |---|---|---|---|---|---|---|
+| 95 | Jun 28, 2026 | morning | **× Medical & Health** | Medical & Health | [Radiology Interpretation Diagnosis](./radiology-interpretation-diagnosis) _× radiology interpretation diagnosis_ | Failure mode analysis (FMEA) |
 | 94 | Jun 27, 2026 | morning | Standard | Cyber & DFIR | [Mobile Forensics Ios Extraction](./mobile-forensics-ios-extraction) | Structured hypothesis testing |
 | 94 | Jun 27, 2026 | evening | Standard | Outdoor & Adventure | [Wildfire Management Containment](./wildfire-management-containment) | Decision tree triage workflows |
 | 93 | Jun 26, 2026 | morning | Standard | Culinary & Beverage | [Vinegar Fermentation Acetobacter Culture](./vinegar-fermentation-acetobacter-culture) | Knowledge base and FAQ generation |
