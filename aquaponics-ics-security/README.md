@@ -172,6 +172,16 @@ These workspaces are designed to complement each other. The anomaly monitor aler
 
 ---
 
+## Companion Workspace
+
+This workspace secures the **automation**. The companion workspace monitors the **biology**:
+
+**[Aquaponics Anomaly Monitor](../aquaponics-anomaly-monitor/)** — Automated anomaly detection for water chemistry, biofilter health, and fish/plant systems.
+
+The two workspaces are designed as a pair. A cyber event always has biological consequences. A biological anomaly might be a cyber indicator. See [resources/bio-cyber-correlation.md](resources/bio-cyber-correlation.md) for the cross-correlation guide.
+
+---
+
 ## Disclaimer
 
 This workspace is for authorized security assessment of systems you own or have explicit written permission to test. The agent will not assist with unauthorized access to systems. All active testing guidance includes explicit requirements for written authorization and maintenance windows.
