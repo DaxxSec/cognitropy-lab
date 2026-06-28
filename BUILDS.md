@@ -2,7 +2,7 @@
 
 > Auto-generated from `cognitropy-history.json`. Regenerates as part of every build. Last refresh: **2026-06-27**.
 
-**82 builds since project start (2026-03-26); 24 crossovers (29% — engine targets ~30%).**
+**83 builds since project start (2026-03-26); 24 crossovers (28% — engine targets ~30%).**
 
 Engine pool: **v2-451d-25c** (451 domains × 25 categories, 2/day). See [`cognitropy-history.json`](./cognitropy-history.json) `pool_versions[]` for the full engine-evolution log.
 
@@ -11,6 +11,7 @@ Most recent first. Click any domain to open its workspace; see [`WORKSPACES.md`]
 | Day | Date | Slot | Type | Category | Domain | Technique |
 |---|---|---|---|---|---|---|
 | 94 | Jun 27, 2026 | morning | Standard | Cyber & DFIR | [Mobile Forensics Ios Extraction](./mobile-forensics-ios-extraction) | Structured hypothesis testing |
+| 94 | Jun 27, 2026 | evening | Standard | Outdoor & Adventure | [Wildfire Management Containment](./wildfire-management-containment) | Decision tree triage workflows |
 | 93 | Jun 26, 2026 | morning | Standard | Culinary & Beverage | [Vinegar Fermentation Acetobacter Culture](./vinegar-fermentation-acetobacter-culture) | Knowledge base and FAQ generation |
 | 93 | Jun 26, 2026 | evening | Standard | Education & Training | [Curriculum Design Learning Objectives](./curriculum-design-learning-objectives) | Bayesian probability assessment |
 | 92 | Jun 25, 2026 | morning | Standard | Automotive & Engine | [Engine Block Metallurgy Analysis](./engine-block-metallurgy-analysis) | Bayesian probability assessment |
